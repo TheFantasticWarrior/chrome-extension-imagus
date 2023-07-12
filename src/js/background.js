@@ -534,16 +534,17 @@ var onMessage = function (ev, origin, postMessage) {
 
             post_params = post_params[2];
 
-            Port.listen(function (ev, origin, postMessage) {
-                if (ev.cmd !== "resolve2") {
-                    return;
-                }
-                Port.listen(onMessage);
-                e = Port.parse_msg(ev, origin, postMessage);
-                msg = e.msg;
+            var xhr = new XMLHttpRequest();
+            xhr.onloadend = function () {
+                this.onloadend = null;
+
                 var base_url, match;
 
-                if (/^(image|video|audio)\//i.test(msg.header)) {
+                if (
+                    /^(image|video|audio)\//i.test(
+                        this.getResponseHeader("Content-Type")
+                    )
+                ) {
                     data.m = msg.url;
                     data.noloop = true;
                     console.warn(
@@ -556,10 +557,10 @@ var onMessage = function (ev, origin, postMessage) {
                     return;
                 }
 
-                base_url = msg.xml && msg.xml.baseURI;
+                base_url = this.responseXML && this.responseXML.baseURI;
 
                 if (!base_url) {
-                    base_url = msg.txt.slice(0, 4096);
+                    base_url = this.responseText.slice(0, 4096);
 
                     if (
                         (base_url = /<base\s+href\s*=\s*("[^"]+"|'[^']+')/.exec(
@@ -577,7 +578,7 @@ var onMessage = function (ev, origin, postMessage) {
                 }
 
                 if (rule.res === 1) {
-                    data.params._ = msg.txt;
+                    data.params._ = this.responseText;
                     data.params.base = base_url.replace(
                         /(\/)[^\/]*(?:[?#].*)*$/,
                         "$1"
@@ -620,7 +621,7 @@ var onMessage = function (ev, origin, postMessage) {
                     }
                 );
 
-                match = _match[0].exec(msg.txt);
+                match = _match[0].exec(this.responseText);
 
                 if (match) {
                     var match_param = data.params.rule.loop_param;
@@ -642,7 +643,8 @@ var onMessage = function (ev, origin, postMessage) {
 
                     if (
                         (match[2] && (match = match.slice(1))) ||
-                        (_match[1] && (match = _match[1].exec(msg.txt)))
+                        (_match[1] &&
+                            (match = _match[1].exec(this.responseText)))
                     ) {
                         data.m = [
                             data.m,
@@ -660,12 +662,17 @@ var onMessage = function (ev, origin, postMessage) {
                 }
 
                 e.postMessage(data);
-            });
-            e.postMessage({
-                cmd: "resolving",
-                post_params: post_params,
-                url: msg.url,
-            });
+            };
+            xhr.open(post_params ? "POST" : "GET", msg.url);
+
+            if (post_params) {
+                xhr.setRequestHeader(
+                    "Content-Type",
+                    "application/x-www-form-urlencoded"
+                );
+            }
+
+            xhr.send(post_params);
             break;
 
         case "toggle":

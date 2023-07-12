@@ -48,7 +48,7 @@
         "page": "options.html",
         "open_in_tab": true
     },
-    "permissions": ["*://*/*", "storage","menus"],
+    "permissions": ["*://*/*", "storage", "menus"],
     "optional_permissions": ["downloads", "history"],
     "version": "0.10.13"
 }

@@ -1366,7 +1366,6 @@
             trg.IMGS_c_resolved = { URL: URL, params: params };
             PVI.timers.resolver = setTimeout(function () {
                 PVI.timers.resolver = null;
-
                 Port.send({
                     cmd: "resolve",
                     url: URL,
@@ -4981,30 +4980,7 @@
                 });
                 return;
             }
-            if (d.cmd === "resolving") {
-                var post_params = d.post_params;
-                var xhr = new XMLHttpRequest();
-                xhr.onloadend = function () {
-                    this.onloadend = null;
-                    Port.send({
-                        cmd: "resolve2",
-                        url: d.url,
-                        header: this.getResponseHeader("Content-Type"),
-                        xml: this.responseXML,
-                        txt: this.responseText,
-                    });
-                };
-                xhr.open(post_params ? "POST" : "GET", d.url);
-
-                if (post_params) {
-                    xhr.setRequestHeader(
-                        "Content-Type",
-                        "application/x-www-form-urlencoded"
-                    );
-                }
-
-                xhr.send(post_params);
-            } else if (d.cmd === "resolved") {
+            if (d.cmd === "resolved") {
                 // id can be -1
                 var trg = PVI.resolving[d.id] || PVI.TRG;
                 var rule = cfg.sieve[d.params.rule.id];
