@@ -798,21 +798,24 @@ window.addEventListener(
 
                 color_trans(e.target, null);
                 var hotkey = parseHotkey(e, $("hz_numpad").checked);
-
+                var del_key = $("keys_del");
                 var keys = document.body.querySelectorAll(
                     'input[name^="keys_"]'
                 );
+                if (hotkey === del_key.value) {
+                    hotkey = "";
+                } else {
+                    for (var i = 0; i < keys.length; ++i) {
+                        if (keys[i].value !== hotkey) {
+                            continue;
+                        }
 
-                for (var i = 0; i < keys.length; ++i) {
-                    if (keys[i].value !== hotkey) {
-                        continue;
+                        if (e.target !== keys[i]) {
+                            color_trans(e.target, "red");
+                        }
+
+                        return false;
                     }
-
-                    if (e.target !== keys[i]) {
-                        color_trans(e.target, "red");
-                    }
-
-                    return false;
                 }
 
                 e.target.value = hotkey;

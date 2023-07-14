@@ -116,6 +116,7 @@
         ]
     },
     "keys": {
+        "del": "",
         "hz_toggle": "Alt+Shift+D",
         "hz_preload": "Alt+Shift+L",
         "hz_fullZm": "Z",

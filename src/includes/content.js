@@ -3942,6 +3942,7 @@
                     }
                 }
             } else {
+                pdsp(e);
                 PVI.reset(true);
             }
 
