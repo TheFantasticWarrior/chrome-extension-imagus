@@ -122,93 +122,29 @@ window.saveURI = function (details) {
     } else {
         path = "";
     }
-    if (platform !== "firefox") {
-        var decidename = function (item, suggest) {
-            if (!item.filename.includes(".") || !item.filename.match(ext)) {
-                var filename = item.filename.match(/([^\.])+/)[0];
-                ext = url.match(ext);
-                if (!ext) {
-                    ext = mimetoext[item.mime];
-                }
 
-                if (!ext) ext = details.ext;
-                filename += "." + ext;
-
-                suggest({ filename: path + filename });
-            } else if (path) {
-                var filename = item.filename;
-                suggest({ filename: path + filename });
+    var decidename = function (item, suggest) {
+        if (!item.filename.includes(".") || !item.filename.match(ext)) {
+            var filename = item.filename.match(/([^\.])+/)[0];
+            ext = url.match(ext);
+            if (!ext) {
+                ext = mimetoext[item.mime];
             }
-            chrome.downloads.onDeterminingFilename.removeListener(decidename);
-        };
-        chrome.downloads.onDeterminingFilename.addListener(decidename);
-        var options = { url: url };
-        if (path) {
-            options.saveAs = false;
+
+            if (!ext) ext = details.ext;
+            filename += "." + ext;
+
+            suggest({ filename: path + filename });
+        } else if (path) {
+            var filename = item.filename;
+            suggest({ filename: path + filename });
         }
-        chrome.downloads.download(options);
-    } else {
-        var options = {
-            url: url,
-            headers: [
-                {
-                    name: "Referer",
-                    value: url,
-                },
-            ],
-        };
-
-        if (path) {
-            options.saveAs = false;
-        }
-        if (details.isPrivate) {
-            options.incognito = details.isPrivate;
-        }
-        var listener = function (dl) {
-            chrome.downloads.onCreated.removeListener(listener);
-            if (!dl.filename.includes(".") || !dl.filename.match(ext)) {
-                ext = url.match(ext);
-                (async function () {
-                    if (!ext) {
-                        await fetch(url, {
-                            method: "HEAD",
-                        })
-                            .then((response) =>
-                                response.headers.get("Content-Type")
-                            )
-                            .then((x) => {
-                                ext = mimetoext[x];
-                            })
-                            .catch((ext = details.ext));
-                    }
-                    if (!ext) ext = details.ext;
-                    options.filename =
-                        path +
-                        dl.filename.match(/([^\/\\\.]+)(?:\..*)?$/)[1] +
-                        "." +
-                        ext;
-
-                    await chrome.downloads.cancel(dl.id);
-                    try {
-                        chrome.downloads.removeFile(dl.id);
-                    } catch (e) {}
-                    await chrome.downloads.erase({ id: dl.id });
-                    setTimeout(function () {
-                        chrome.downloads.download(options);
-                    }, 500);
-                })();
-            } else if (path) {
-                chrome.downloads.cancel(dl.id);
-                chrome.downloads.erase({ id: dl.id });
-
-                options.filename = path + dl.filename.match(/([^\/\\]+)$/)[1];
-
-                setTimeout(function () {
-                    chrome.downloads.download(options);
-                }, 500);
-            }
-        };
-        chrome.downloads.onCreated.addListener(listener);
-        browser.downloads.download(options);
+        chrome.downloads.onDeterminingFilename.removeListener(decidename);
+    };
+    chrome.downloads.onDeterminingFilename.addListener(decidename);
+    var options = { url: url };
+    if (path) {
+        options.saveAs = false;
     }
+    chrome.downloads.download(options);
 };
