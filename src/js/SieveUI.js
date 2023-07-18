@@ -836,10 +836,17 @@ var sieve_sec,
             if (list.length) {
                 for (; i < list.length; ++i) {
                     sieve_container.removeChild(list[i]);
+                    var index = cfg.modlist.indexOf(
+                        list[i].firstElementChild.textContent
+                    );
+                    if (index !== -1) {
+                        cfg.modlist.splice(index, 1);
+                    }
                 }
                 $("save_button").style.color = "#e03c00";
             } else {
                 sieve_container.textContent = "";
+                cfg.modlist = [];
                 $("save_button").click();
             }
 
