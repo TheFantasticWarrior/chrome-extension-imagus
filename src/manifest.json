@@ -36,7 +36,7 @@
             "128": "icon.png",
             "18": "icon-18.png"
         },
-        "default_title": "Imagus mod v0.10.14.1\nclick to toggle on/off"
+        "default_title": "Imagus mod v0.10.14.3\nclick to toggle on/off"
     },
     "icons": {
         "128": "icon.png",
@@ -50,5 +50,5 @@
     },
     "permissions": ["*://*/*", "storage"],
     "optional_permissions": ["downloads", "history"],
-    "version": "0.10.14.1"
+    "version": "0.10.14.3"
 }
