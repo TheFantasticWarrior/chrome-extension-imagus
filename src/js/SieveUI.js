@@ -900,14 +900,14 @@ var sieve_sec,
             if (
                 !cfg.sieve ||
                 !Object.keys(cfg.sieve).length ||
-                !$("sievekeepadv").checked ||
+                !$("hz_sievekeepadv").checked ||
                 confirm(_("SIV_UPDALERT"))
             ) {
                 Port.listen(function (d) {
                     Port.listen(null);
 
                     if (
-                        $("sievekeepadv").checked &&
+                        $("hz_sievekeepadv").checked &&
                         Object.keys((d.data || d).resolving).length
                     ) {
                         SieveUI.compare(
