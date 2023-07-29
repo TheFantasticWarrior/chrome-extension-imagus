@@ -995,10 +995,11 @@ window.addEventListener(
             false
         );
 
-        $("import").onclick = () =>
+        $("import").onclick = function () {
             ImprtHandler(_("SC_PREFS"), prefs, {
                 overwrite: 1,
             });
+        };
 
         $("export").onclick = (e) => prefs(0, 0, e);
 

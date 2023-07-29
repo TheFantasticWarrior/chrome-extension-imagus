@@ -716,6 +716,7 @@ cfg.migrateOldStorage(
                 cfg.set({ version: version }, function () {
                     if (oldVersion) {
                         cfg.get("hz", function (keys) {
+                            keys = keys.hz;
                             if (
                                 (keys["hz_ext"] =
                                     "(apng|avif|bmp|gif|jpg|jpeg|png|svg|tiff|webp|aac|mid|midi|mp3|mp4|ogg|opus|wav|webm|mpeg|ogv|mov|3gp|avi|asf|flv|mkv|mpg|rm|ts|wmv)")
@@ -723,7 +724,7 @@ cfg.migrateOldStorage(
                                 keys["hz_ext"] =
                                     "gif|jpe?g|png|svg|webp|mp4|webm|ogv|mov|mp3|ogg|wav";
 
-                                cfg.set({ keys: keys });
+                                cfg.set({ hz: keys });
                             }
                         });
                         updateSieve(true);
