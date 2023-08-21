@@ -917,8 +917,8 @@ var sieve_sec,
                     } else {
                         SieveUI.load((d.data || d).updated);
 
-                        save();
-                        color_trans($("save_button"), "green");
+                        //save();
+                        //color_trans($("save_button"), "green");
                     }
                 });
 

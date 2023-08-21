@@ -252,7 +252,10 @@ if (/^(chrome|ms-browser|moz)-extension:/.test(location.protocol)) {
     };
 }
 var parseHotkey = function (e, numpad) {
-    if (numpad) {
+    var m = e.button;
+    if (m) {
+        var k = "Mouse" + m;
+    } else if (numpad) {
         switch (e.code) {
             case "Numpad1":
                 var k = "End";

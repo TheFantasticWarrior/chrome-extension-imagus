@@ -825,7 +825,50 @@ window.addEventListener(
             },
             false
         );
+        document.forms[0].addEventListener(
+            "mouseup",
+            function (e) {
+                if (
+                    e.repeat ||
+                    !e.target.name ||
+                    e.target.name.indexOf("keys_") !== 0 ||
+                    ![3, 4].includes(e.button)
+                ) {
+                    return;
+                }
 
+                e.stopPropagation();
+                e.preventDefault();
+
+                color_trans(e.target, null);
+                var hotkey = parseHotkey(e, $("hz_numpad").checked);
+                var del_key = $("keys_del");
+                var keys = document.body.querySelectorAll(
+                    'input[name^="keys_"]'
+                );
+                if (hotkey === del_key.value) {
+                    hotkey = "";
+                } else {
+                    for (var i = 0; i < keys.length; ++i) {
+                        if (keys[i].value !== hotkey) {
+                            continue;
+                        }
+
+                        if (e.target !== keys[i]) {
+                            color_trans(e.target, "red");
+                        }
+
+                        return false;
+                    }
+                }
+
+                e.target.value = hotkey;
+
+                hotkey = "";
+                document.forms[0].onchange(e);
+            },
+            false
+        );
         document.forms[0].addEventListener(
             "contextmenu",
             function (e) {

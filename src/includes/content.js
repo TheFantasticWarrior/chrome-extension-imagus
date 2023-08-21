@@ -168,6 +168,10 @@
         }
 
         if (e.type === "mouseup") {
+            if ([3, 4].includes(e.button)) {
+                PVI.key_action(e);
+                return;
+            }
             if (e.target !== PVI.CNT || PVI.fullZm || e.button !== 0) {
                 return;
             }
