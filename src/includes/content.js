@@ -236,7 +236,6 @@
                     return;
                 }
 
-                pdsp(e);
                 PVI.fullZm = 3;
                 win.addEventListener("mouseup", PVI.fzDragEnd, true);
                 return;
