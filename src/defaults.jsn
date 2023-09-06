@@ -130,6 +130,7 @@
         "hz_reset": "Escape",
         "hz_zoomin": "Equal(Add)",
         "hz_zoomout": "Minus",
+        "hz_grants": "G",
         "hz_switchres": "Tab",
         "prefs": "P",
         "flipH": "Q",

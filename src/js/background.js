@@ -340,6 +340,12 @@ var onMessage = function (ev, origin, postMessage) {
                     sieve: prefs_.sieve,
                     tls: prefs_.tls,
                     keys: prefs_.keys,
+                    grants: prefs_.grants,
+                },
+                blockedPrefs = {
+                    numpad: prefs_.hz.numpad,
+                    key: prefs_.keys.hz_grants,
+                    grants: prefs_.grants,
                 };
 
             if (prefs_.grants) {
@@ -403,7 +409,8 @@ var onMessage = function (ev, origin, postMessage) {
             // and overwrite them in the content script
             e.postMessage({
                 cmd: "hello",
-                prefs: blockaccess ? null : sitePrefs,
+                prefs: blockaccess ? blockedPrefs : sitePrefs,
+                allow: !blockaccess,
             });
             break;
 
