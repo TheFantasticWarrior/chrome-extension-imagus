@@ -715,16 +715,16 @@ cfg.migrateOldStorage(
 
                 cfg.set({ version: version }, function () {
                     if (oldVersion) {
-                        cfg.get("hz", function (keys) {
-                            keys = keys.hz;
+                        cfg.get("sieveRepository", function (old) {
+                            sieveRepository = old.sieveRepository;
                             if (
-                                (keys["hz_ext"] =
-                                    "(apng|avif|bmp|gif|jpg|jpeg|png|svg|tiff|webp|aac|mid|midi|mp3|mp4|ogg|opus|wav|webm|mpeg|ogv|mov|3gp|avi|asf|flv|mkv|mpg|rm|ts|wmv)")
+                                sieveRepository ===
+                                "https://raw.githubusercontent.com/wvxwxvw/Imagus_sieve_RuBoard/master/updated.txt"
                             ) {
-                                keys["hz_ext"] =
-                                    "gif|jpe?g|png|svg|webp|mp4|webm|ogv|mov|mp3|ogg|wav";
+                                sieveRepository =
+                                    "https://raw.githubusercontent.com/kuzn123/Imagus-Sieve-RuBoard/master/update.txt";
 
-                                cfg.set({ hz: keys });
+                                cfg.set({ sieveRepository: sieveRepository });
                             }
                         });
                         updateSieve(true);

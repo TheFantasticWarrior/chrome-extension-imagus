@@ -117,8 +117,10 @@ window.saveURI = function (details) {
     var path = details.path;
     var mimetoext = JSON.parse(details.mimetoext);
     var ext = new RegExp(details.priorityExt, "i");
+    var options = { url: url };
     if (path) {
         if (path.slice[-1] != "/") path += "/";
+        options.saveAs = false;
     } else {
         path = "";
     }
@@ -141,10 +143,16 @@ window.saveURI = function (details) {
         }
         chrome.downloads.onDeterminingFilename.removeListener(decidename);
     };
-    chrome.downloads.onDeterminingFilename.addListener(decidename);
-    var options = { url: url };
-    if (path) {
-        options.saveAs = false;
+    if (details.filename) {
+        if (!details.filename.includes(".") || !details.filename.match(ext)) {
+            ext = url.match(ext);
+
+            if (!ext) ext = details.ext;
+            details.filename += "." + ext;
+        }
+        options.filename = path + details.filename;
+    } else {
+        chrome.downloads.onDeterminingFilename.addListener(decidename);
     }
     chrome.downloads.download(options);
 };
