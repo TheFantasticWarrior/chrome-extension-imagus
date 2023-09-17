@@ -832,7 +832,7 @@ window.addEventListener(
                     e.repeat ||
                     !e.target.name ||
                     e.target.name.indexOf("keys_") !== 0 ||
-                    ![3, 4].includes(e.button)
+                    ![1, 3, 4].includes(e.button)
                 ) {
                     return;
                 }

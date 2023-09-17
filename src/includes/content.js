@@ -168,7 +168,7 @@
         }
 
         if (e.type === "mouseup") {
-            if ([3, 4].includes(e.button)) {
+            if ([1, 3, 4].includes(e.button)) {
                 PVI.key_action(e);
                 return;
             }
