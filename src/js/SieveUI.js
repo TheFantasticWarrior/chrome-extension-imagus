@@ -10,6 +10,7 @@ var sieve_sec,
         cntr: 0,
         sieve: {},
         k: 0,
+        date: "",
         init: function () {
             this.loaded = true;
             this.search_f = document.getElementById("sieve_search");
@@ -172,7 +173,11 @@ var sieve_sec,
                 } else {
                     local_sieve = cfg.sieve || {};
                 }
-
+                if (local_sieve["date"]) {
+                    SieveUI.date = local_sieve["date"];
+                    delete local_sieve["date"];
+                    $("sieve_date").textContent = SieveUI.date;
+                }
                 if (options && options.clear) {
                     sieve_container.textContent = "";
                 }
@@ -787,7 +792,7 @@ var sieve_sec,
             var i,
                 list = sieve_container.querySelectorAll("div.selected"),
                 sieve = SieveUI.prepareRules(true),
-                exp = {};
+                exp = { date: SieveUI.date };
 
             if (!sieve) {
                 return;
@@ -798,13 +803,16 @@ var sieve_sec,
                     exp[list[i].rule] = sieve[list[i].rule];
                 }
             } else {
-                exp = sieve;
+                exp = { ...exp, ...sieve };
             }
-
             if (
                 (exp = JSON.stringify(exp, null, e.shiftKey ? 2 : 0)) !== "{}"
             ) {
-                download(exp, app.name + "-sieve.json", e.ctrlKey);
+                download(
+                    exp,
+                    app.name + "-sieve-" + SieveUI.date + ".json",
+                    e.ctrlKey
+                );
             }
         },
         disable: function () {

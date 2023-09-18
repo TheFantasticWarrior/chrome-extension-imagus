@@ -1,6 +1,6 @@
 {
     "hz": {
-        "settingsCSS": "default",
+        "settingsCSS": "DARK_GRAY-TREBUCHET_MS",
         "deactivate": 1,
         "actTrigger": "Control",
         "delay": 300,

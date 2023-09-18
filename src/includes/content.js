@@ -4818,7 +4818,8 @@
                 if (shiftKey) {
                     PVI.fullZm = PVI.fullZm === 1 ? 2 : 1;
                 } else {
-                    PVI.reset(true);
+                    PVI.reset(false);
+                    PVI.load(PVI.TRG.IMGS_c);
                 }
             } else {
                 win.removeEventListener("mouseover", PVI.m_over, true);
