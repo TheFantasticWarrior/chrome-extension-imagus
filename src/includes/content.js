@@ -3592,7 +3592,8 @@
                                             : PVI.CNT.localName
                                     ],
                                 };
-                                if(PVI.CNT.filename)msg.filename = PVI.CNT.filename;
+                                if (PVI.CNT.filename)
+                                    msg.filename = PVI.CNT.filename;
                                 if (cfg.hz.save) msg.path = cfg.hz.save;
                                 Port.listen(function (x) {
                                     Port.listen(PVI.onMessage);
@@ -4814,7 +4815,8 @@
                 if (shiftKey) {
                     PVI.fullZm = PVI.fullZm === 1 ? 2 : 1;
                 } else {
-                    PVI.reset(true);
+                    PVI.reset(false);
+                    PVI.load(PVI.TRG.IMGS_c);
                 }
             } else {
                 win.removeEventListener("mouseover", PVI.m_over, true);
