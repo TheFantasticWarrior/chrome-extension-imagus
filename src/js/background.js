@@ -41,11 +41,18 @@ var updateSieve = function (localUpdate, callback) {
             var keep = {};
 
             for (var i = 0; i < modlist.length; i++) {
-                keep[modlist[i]] = {
-                    old: localSieve[modlist[i]],
-                    new: JSON.parse(JSON.stringify(newSieve[modlist[i]])),
-                };
-                newSieve[modlist[i]].off = localSieve[modlist[i]].off;
+                if (newSieve[modlist[i]]) {
+                    keep[modlist[i]] = {
+                        old: localSieve[modlist[i]],
+                        new: JSON.parse(JSON.stringify(newSieve[modlist[i]])),
+                    };
+                    newSieve[modlist[i]].off = localSieve[modlist[i]].off;
+                } else {
+                    keep[modlist[i]] = {
+                        old: localSieve[modlist[i]],
+                        new: { link: "!!!NOT IN UPDATE!!!" },
+                    };
+                }
             }
 
             if (typeof callback === "function") {

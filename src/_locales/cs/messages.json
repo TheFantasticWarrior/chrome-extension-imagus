@@ -1,1 +1,254 @@
-{"APP_DESCRIPTION": {"message": "Náhled obrázků a videí z miniatur a odkazů."}, "NAV_SIEVE": {"message": "Pravidla"}, "NAV_GRANTS": {"message": "Výjimky"}, "NAV_INFO": {"message": "O doplňku"}, "SHORTCUTS": {"message": "Klávesové zkratky"}, "PH_CLICKFORSAMPLE": {"message": "kliknutím zobrazíte příklady..."}, "DISABLED": {"message": "zakázáno"}, "LOADING": {"message": "Načítání..."}, "DETAILS": {"message": "Podrobnosti"}, "AREYOUSURE": {"message": "Jste si jisti?"}, "DELITEMS": {"message": "Přejete si odstranit vybrané nebo všechny položky?"}, "EMPTY": {"message": "Nic"}, "NOMATCH": {"message": "Žádné výsledky"}, "SEARCH": {"message": "hledat..."}, "INVALIDFORMAT": {"message": "Neplatný formát!"}, "BUTTON_RESET": {"message": "Obnovit nastavení"}, "BUTTON_SAVE": {"message": "Uložit"}, "HZ_ENABLED": {"message": "Povolit"}, "HZ_DISABLED": {"message": "Zakázat"}, "HZ_ENDIS_WHEN": {"message": ", je-li stisknuto"}, "HZ_ENDIS_NONE": {"message": "nic"}, "HZ_ENDIS_TIP": {"message": "<b>Zakázat</b>, je-li stisknuto <b>nic</b> - vždy bez výjimky povolit.\n<b>Zakázat</b>, je-li stisknuto (<b>klávesu/tlačítko</b>) - vždy povolit, pokud není klávesa/tlačítko drženo stisknuté.\n<b>Povolit</b>, je-li stisknuto <b>nic</b> - vždy bez výjimky zakázat.\n<b>Povolit</b>, je-li stisknuto (<b>klávesu/tlačítko</b>) - povolit jen když držím klávesu/tlačítko stisknuté."}, "HZ_DELAY": {"message": "Prodleva zobrazení (ms)"}, "HZ_ZOOMRESIZED": {"message": "Minimální rozdíl ve velikosti"}, "HZ_ZOOMRESIZED_TIP": {"message": "Tato volba udává, o kolik procent má být originální obrázek větší než jeho zmenšený náhled, aby mohl být zobrazen v náhledu."}, "HZ_HIRES": {"message": "Upřednostňovat obrázky ve vyšším rozlišení"}, "HZ_HIRES_TIP": {"message": "Někteří poskytovatelé webového obsahu vytvářejí na svých serverech stejný obrázek v různých velikostech. Pomocí Pravidel je možné vyhledat všechny tyto obrázky, vybrat ten s nejvyšším rozlišením, a zobrazit ho.\nZakážete-li tuto funkci, budou vždy nejdříve zobrazeny obrázky s nižším rozlišením, ale vždy můžete přepnout na vyšší rozlišení klávesou Tab (nebo v režimu plného zvětšení klikněte na titulek s rozlišením obrázku).\nNecháváte-li si zobrazit v titulku obrázku jeho rozměry, pak v případě, že je vyšší rozlišení dostupné, změní titulek (v závislosti na vybraném stylu) barvu na bledě modrou nebo červenou."}, "HZ_HIRESONFZ": {"message": "Načíst vyšší rozlišení při vstupu do režimu plného zvětšení"}, "HZ_HIRESONFZ_TIP": {"message": "Je-li poměr stran obrázku (delší strana dělená kratší) větší nebo roven zde uvedené hodnotě, bude při aktivaci režimu plného zvětšení zobrazen obrázek ve vyšším rozlišení (je-li dostupné)."}, "HZ_PLACEMENT": {"message": "Umístění náhledu"}, "HZ_FULLSPACE": {"message": "Využívat veškeré volné místo"}, "HZ_PLACEMENT_CURCOR": {"message": "kurzor u rohu náhledu"}, "HZ_PLACEMENT_CURSIDE": {"message": "kurzor u strany náhledu"}, "HZ_PLACEMENT_CENTER": {"message": "náhled uprostřed stránky"}, "HZ_PRELOAD": {"message": "Přednačítat obrázky"}, "HZ_PRELOAD_NO": {"message": "nikdy"}, "HZ_PRELOAD_MOUSEOVER": {"message": "po přejetí myší"}, "HZ_PRELOAD_PAGELOAD": {"message": "po načtení stránky"}, "HZ_FULLZOOM": {"message": "Režim plného zvětšení"}, "HZ_MARKONHOVER": {"message": "Vyznačit prvky na stránce, které vyvolají náhled"}, "HZ_MARKONHOVER_O_SOLID": {"message": "plná linka"}, "HZ_MARKONHOVER_O_DASHED": {"message": "čárkovaná linka"}, "HZ_MARKONHOVER_O_DOTTED": {"message": "tečkovaná linka"}, "HZ_THUMBASBG": {"message": "Používat miniaturu obrázku jako pozadí náhledu"}, "HZ_THUMBASBGMASK": {"message": "Barva a průhlednost krytí"}, "HZ_CAPTION": {"message": "Titulek"}, "HZ_CAP_POS": {"message": "Umístění titulku"}, "HZ_CAP_TOP": {"message": "nahoře"}, "HZ_CAP_BOTTOM": {"message": "dole"}, "HZ_CAP_NOSBAR": {"message": "Nezobrazovat informační bubliny (tooltips)"}, "HZ_CAP_WH": {"message": "Zobrazit rozlišení obrázku/videa"}, "HZ_APPEARANCE": {"message": "Vzhled"}, "HZ_FOLLOW": {"message": "Následovat pohyb kurzoru při zavírání náhledu"}, "HZ_MOVE": {"message": "Přesouvat náhled společně s kurzorem"}, "HZ_WAITHIDE": {"message": "Počkat před zvětšením dalšího obrázku"}, "HZ_SC_TOGGLE": {"message": "deaktivovat Imagus na současné stránce"}, "HZ_SC_PRELOAD": {"message": "přednačíst obrázky na stránce"}, "HZ_SC_FULLZOOM": {"message": "režim plného zvětšení"}, "HZ_SC_FULLSPACE": {"message": "přepnout využití veškerého volného místa"}, "HZ_SC_CAPTION": {"message": "zalomit text titulku (<b>+ Shift</b> pro skrytí)"}, "HZ_SC_OPEN": {"message": "otevřít obrázek v novém panelu (<b>+ Shift</b> - otevřít panel v pozadí)"}, "HZ_SC_RESET": {"message": "zavřít náhled a zastavit načítání jeho obsahu"}, "SC_ZOOMINOUT": {"message": "Přiblížit / oddálit"}, "SC_PREFS": {"message": "Nastavení"}, "SC_MENU": {"message": "Zobrazit nabídku"}, "SC_FLIPH": {"message": "Překlopit vodorovně"}, "SC_FLIPV": {"message": "Překlopit svisle"}, "SC_ROTL": {"message": "Otočit vlevo"}, "SC_ROTR": {"message": "Otočit vpravo"}, "SC_MORIG": {"message": "Skutečná velikost"}, "SC_MFIT": {"message": "Automaticky"}, "SC_MFITW": {"message": "Roztáhnout na šířku"}, "SC_MFITH": {"message": "Roztáhnout na výšku"}, "SC_SENDTO": {"message": "Odeslat obrázek do..."}, "OP_ZOOM": {"message": "Vynutit otevření obrázku v náhledu pomocí Ctrl + pravé tlačítko myši"}, "TLS_SENDIMGTO": {"message": "Odeslat obrázek do..."}, "TLS_SENDTOMSC": {"message": "Ctrl + Alt [+ Shift] + kliknutí pravým tlačítkem myši na obrázek"}, "SIV_BUTT_NEW": {"message": "Nové pravidlo"}, "SIV_BUTT_DEL": {"message": "Smazat všechny nebo vybrané"}, "SIV_BUTT_TOGGLE": {"message": "Vypnout/zapnout všechny nebo vybrané a přidat do seznamu uchovávaných."}, "SIV_BUTT_IMP": {"message": "Import"}, "SIV_BUTT_EXP": {"message": "Exportovat všechny nebo vybrané"}, "SIV_BUTT_UPD": {"message": "Aktualizovat pravidla"}, "SIV_CI": {"message": "Rozlišovat velikost písmen"}, "SIV_DC": {"message": "Dekódovat výslednou URL, která souhlasí s tímto parametrem"}, "SIV_LOOP": {"message": "Opakovat pravidlo s výslednou URL"}, "SIV_USEIMG": {"message": "Upřednostňovat \"img\" před \"link\""}, "SIV_ERR_EMPTYNAME": {"message": "Název pravidla nesmí být prázdné!"}, "SIV_ERR_DUPENAME": {"message": "Názvy pravidel se nesmí opakovat!"}, "SIV_DETAILS": {"message": "Ctrl + pravé tlačítko myši - odstranit pravidlo<br>Pravidla můžete přeskupit přetažením<br>pravé tlačítko myši - přejmenovat (režim přejmenování ukončíte klávesami Esc nebo Enter)<br>Ctrl + levé tlačítko myši - označit více pravidel (Shiftem provedete výběr rozsahem)"}, "GRNT_RULEPERLINE": {"message": "Pište každý filtr na samostatný řádek. Pro více informací klikněte na tlačítko Podrobnosti."}, "PREF_IMPORT": {"message": "Importovat nastavení"}, "PREF_EXPORT": {"message": "Exportovat nastavení"}, "HZ_PRELOAD_MINIMAL": {"message": "minimálně"}, "HZ_PRELOAD_TIP": {"message": "<b>nikdy</b> - bude načten jen aktivní obrázek\n<b>minimálně</b> - bude se načítat více obrázků naráz. Začne-li se obrázek načítat, bude načten celý a to i v případě, kdy kurzor opustí jeho zdroj\n<b>po přejetí myší</b> - obrázek se začne načítat, jakmile přes něj přejedete myší\n<b>po načtení stránky</b> - obrázky se začnou načítat až když se plně načte celá stránka"}, "HZ_CAP_TEXT": {"message": "Zobrazovat text titulku"}, "HZ_FZMODE": {"message": "Výchozí režim"}, "HZ_FZMODE_FOLLOW": {"message": "pohybovat se s kurzorem myši"}, "HZ_FZMODE_DRAG": {"message": "pohybovat se kliknutím a táhnutím"}, "HZ_FZMODE_TIP": {"message": "V prvním režimu budou obrázky, které se vejdou na obrazovku, vždy zarovnány na střed. Větší obrázky budou zvětšeny na svou původní velikost a pohled bude automaticky zaměřen na místo pod kurzorem.\nV druhém režimu je pozice obrázku statická. Obrázek je možné posunout klasickým \"kliknout & táhnout\" myší."}, "HZ_CAP_STYLE": {"message": "Styl titulku"}, "HZ_CAP_STYLE_DARK": {"message": "tmavý"}, "HZ_CAP_STYLE_LIGHT": {"message": "světlý"}, "HZ_MARKONHOVER_TIP": {"message": "Přejedete-li kurzorem myši přes odkaz na obrázek nebo jeho miniaturu, změnou <b class=\"cur_zmin\">kurzoru</b> nebo ohraničení <span style=\"border: 1px dashed red\">cíle</span> bude dáno najevo, že je možné daný obrázek načíst ve vyšším rozlišení (otevřít v náhledu)."}, "HZ_FULLSPACE_TIP": {"message": "Toto nastavení umožní náhledu využít ke svému zobrazení veškerý prostor na stránce bez ohledu na polohu kurzoru myši. Nepřejete-li si to, vypněte tuto volbu a náhled bude umístěn do prostoru mezi kurzorem myši a pravým/levým okrajem stránky (v závislosti na tom, kde je více místa).\nNastavíte-li v předchozí volbě umístění náhledu na střed, nebude na toto nastavení brán zřetel, protože v takovém případě bude náhled využívat veškeré volné místo vždy."}, "HZ_PILEWHEEL": {"message": "Procházet albem pomocí kolečka myši"}, "HZ_PILEWHEEL_TIP": {"message": "Kromě klávesových zkratek můžete k procházení webových alb použít také kolečko myši.\nPovolíte-li tuto možnost, nebude možné rolovat stránkou, zatímco je album otevřené.\nV režimu plného zvětšení kolečko myši vždy ovládá přiblížení; chcete-li procházet albem, musíte kurzor myši přesunout do levého horního rohu obrazovky (prostor o velikosti 50x50 px) nebo nad titulek obrázku."}, "HZ_FZONPRESS": {"message": "Aktivace pravým tlačítkem"}, "HZ_HISTORY": {"message": "Ukládat zobrazené obrázky do historie prohlížeče"}, "HZ_HISTORY_TIP": {"message": "Zobrazíte-li obrázek z odkazu v náhledu, bude přidán do historie prohlížeče, stejně jako kdybyste na něj klikli (obvykle takový odkaz změní barvu na fialovou).\nAlba budou do historie přidána až po zobrazení dvou obrázků z nich.\nPomocí klávesových zkratek (viz níže) můžete tyto odkazy z/do historie přidat/odebrat ručně.\nPomocí <b>Shift + klávesová zkratka</b> můžete tuto funkci globálně povolit/zakázat."}, "HZ_SC_HISTORY": {"message": "přidat/smazat z historie"}, "IMPR_CLEAR_DATA": {"message": "Před importem vymazat data"}, "IMPR_FROM_FILE": {"message": "Ze souboru"}, "IMPR_FROM_TEXT": {"message": "Z textu"}, "IMPR_IMPORT": {"message": "Import"}, "IMPR_OVERWRITE": {"message": "Nahradit původní data"}, "LANGUAGE": {"message": "Jazyk"}, "TRANSLATIONS": {"message": "Překlady"}, "TRANSLATIONS_TIP": {"message": "Chcete-li se stát překladatelem, pošlete e-mail na <a data-mail>tuto adresu</a> a uveďte jazyky, kterými mluvíte."}, "TRANSLATORS": {"message": "Překladatelé"}, "HZ_ENDIS_RIGHT_BUTTON": {"message": "pravé tlačítko"}, "SIV_AUTOUPDATE": {"message": "Automaticky aktualizovat pravidla"}, "ADVANCED": {"message": "Porkočilé"}, "HZ_SCOFFININPUT": {"message": "Vypnout klávesové zkratky při psaní textu"}, "HZ_CSS": {"message": "Vlastní styl (CSS)"}, "HZ_MARKONHOVER_CR": {"message": "změnit kurzor"}, "HZ_HIDEIDLECURSOR": {"message": "Skrývat kurzor myši nad náhledem"}, "HZ_PLACEMENT_NOCOVER": {"message": "nezakrývat kurzor"}, "HZ_MINPOPUPDISTANCE": {"message": "Minimální vzdálenost mezi kurzorem a náhledem"}, "HZ_HIDEIDLECURSOR_TIP": {"message": "<b>-1</b> - neskrývat (vždy zobrazit)\n<b>0-49</b> - vždy skrýt\n<b>&gt;=50</b> - skrýt po určené době (ms)"}, "HZ_FZONPRESS_CLICK": {"message": "kliknutí"}, "HZ_FZONPRESS_LONG": {"message": "dlouhé kliknutí"}, "HZ_SC_SAVE": {"message": "Uložit obsah náhledu"}, "HZ_SC_COPY": {"message": "Jedním stiskem zkopírovat URL, dvojím stiskem zkopírovat text titulku"}, "SIV_CACHERES": {"message": "Cachovat vypočítaný obsah"}, "HZ_PLACEMENT_CURCENTER": {"message": "kurzor uprostřed náhledu"}, "HZ_PILECYCLE": {"message": "Procházet albem dokola"}, "APP_INSTALLED": {"message": "Doplněk byl nainstalován!"}, "APP_UPDATED": {"message": "Doplněk byl aktualizován na nejnovější verzi!"}, "GRNT_HELP": {"message": "Základní syntaxe: <b>operátor:URL</b>\nOperátory: <b>!</b> (zakázat), <b>~</b> (povolit).\nNeaktivní pravidla začínají středníkem (<b>;</b>).\nZdvojíte-li operátor před adresou, bude očekáván regulární výraz (regex).\nHvězdička (<b>*</b>) zastupuje jakoukoli URL.\n\nPovolit pouze na imgur:\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nZakázat na těchto stránkách:\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nNa Redditu povolit pouze /r/pics a /r/funny:\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"}, "APP_VERSIONINFO": {"message": "Podívejte se, <a data-hl>co je nového</a> v této verzi, nebo si přečtěte úplný <a data-cl>seznam změn</a>!"}, "HZ_DELAYONIDLE": {"message": "Vynulovat prodlevu pohybem myši"}, "HZ_PILEWHEEL_ON": {"message": "povoleno"}, "HZ_PILEWHEEL_HORIZ_ONLY": {"message": "pouze rolováním do strany"}, "HZ_CAP_LINKTEXT": {"message": "Použít text odkazu jako titulek obrázku"}, "HZ_MEDIAVOLUME": {"message": "Výchozí hlasitost médií (v %)"}, "MUST_READ": {"message": "Musíte přečíst"}, "HZ_SAVE": {"message": "Klepněte pro požadování oprávnění k uložení."}, "ASK_SAVE": {"message": "Specifikujte podadresář ve složce Downloads/ nebo nechte prázdné"}, "HZ_CAPWRAPBYDEF": {"message": "Automatické zalamování řádků"}, "SETTINGS_CSS": {"message": "Změnit barvu pro stránku nastavení"}, "HZ_CSSDIM": {"message": "ztlumit stránku"}, "HZ_MAXW": {"message": "maximální šířka(-1=zakázat)"}, "HZ_MAXH": {"message": "maximální výška(-1=zakázat)"}, "settings": {"message": "možnosti"}, "HZ_NUMPAD": {"message": "Numpad jako navigační klávesy"}, "HZ_NUMPAD_TIP": {"message": "Povolte tuto možnost pro použití kláves z numerického bloku jako navigačních kláves místo čísel."}, "SIV_UPDALERT": {"message": "Porovnejte a aktualizujte vaše vybrané Pravidla. Přezkoumejte změny, provedte úpravy na jednom a po dokončení druhý smažte."}, "SIV_BUTT_KEEP": {"message": "Zobrazte seznam položek k uchování nebo přidejte/odeberte vybrané položky."}, "SIEVEKEEPADV": {"message": "Pokročilé uchovávání "}, "SIEVEKEEPADV_TIP": {"message": "ZAP: porovnávat nové a staré Pravidla a rozhodovat, co uchovat, schopnost uchovat vlastní Pravidla nebo jiné změny\nVYP: uchovávat pouze stav zapnuto/vypnuto, všechny ostatní úpravy budou smazány"}, "SAVEAS": {"message": "Change file extensions (pouze Firefox?)"}, "HZ_EXT": {"message": "Hledat tyto přípony v URL"}, "HZ_EXT2": {"message": "Pokud nenalezeno, převést pomocí této tabulky"}, "HZ_EXT3": {"message": "Výchozí přípona souboru, pokud selže všechno ostatní"}, "HZ_SC_SWITCHRES": {"message": "Přepnout rozlišení (není používáno se všemi Pravidla, <b>Shift</b> pro přepnutí této stránky až do načtení znovu)"}, "HZ_SC_DEL": {"message": "Smazat klávesovou zkratku"}}
+{
+    "APP_DESCRIPTION": {
+        "message": "Náhled obrázků a videí z miniatur a odkazů."
+    },
+    "NAV_SIEVE": { "message": "Pravidla" },
+    "NAV_GRANTS": { "message": "Výjimky" },
+    "NAV_INFO": { "message": "O doplňku" },
+    "SHORTCUTS": { "message": "Klávesové zkratky" },
+    "PH_CLICKFORSAMPLE": { "message": "kliknutím zobrazíte příklady..." },
+    "DISABLED": { "message": "zakázáno" },
+    "LOADING": { "message": "Načítání..." },
+    "DETAILS": { "message": "Podrobnosti" },
+    "AREYOUSURE": { "message": "Jste si jisti?" },
+    "DELITEMS": {
+        "message": "Přejete si odstranit vybrané nebo všechny položky?"
+    },
+    "EMPTY": { "message": "Nic" },
+    "NOMATCH": { "message": "Žádné výsledky" },
+    "SEARCH": { "message": "hledat..." },
+    "INVALIDFORMAT": { "message": "Neplatný formát!" },
+    "BUTTON_RESET": { "message": "Obnovit nastavení" },
+    "BUTTON_SAVE": { "message": "Uložit" },
+    "HZ_ENABLED": { "message": "Povolit" },
+    "HZ_DISABLED": { "message": "Zakázat" },
+    "HZ_ENDIS_WHEN": { "message": ", je-li stisknuto" },
+    "HZ_ENDIS_NONE": { "message": "nic" },
+    "HZ_ENDIS_TIP": {
+        "message": "<b>Zakázat</b>, je-li stisknuto <b>nic</b> - vždy bez výjimky povolit.\n<b>Zakázat</b>, je-li stisknuto (<b>klávesu/tlačítko</b>) - vždy povolit, pokud není klávesa/tlačítko drženo stisknuté.\n<b>Povolit</b>, je-li stisknuto <b>nic</b> - vždy bez výjimky zakázat.\n<b>Povolit</b>, je-li stisknuto (<b>klávesu/tlačítko</b>) - povolit jen když držím klávesu/tlačítko stisknuté."
+    },
+    "HZ_DELAY": { "message": "Prodleva zobrazení (ms)" },
+    "HZ_ZOOMRESIZED": { "message": "Minimální rozdíl ve velikosti" },
+    "HZ_ZOOMRESIZED_TIP": {
+        "message": "Tato volba udává, o kolik procent má být originální obrázek větší než jeho zmenšený náhled, aby mohl být zobrazen v náhledu."
+    },
+    "HZ_HIRES": { "message": "Upřednostňovat obrázky ve vyšším rozlišení" },
+    "HZ_HIRES_TIP": {
+        "message": "Někteří poskytovatelé webového obsahu vytvářejí na svých serverech stejný obrázek v různých velikostech. Pomocí Pravidel je možné vyhledat všechny tyto obrázky, vybrat ten s nejvyšším rozlišením, a zobrazit ho.\nZakážete-li tuto funkci, budou vždy nejdříve zobrazeny obrázky s nižším rozlišením, ale vždy můžete přepnout na vyšší rozlišení klávesou Tab (nebo v režimu plného zvětšení klikněte na titulek s rozlišením obrázku).\nNecháváte-li si zobrazit v titulku obrázku jeho rozměry, pak v případě, že je vyšší rozlišení dostupné, změní titulek (v závislosti na vybraném stylu) barvu na bledě modrou nebo červenou."
+    },
+    "HZ_HIRESONFZ": {
+        "message": "Načíst vyšší rozlišení při vstupu do režimu plného zvětšení"
+    },
+    "HZ_HIRESONFZ_TIP": {
+        "message": "Je-li poměr stran obrázku (delší strana dělená kratší) větší nebo roven zde uvedené hodnotě, bude při aktivaci režimu plného zvětšení zobrazen obrázek ve vyšším rozlišení (je-li dostupné)."
+    },
+    "HZ_PLACEMENT": { "message": "Umístění náhledu" },
+    "HZ_FULLSPACE": { "message": "Využívat veškeré volné místo" },
+    "HZ_PLACEMENT_CURCOR": { "message": "kurzor u rohu náhledu" },
+    "HZ_PLACEMENT_CURSIDE": { "message": "kurzor u strany náhledu" },
+    "HZ_PLACEMENT_CENTER": { "message": "náhled uprostřed stránky" },
+    "HZ_PRELOAD": { "message": "Přednačítat obrázky" },
+    "HZ_PRELOAD_NO": { "message": "nikdy" },
+    "HZ_PRELOAD_MOUSEOVER": { "message": "po přejetí myší" },
+    "HZ_PRELOAD_PAGELOAD": { "message": "po načtení stránky" },
+    "HZ_FULLZOOM": { "message": "Režim plného zvětšení" },
+    "HZ_MARKONHOVER": {
+        "message": "Vyznačit prvky na stránce, které vyvolají náhled"
+    },
+    "HZ_MARKONHOVER_O_SOLID": { "message": "plná linka" },
+    "HZ_MARKONHOVER_O_DASHED": { "message": "čárkovaná linka" },
+    "HZ_MARKONHOVER_O_DOTTED": { "message": "tečkovaná linka" },
+    "HZ_THUMBASBG": {
+        "message": "Používat miniaturu obrázku jako pozadí náhledu"
+    },
+    "HZ_THUMBASBGMASK": { "message": "Barva a průhlednost krytí" },
+    "HZ_CAPTION": { "message": "Titulek" },
+    "HZ_CAP_POS": { "message": "Umístění titulku" },
+    "HZ_CAP_TOP": { "message": "nahoře" },
+    "HZ_CAP_BOTTOM": { "message": "dole" },
+    "HZ_CAP_NOSBAR": {
+        "message": "Nezobrazovat informační bubliny (tooltips)"
+    },
+    "HZ_CAP_WH": { "message": "Zobrazit rozlišení obrázku/videa" },
+    "HZ_APPEARANCE": { "message": "Vzhled" },
+    "HZ_FOLLOW": { "message": "Následovat pohyb kurzoru při zavírání náhledu" },
+    "HZ_MOVE": { "message": "Přesouvat náhled společně s kurzorem" },
+    "HZ_WAITHIDE": { "message": "Počkat před zvětšením dalšího obrázku" },
+    "HZ_SC_TOGGLE": { "message": "deaktivovat Imagus na současné stránce" },
+    "HZ_SC_PRELOAD": { "message": "přednačíst obrázky na stránce" },
+    "HZ_SC_FULLZOOM": { "message": "režim plného zvětšení" },
+    "HZ_SC_FULLSPACE": {
+        "message": "přepnout využití veškerého volného místa"
+    },
+    "HZ_SC_CAPTION": {
+        "message": "zalomit text titulku (<b>+ Shift</b> pro skrytí)"
+    },
+    "HZ_SC_OPEN": {
+        "message": "otevřít obrázek v novém panelu (<b>+ Shift</b> - otevřít panel v pozadí)"
+    },
+    "HZ_SC_RESET": {
+        "message": "zavřít náhled a zastavit načítání jeho obsahu"
+    },
+    "SC_ZOOMINOUT": { "message": "Přiblížit / oddálit" },
+    "SC_PREFS": { "message": "Nastavení" },
+    "SC_MENU": { "message": "Zobrazit nabídku" },
+    "SC_FLIPH": { "message": "Překlopit vodorovně" },
+    "SC_FLIPV": { "message": "Překlopit svisle" },
+    "SC_ROTL": { "message": "Otočit vlevo" },
+    "SC_ROTR": { "message": "Otočit vpravo" },
+    "SC_MORIG": { "message": "Skutečná velikost" },
+    "SC_MFIT": { "message": "Automaticky" },
+    "SC_MFITW": { "message": "Roztáhnout na šířku" },
+    "SC_MFITH": { "message": "Roztáhnout na výšku" },
+    "SC_SENDTO": { "message": "Odeslat obrázek do..." },
+    "OP_ZOOM": {
+        "message": "Vynutit otevření obrázku v náhledu pomocí Ctrl + pravé tlačítko myši"
+    },
+    "TLS_SENDIMGTO": { "message": "Odeslat obrázek do..." },
+    "TLS_SENDTOMSC": {
+        "message": "Ctrl + Alt [+ Shift] + kliknutí pravým tlačítkem myši na obrázek"
+    },
+    "SIV_BUTT_NEW": { "message": "Nové pravidlo" },
+    "SIV_BUTT_DEL": { "message": "Smazat všechny nebo vybrané" },
+    "SIV_BUTT_TOGGLE": {
+        "message": "Vypnout/zapnout všechny nebo vybrané a přidat do seznamu uchovávaných."
+    },
+    "SIV_BUTT_IMP": { "message": "Import" },
+    "SIV_BUTT_EXP": { "message": "Exportovat všechny nebo vybrané" },
+    "SIV_BUTT_UPD": { "message": "Aktualizovat pravidla" },
+    "SIV_CI": { "message": "Rozlišovat velikost písmen" },
+    "SIV_DC": {
+        "message": "Dekódovat výslednou URL, která souhlasí s tímto parametrem"
+    },
+    "SIV_LOOP": { "message": "Opakovat pravidlo s výslednou URL" },
+    "SIV_USEIMG": { "message": "Upřednostňovat \"img\" před \"link\"" },
+    "SIV_ERR_EMPTYNAME": { "message": "Název pravidla nesmí být prázdné!" },
+    "SIV_ERR_DUPENAME": { "message": "Názvy pravidel se nesmí opakovat!" },
+    "SIV_DETAILS": {
+        "message": "Ctrl + pravé tlačítko myši - odstranit pravidlo<br>Pravidla můžete přeskupit přetažením<br>pravé tlačítko myši - přejmenovat (režim přejmenování ukončíte klávesami Esc nebo Enter)<br>Ctrl + levé tlačítko myši - označit více pravidel (Shiftem provedete výběr rozsahem)"
+    },
+    "GRNT_RULEPERLINE": {
+        "message": "Pište každý filtr na samostatný řádek. Pro více informací klikněte na tlačítko Podrobnosti."
+    },
+    "PREF_IMPORT": { "message": "Importovat nastavení" },
+    "PREF_EXPORT": { "message": "Exportovat nastavení" },
+    "HZ_PRELOAD_MINIMAL": { "message": "minimálně" },
+    "HZ_PRELOAD_TIP": {
+        "message": "<b>nikdy</b> - bude načten jen aktivní obrázek\n<b>minimálně</b> - bude se načítat více obrázků naráz. Začne-li se obrázek načítat, bude načten celý a to i v případě, kdy kurzor opustí jeho zdroj\n<b>po přejetí myší</b> - obrázek se začne načítat, jakmile přes něj přejedete myší\n<b>po načtení stránky</b> - obrázky se začnou načítat až když se plně načte celá stránka"
+    },
+    "HZ_CAP_TEXT": { "message": "Zobrazovat text titulku" },
+    "HZ_FZMODE": { "message": "Výchozí režim" },
+    "HZ_FZMODE_FOLLOW": { "message": "pohybovat se s kurzorem myši" },
+    "HZ_FZMODE_DRAG": { "message": "pohybovat se kliknutím a táhnutím" },
+    "HZ_FZMODE_TIP": {
+        "message": "V prvním režimu budou obrázky, které se vejdou na obrazovku, vždy zarovnány na střed. Větší obrázky budou zvětšeny na svou původní velikost a pohled bude automaticky zaměřen na místo pod kurzorem.\nV druhém režimu je pozice obrázku statická. Obrázek je možné posunout klasickým \"kliknout & táhnout\" myší."
+    },
+    "HZ_CAP_STYLE": { "message": "Styl titulku" },
+    "HZ_CAP_STYLE_DARK": { "message": "tmavý" },
+    "HZ_CAP_STYLE_LIGHT": { "message": "světlý" },
+    "HZ_MARKONHOVER_TIP": {
+        "message": "Přejedete-li kurzorem myši přes odkaz na obrázek nebo jeho miniaturu, změnou <b class=\"cur_zmin\">kurzoru</b> nebo ohraničení <span style=\"border: 1px dashed red\">cíle</span> bude dáno najevo, že je možné daný obrázek načíst ve vyšším rozlišení (otevřít v náhledu)."
+    },
+    "HZ_FULLSPACE_TIP": {
+        "message": "Toto nastavení umožní náhledu využít ke svému zobrazení veškerý prostor na stránce bez ohledu na polohu kurzoru myši. Nepřejete-li si to, vypněte tuto volbu a náhled bude umístěn do prostoru mezi kurzorem myši a pravým/levým okrajem stránky (v závislosti na tom, kde je více místa).\nNastavíte-li v předchozí volbě umístění náhledu na střed, nebude na toto nastavení brán zřetel, protože v takovém případě bude náhled využívat veškeré volné místo vždy."
+    },
+    "HZ_PILEWHEEL": { "message": "Procházet albem pomocí kolečka myši" },
+    "HZ_PILEWHEEL_TIP": {
+        "message": "Kromě klávesových zkratek můžete k procházení webových alb použít také kolečko myši.\nPovolíte-li tuto možnost, nebude možné rolovat stránkou, zatímco je album otevřené.\nV režimu plného zvětšení kolečko myši vždy ovládá přiblížení; chcete-li procházet albem, musíte kurzor myši přesunout do levého horního rohu obrazovky (prostor o velikosti 50x50 px) nebo nad titulek obrázku."
+    },
+    "HZ_FZONPRESS": { "message": "Aktivace pravým tlačítkem" },
+    "HZ_HISTORY": {
+        "message": "Ukládat zobrazené obrázky do historie prohlížeče"
+    },
+    "HZ_HISTORY_TIP": {
+        "message": "Zobrazíte-li obrázek z odkazu v náhledu, bude přidán do historie prohlížeče, stejně jako kdybyste na něj klikli (obvykle takový odkaz změní barvu na fialovou).\nAlba budou do historie přidána až po zobrazení dvou obrázků z nich.\nPomocí klávesových zkratek (viz níže) můžete tyto odkazy z/do historie přidat/odebrat ručně.\nPomocí <b>Shift + klávesová zkratka</b> můžete tuto funkci globálně povolit/zakázat."
+    },
+    "HZ_SC_HISTORY": { "message": "přidat/smazat z historie" },
+    "IMPR_CLEAR_DATA": { "message": "Před importem vymazat data" },
+    "IMPR_FROM_FILE": { "message": "Ze souboru" },
+    "IMPR_FROM_TEXT": { "message": "Z textu" },
+    "IMPR_IMPORT": { "message": "Import" },
+    "IMPR_OVERWRITE": { "message": "Nahradit původní data" },
+    "LANGUAGE": { "message": "Jazyk" },
+    "TRANSLATIONS": { "message": "Překlady" },
+    "TRANSLATIONS_TIP": {
+        "message": "Chcete-li se stát překladatelem, pošlete e-mail na <a data-mail>tuto adresu</a> a uveďte jazyky, kterými mluvíte."
+    },
+    "TRANSLATORS": { "message": "Překladatelé" },
+    "HZ_ENDIS_RIGHT_BUTTON": { "message": "pravé tlačítko" },
+    "SIV_AUTOUPDATE": { "message": "Automaticky aktualizovat pravidla" },
+    "ADVANCED": { "message": "Porkočilé" },
+    "HZ_SCOFFININPUT": {
+        "message": "Vypnout klávesové zkratky při psaní textu"
+    },
+    "HZ_CSS": { "message": "Vlastní styl (CSS)" },
+    "HZ_MARKONHOVER_CR": { "message": "změnit kurzor" },
+    "HZ_HIDEIDLECURSOR": { "message": "Skrývat kurzor myši nad náhledem" },
+    "HZ_PLACEMENT_NOCOVER": { "message": "nezakrývat kurzor" },
+    "HZ_MINPOPUPDISTANCE": {
+        "message": "Minimální vzdálenost mezi kurzorem a náhledem"
+    },
+    "HZ_HIDEIDLECURSOR_TIP": {
+        "message": "<b>-1</b> - neskrývat (vždy zobrazit)\n<b>0-49</b> - vždy skrýt\n<b>&gt;=50</b> - skrýt po určené době (ms)"
+    },
+    "HZ_FZONPRESS_CLICK": { "message": "kliknutí" },
+    "HZ_FZONPRESS_LONG": { "message": "dlouhé kliknutí" },
+    "HZ_SC_SAVE": { "message": "Uložit obsah náhledu" },
+    "HZ_SC_COPY": {
+        "message": "Jedním stiskem zkopírovat URL, dvojím stiskem zkopírovat text titulku"
+    },
+    "SIV_CACHERES": { "message": "Cachovat vypočítaný obsah" },
+    "HZ_PLACEMENT_CURCENTER": { "message": "kurzor uprostřed náhledu" },
+    "HZ_PILECYCLE": { "message": "Procházet albem dokola" },
+    "APP_INSTALLED": { "message": "Doplněk byl nainstalován!" },
+    "APP_UPDATED": {
+        "message": "Doplněk byl aktualizován na nejnovější verzi!"
+    },
+    "GRNT_HELP": {
+        "message": "Základní syntaxe: <b>operátor:URL</b>\nOperátory: <b>!</b> (zakázat), <b>~</b> (povolit).\nNeaktivní pravidla začínají středníkem (<b>;</b>).\nZdvojíte-li operátor před adresou, bude očekáván regulární výraz (regex).\nHvězdička (<b>*</b>) zastupuje jakoukoli URL.\n\nPovolit pouze na imgur:\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nZakázat na těchto stránkách:\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nNa Redditu povolit pouze /r/pics a /r/funny:\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"
+    },
+    "APP_VERSIONINFO": {
+        "message": "Podívejte se, <a data-hl>co je nového</a> v této verzi, nebo si přečtěte úplný <a data-cl>seznam změn</a>!"
+    },
+    "HZ_DELAYONIDLE": { "message": "Vynulovat prodlevu pohybem myši" },
+    "HZ_PILEWHEEL_ON": { "message": "povoleno" },
+    "HZ_PILEWHEEL_HORIZ_ONLY": { "message": "pouze rolováním do strany" },
+    "HZ_CAP_LINKTEXT": { "message": "Použít text odkazu jako titulek obrázku" },
+    "HZ_MEDIAVOLUME": { "message": "Výchozí hlasitost médií (v %)" },
+    "MUST_READ": { "message": "Musíte přečíst" },
+    "HZ_SAVE": { "message": "Klepněte pro požadování oprávnění k uložení." },
+    "ASK_SAVE": {
+        "message": "Specifikujte podadresář ve složce Downloads/ nebo nechte prázdné"
+    },
+    "HZ_CAPWRAPBYDEF": { "message": "Automatické zalamování řádků" },
+    "SETTINGS_CSS": { "message": "Změnit barvu pro stránku nastavení" },
+    "HZ_CSSDIM": { "message": "ztlumit stránku" },
+    "HZ_MAXW": { "message": "maximální šířka(-1=zakázat)" },
+    "HZ_MAXH": { "message": "maximální výška(-1=zakázat)" },
+    "settings": { "message": "možnosti" },
+    "HZ_NUMPAD": { "message": "Numpad jako navigační klávesy" },
+    "HZ_NUMPAD_TIP": {
+        "message": "Povolte tuto možnost pro použití kláves z numerického bloku jako navigačních kláves místo čísel."
+    },
+    "SIV_UPDALERT": {
+        "message": "Porovnejte a aktualizujte vaše vybrané Pravidla. Přezkoumejte změny, provedte úpravy na jednom a po dokončení druhý smažte."
+    },
+    "SIV_BUTT_KEEP": {
+        "message": "Zobrazit seznam ponechat, když není vybráno nic, nebo přidat/odebrat vybrané položky."
+    },
+    "SIEVEKEEPADV": { "message": "Pokročilé uchovávání " },
+    "SIEVEKEEPADV_TIP": {
+        "message": "Zapnuto: Porovnat nový a starý Sieve a rozhodnout, co si ponechat; možnost uchovat vlastní Sieve nebo jiné změny. Vypnuto: Uchovávat pouze stav zapnuto/vypnuto; všechny ostatní úpravy budou smazány. Zelená barva znamená, že Sieve je v seznamu k ponechání. Pokud jste provedli změny a není zelený, musíte ho přidat ručně."
+    },
+    "SAVEAS": { "message": "Change file extensions" },
+    "HZ_EXT": { "message": "Hledat tyto přípony v URL" },
+    "HZ_EXT2": { "message": "Pokud nenalezeno, převést pomocí této tabulky" },
+    "HZ_EXT3": {
+        "message": "Výchozí přípona souboru, pokud selže všechno ostatní"
+    },
+    "HZ_SC_SWITCHRES": {
+        "message": "Přepnout rozlišení (není používáno se všemi Pravidla, <b>Shift</b> pro přepnutí této stránky až do načtení znovu)"
+    },
+    "HZ_SC_DEL": { "message": "Smazat klávesovou zkratku" },
+    "SIV_KEEP": { "message": "Přidat do seznamu uchovávaných" }
+}

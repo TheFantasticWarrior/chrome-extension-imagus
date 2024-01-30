@@ -1,1 +1,257 @@
-{"APP_DESCRIPTION": {"message": "Indexképek nagyítása, illetve képek/videók megjelenítése hivatkozásokra helyezett egérkurzorral."}, "NAV_SIEVE": {"message": "Szűrő"}, "NAV_GRANTS": {"message": "Jogok"}, "NAV_INFO": {"message": "Infó"}, "SHORTCUTS": {"message": "Billentyűparancsok"}, "PH_CLICKFORSAMPLE": {"message": "kattints példákért..."}, "DISABLED": {"message": "kikapcsolva"}, "LOADING": {"message": "Folyamatban..."}, "DETAILS": {"message": "Részletek"}, "AREYOUSURE": {"message": "Biztos vagy benne?"}, "DELITEMS": {"message": "Kijelöltek vagy az összes eltávolítása?"}, "EMPTY": {"message": "Üres..."}, "NOMATCH": {"message": "Nincs találat..."}, "SEARCH": {"message": "keresés..."}, "INVALIDFORMAT": {"message": "Helytelen formátum!"}, "BUTTON_RESET": {"message": "Alap"}, "BUTTON_SAVE": {"message": "Mentés"}, "HZ_ENABLED": {"message": "Aktív"}, "HZ_DISABLED": {"message": "Inaktív"}, "HZ_ENDIS_WHEN": {"message": "a következő billentyű lenyomásakor:"}, "HZ_ENDIS_NONE": {"message": "egyik sem"}, "HZ_ENDIS_TIP": {"message": "<b>Inaktív</b> és a billentyű <b>egyik sem</b> - mindig aktív.\n<b>Inaktív</b> és (<b>egyik módosító billentyű/egérgomb</b>) - inaktív, ha a kiválasztott billentyű/egérgomb is le van nyomva, különben aktív.\n<b>Aktív</b> és a billentyű <b>egyik sem</b> - mindig inaktív.\n<b>Aktív</b> és (<b>egy módosító billentyű/egérgomb</b>) - aktív, ha billentyű/egérgomb is le van nyomva, különben inaktív."}, "HZ_DELAY": {"message": "Megjelenítés késleltetése (ms)"}, "HZ_ZOOMRESIZED": {"message": "Minimális méretkülönbség a nagyításhoz"}, "HZ_ZOOMRESIZED_TIP": {"message": "Az érték megadja, hogy hány százalékkal kell nagyobbnak lennie az eredeti képnek az indexképnél, hogy a felugró megjelenjen."}, "HZ_HIRES": {"message": "Nagyobb felbontású képek előnyben részesítése"}, "HZ_HIRES_TIP": {"message": "A legtöbb képszolgáltató több méretben is tárolja a képeket. A szűrők képesek előállítani a különböző méretek címét, és azokat kategorizálni nagy (legtöbb esetben az eredeti kép) és kis (körülbelül 800-1024 pixelig) felbontású képekre.\nHa ez az opció nincs bejelölve, akkor mindig a kisebb felbontású képek fognak betöltődni, viszont bármikor át lehet váltani a nagyobb felbontású képre a Tab billentyű lenyomásával (vagy a fejlécben lévő képdimenziókra való kattintással, viszont ez csak teljes nézetben lehetséges).\nHa a kép méreteinek megjelenítése engedélyezve van a felugró fejlécében, akkor a méretek színe cián illetve piros lesz (fejléc stílusától függően), ezzel jelezve azt, hogy (valószínűleg) nagyobb méretben is elérhető a kép."}, "HZ_HIRESONFZ": {"message": "Nagyobb felbontású kép megnyitása teljes méret aktiválásakor"}, "HZ_HIRESONFZ_TIP": {"message": "Automatikusan megpróbálja betölteni a képet jobb felbontásban teljes méretben, ha a kép méreteinek aránya (mindig a hosszabb oldal osztva a rövidebbel) nagyobb vagy egyenlő a megadott értéknél."}, "HZ_PLACEMENT": {"message": "Felugró elhelyezkedése"}, "HZ_FULLSPACE": {"message": "Rendelkezésre álló hely használata"}, "HZ_PLACEMENT_CURCOR": {"message": "kurzor a felugró sarkánál"}, "HZ_PLACEMENT_CURSIDE": {"message": "kurzor a felugró oldalánál"}, "HZ_PLACEMENT_CENTER": {"message": "felugró az ablak középére"}, "HZ_PRELOAD": {"message": "Képek előre betöltése"}, "HZ_PRELOAD_NO": {"message": "soha"}, "HZ_PRELOAD_MOUSEOVER": {"message": "kurzor hivatkozásra helyezésekor"}, "HZ_PRELOAD_PAGELOAD": {"message": "az oldal betöltésével"}, "HZ_FULLZOOM": {"message": "Teljes méret"}, "HZ_MARKONHOVER": {"message": "Nagyítható elemek megjelölése"}, "HZ_MARKONHOVER_O_SOLID": {"message": "folytonos körvonal"}, "HZ_MARKONHOVER_O_DASHED": {"message": "szaggatott körvonal"}, "HZ_MARKONHOVER_O_DOTTED": {"message": "pontozott körvonal"}, "HZ_THUMBASBG": {"message": "Indexkép alkalmazása háttérképként"}, "HZ_THUMBASBGMASK": {"message": "Maszk színe és átlátszatlansága"}, "HZ_CAPTION": {"message": "Fejléc"}, "HZ_CAP_POS": {"message": "Fejléc elhelyezkedése"}, "HZ_CAP_TOP": {"message": "felül"}, "HZ_CAP_BOTTOM": {"message": "alul"}, "HZ_CAP_NOSBAR": {"message": "Eszköztippek tiltása (hasznos rejtett állapotsávnál)"}, "HZ_CAP_WH": {"message": "Kép/videó méreteinek megjelenítése"}, "HZ_APPEARANCE": {"message": "Megjelenés"}, "HZ_FOLLOW": {"message": "Kurzor követése elrejtés közben"}, "HZ_MOVE": {"message": "Felugró mozgatása a kurzorral együtt"}, "HZ_WAITHIDE": {"message": "Várakozás új nagyítás előtt"}, "HZ_SC_TOGGLE": {"message": "ideiglenes kikapcsolás"}, "HZ_SC_PRELOAD": {"message": "képek előre betöltése"}, "HZ_SC_FULLZOOM": {"message": "teljes méret"}, "HZ_SC_FULLSPACE": {"message": "rendelkezésre álló hely és automatikus méretezés közti váltás"}, "HZ_SC_CAPTION": {"message": "Fejléc törése (<b>Shift</b> tartásával együtt elrejtése)"}, "HZ_SC_OPEN": {"message": "Kép megnyitása új ablakban (<b>Shift</b> háttérfülben)"}, "HZ_SC_RESET": {"message": "felugró elrejtése és tartalma töltésének leállítása"}, "SC_ZOOMINOUT": {"message": "Nagyítás / kicsinyítés"}, "SC_PREFS": {"message": "Beállítások"}, "SC_MENU": {"message": "Menü megjelenítése"}, "SC_FLIPH": {"message": "Vízszintes tükrözés"}, "SC_FLIPV": {"message": "Függőleges tükrözés"}, "SC_ROTL": {"message": "Jobbra forgatás"}, "SC_ROTR": {"message": "Balra forgatás"}, "SC_MORIG": {"message": "Eredeti méret"}, "SC_MFIT": {"message": "Ablakhoz méretez"}, "SC_MFITW": {"message": "Szélességhez méretez"}, "SC_MFITH": {"message": "Magassághoz méretez"}, "SC_SENDTO": {"message": "Kép küldése..."}, "OP_ZOOM": {"message": "Ctrl + jobb klikk egy képre a oldalon a felugróba helyezi azt"}, "TLS_SENDIMGTO": {"message": "Kép címének küldése..."}, "TLS_SENDTOMSC": {"message": "Ctrl + Alt [+ Shift] + jobb kattintás normál képre"}, "SIV_BUTT_NEW": {"message": "Új szabály hozzáadása"}, "SIV_BUTT_DEL": {"message": "Összes vagy kijelöltek eltávolítása"}, "SIV_BUTT_TOGGLE": {"message": "Mindet vagy a kiválasztottakat letiltani/engedélyezni és hozzáadni a megőrzendő listához."}, "SIV_BUTT_IMP": {"message": "Importálás"}, "SIV_BUTT_EXP": {"message": "Összes vagy kijelöltek exportálása"}, "SIV_BUTT_UPD": {"message": "Szűrők frissítése"}, "SIV_CI": {"message": "ne legyen érzékeny a kis- és nagybetűkre"}, "SIV_DC": {"message": "URL dekódolása"}, "SIV_LOOP": {"message": "Kapott cím újratesztelés"}, "SIV_USEIMG": {"message": "\"img\" paraméter használata \"link\" helyett"}, "SIV_UPDALERT": {"message": "Összehasonlítás és frissítés a kiválasztott Szűrő-en. Ellenőrizze a változtatásokat, végezze el a módosításokat az egyikben, majd törölje a másikat, ha elkészült."}, "SIV_ERR_EMPTYNAME": {"message": "Szűrő neve nem lehet üres!"}, "SIV_ERR_DUPENAME": {"message": "Minden szűrőnek egyedi neve kell, hogy legyen!"}, "SIV_DETAILS": {"message": "Ctrl + jobb klikk törli a szabályt<br>Lehetőség van a szabályok áthelyezésére vonszolással<br>jobb klikk átnevez (Esc/Enter befejez)<br>Ctrl + bal klikk kijelölés (egyszerre több a Shift lenyomásával)"}, "GRNT_RULEPERLINE": {"message": "Feltétel soronként. További információkért kattints a fenti Részletek gombra."}, "PREF_IMPORT": {"message": "Beállítások importálása"}, "PREF_EXPORT": {"message": "Beállítások exportálása"}, "HZ_PRELOAD_MINIMAL": {"message": "minimális"}, "HZ_PRELOAD_TIP": {"message": "<b>soha</b> - csak a jelenlegi kép töltése engedélyezett, ha az nem töltődött be, új kép megnyitásánál az előző töltése megszakad\n<b>minimális</b> - több kép töltése engedélyezett, új megnyitásánál nem szakad meg az előző\n<b>kurzor</b> - ahogy az egérkurzor egy hivatkozásra/indexképre kerül, a kép töltése elindul\n<b>oldalbetöltéssel</b> - az összes oldalon található kép töltése elindul a lap megnyitása után"}, "HZ_CAP_TEXT": {"message": "Fejlécszöveg megjelenítése"}, "HZ_FZMODE": {"message": "Alapértelmezett mód"}, "HZ_FZMODE_FOLLOW": {"message": "mozgatás az egér mozgatásával"}, "HZ_FZMODE_DRAG": {"message": "mozgatás vonszolással"}, "HZ_FZMODE_TIP": {"message": "Az első módban, ha a kép kisebb, mint az ablak, akkor mindig középre kerül, különben a helyzete arányosan változik az egérkurzor helyzetével az dokumentumon.\nA második módban a kép pozíciója statikus, de vonszolással változtatható."}, "HZ_CAP_STYLE": {"message": "Fejléc stílusa"}, "HZ_CAP_STYLE_DARK": {"message": "sötét"}, "HZ_CAP_STYLE_LIGHT": {"message": "világos"}, "HZ_MARKONHOVER_TIP": {"message": "Amikor az egérkurzor egy link vagy indexkép fölé kerül, megváltozik a <b class=\"cur_zmin\">kurzor</b> vagy az elem köré <span style=\"border: 1px dashed red\">vonal</span> rajzolódik, jelezve a nagyíthatóságot."}, "HZ_FULLSPACE_TIP": {"message": "Engedélyezi, hogy a felugró az egérkurzor alá méreteződjön, ha annak mérete nagyobb, mint a kurzor és az oldal közötti terület.\nHa az elhelyezkedés középre van állítva (előző opció), akkor ennek a beállításnak nincs értelme, mivel abban az esetben a felugró mindig felhasználja az összes rendelkezésre álló helyet."}, "HZ_PILEWHEEL": {"message": "Album lapozása görgővel"}, "HZ_PILEWHEEL_TIP": {"message": "Gyorsbillentyűk mellett az egérgörgő is használható lapozásra egy albumon.\nEz a beállítás megakadályozza az oldal görgetését, amíg a felugró látható.\nTeljes méretben a görgő alapértelmezett funkciója a nagyítás. Váltáshoz a bal felső sarokban (50x50px), illetve a fejlécen elhelyezkedő számlálón kell görgetni."}, "HZ_FZONPRESS": {"message": "Aktiválás jobb egérgombbal"}, "HZ_HISTORY": {"message": "Link hozzáadása az előzményekhez a felugró megjelenése után"}, "HZ_HISTORY_TIP": {"message": "A felugró megjelenése után a kurzor alatti linket látogatottnak jelöli.\nAlbum esetén, legalább az első két elem megtekintése szükséges.\nGyorsbillentyű segítségével (l. lent) manuálisan is megjelölhető a link, ha ez a beállítás éppen nem aktív. Ha a cím már az előzmények között van, akkor eltávolításra kerül.\n<b>Shift + a megadott gyorsbillentyű</b> lenyomásával ez a beállítás szükség esetén ideiglenesen bekapcsolható."}, "HZ_SC_HISTORY": {"message": "hozzáadás, illetve eltávolítás az előzményekből"}, "IMPR_CLEAR_DATA": {"message": "Adatok törlése importálás előtt"}, "IMPR_FROM_FILE": {"message": "Fájlból"}, "IMPR_FROM_TEXT": {"message": "Szövegből"}, "IMPR_IMPORT": {"message": "Importálás"}, "IMPR_OVERWRITE": {"message": "A meglévő adatok felülírása"}, "LANGUAGE": {"message": "Nyelv"}, "TRANSLATIONS": {"message": "Fordítások"}, "TRANSLATIONS_TIP": {"message": "Ha szeretnél fordító lenni, <a data-mail>ezen</a> az e-mail címen lehet jelentkezni, az általad beszélt nyelvek megemlítésével."}, "TRANSLATORS": {"message": "Fordítók"}, "HZ_ENDIS_RIGHT_BUTTON": {"message": "jobb egérgomb"}, "SIV_AUTOUPDATE": {"message": "Szűrők automatikus frissítése"}, "ADVANCED": {"message": "Haladó"}, "HZ_SCOFFININPUT": {"message": "Billentyűparancsok tiltása szövegszerkesztéskor"}, "HZ_CSS": {"message": "Egyedi stílus (CSS)"}, "HZ_MARKONHOVER_CR": {"message": "kurzor megváltoztatása"}, "HZ_HIDEIDLECURSOR": {"message": "Mozdulatlan kurzor elrejtése a felugró felett"}, "HZ_PLACEMENT_NOCOVER": {"message": "ne fedje a célelemet"}, "HZ_MINPOPUPDISTANCE": {"message": "Minimális távolság a felugró és a kurzor között"}, "HZ_HIDEIDLECURSOR_TIP": {"message": "<b>-1</b> - mindig látható\n<b>0-49</b> - mindig elrejtve\n<b>&gt;=50</b> - elrejtés a megadott idő (ms) elteltével"}, "HZ_FZONPRESS_CLICK": {"message": "kattintással"}, "HZ_FZONPRESS_LONG": {"message": "hosszan-tartással"}, "HZ_SC_SAVE": {"message": "Felugró tartalmának mentése"}, "HZ_SC_COPY": {"message": "URL másolása vágólapra, vagy dupla leütéssel a fejlécszöveg másolása"}, "SIV_CACHERES": {"message": "Feldolgozott tartalom gyorsítótározása"}, "HZ_PLACEMENT_CURCENTER": {"message": "kurzor a felugró közepénél"}, "HZ_PILECYCLE": {"message": "Ciklikus görgetés albumban"}, "APP_INSTALLED": {"message": "A kiegészítő sikeresen települt!"}, "APP_UPDATED": {"message": "A kiegészítő új verziója épp most települt!"}, "GRNT_HELP": {"message": "Alapvető szintaxis: <b>operátor:cím</b>↵\nOperátorok: <b>!</b> (tiltás), <b>~</b> (engedélyezés).\n<b>;</b> (pontosvessző) a sor elején inaktívvá teszi a szabályt.\nOperátor kettőzésével az cím helyén reguláris kifejezés használható\n* (csillag) - bármilyen cím.\n\nCsak az imgur engedélyezése\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nNéhány cím tiltása\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nCsak az /r/pics és /r/funny engedélyezése reddit-en\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"}, "APP_VERSIONINFO": {"message": "Lásd e verzió <a data-hl>főbb jellemzőit</a> (angol), illetve nézd át a változások teljes <a data-cl>listáját</a>!"}, "HZ_DELAYONIDLE": {"message": "Késleltetés újraindítása a kurzor mozgatásával"}, "HZ_PILEWHEEL_ON": {"message": "engedélyez"}, "HZ_PILEWHEEL_HORIZ_ONLY": {"message": "csak horizontális görgetéssel"}, "HZ_CAP_LINKTEXT": {"message": "Használja a link szövegét is"}, "HZ_MEDIAVOLUME": {"message": "Alapértelmezett média hangerő (%)"}, "HZ_SCROLLDELAY": {"message": "Görgetés érzékenysége (ms)"}, "MUST_READ": {"message": "Kötelező olvasmány"}, "HZ_SAVE": {"message": "Kattintson a mentés engedélyezésének kéréséhez."}, "ASK_SAVE": {"message": "Adjon meg egy almappát a Letöltések/ mappában, vagy hagyja üresen"}, "HZ_CAPWRAPBYDEF": {"message": "Alapértelmezett sortörés"}, "SETTINGS_CSS": {"message": "Színváltoztatás a beállítások oldalán"}, "HZ_CSSDIM": {"message": "elsötétít oldalt"}, "HZ_MAXW": {"message": "maximális szélesség(-1=letiltás)"}, "HZ_MAXH": {"message": "maximális magasság(-1=letiltás)"}, "settings": {"message": "lehetőségek"}, "HZ_NUMPAD": {"message": "Numerikus billentyűzet navigációs gombokként"}, "HZ_NUMPAD_TIP": {"message": "Engedélyezze ezt az opciót a numerikus billentyűk használatához navigációs billentyűként a számok helyett."}, "SIV_BUTT_KEEP": {"message": "Tekintse meg a megőrzendő lista vagy adjon hozzá/távolítson el kiválasztott elemeket."}, "SIEVEKEEPADV": {"message": "Haladó megtartás "}, "SIEVEKEEPADV_TIP": {"message": "BEK: új és régi Szűrő összehasonlítása a megtartáshoz való döntéshez, lehetőség a testreszabott Szűrő vagy más változtatások megtartására\nKI: csak a be/ki állapotot tartja meg, minden más módosítás törlésre kerül"}, "SAVEAS": {"message": "Fájl kiterjesztések módosítása (csak Firefox esetén?)"}, "HZ_EXT": {"message": "Keresse ezeket a kiterjesztéseket az URL-ben"}, "HZ_EXT2": {"message": "Ha nem található, konvertálja a következő táblázat szerint"}, "HZ_EXT3": {"message": "Alapértelmezett fájlkiterjesztés, ha minden más hiba esetén"}, "HZ_SC_SWITCHRES": {"message": "Felbontás váltása (nem használható minden Szűrő-nél, váltásra <b>Shift</b> billentyűvel ezen az oldalon az újratöltésig)"}, "HZ_SC_DEL": {"message": "Gyorsbillentyű törlése"}}
+{
+    "APP_DESCRIPTION": {
+        "message": "Indexképek nagyítása, illetve képek/videók megjelenítése hivatkozásokra helyezett egérkurzorral."
+    },
+    "NAV_SIEVE": { "message": "Szűrő" },
+    "NAV_GRANTS": { "message": "Jogok" },
+    "NAV_INFO": { "message": "Infó" },
+    "SHORTCUTS": { "message": "Billentyűparancsok" },
+    "PH_CLICKFORSAMPLE": { "message": "kattints példákért..." },
+    "DISABLED": { "message": "kikapcsolva" },
+    "LOADING": { "message": "Folyamatban..." },
+    "DETAILS": { "message": "Részletek" },
+    "AREYOUSURE": { "message": "Biztos vagy benne?" },
+    "DELITEMS": { "message": "Kijelöltek vagy az összes eltávolítása?" },
+    "EMPTY": { "message": "Üres..." },
+    "NOMATCH": { "message": "Nincs találat..." },
+    "SEARCH": { "message": "keresés..." },
+    "INVALIDFORMAT": { "message": "Helytelen formátum!" },
+    "BUTTON_RESET": { "message": "Alap" },
+    "BUTTON_SAVE": { "message": "Mentés" },
+    "HZ_ENABLED": { "message": "Aktív" },
+    "HZ_DISABLED": { "message": "Inaktív" },
+    "HZ_ENDIS_WHEN": { "message": "a következő billentyű lenyomásakor:" },
+    "HZ_ENDIS_NONE": { "message": "egyik sem" },
+    "HZ_ENDIS_TIP": {
+        "message": "<b>Inaktív</b> és a billentyű <b>egyik sem</b> - mindig aktív.\n<b>Inaktív</b> és (<b>egyik módosító billentyű/egérgomb</b>) - inaktív, ha a kiválasztott billentyű/egérgomb is le van nyomva, különben aktív.\n<b>Aktív</b> és a billentyű <b>egyik sem</b> - mindig inaktív.\n<b>Aktív</b> és (<b>egy módosító billentyű/egérgomb</b>) - aktív, ha billentyű/egérgomb is le van nyomva, különben inaktív."
+    },
+    "HZ_DELAY": { "message": "Megjelenítés késleltetése (ms)" },
+    "HZ_ZOOMRESIZED": { "message": "Minimális méretkülönbség a nagyításhoz" },
+    "HZ_ZOOMRESIZED_TIP": {
+        "message": "Az érték megadja, hogy hány százalékkal kell nagyobbnak lennie az eredeti képnek az indexképnél, hogy a felugró megjelenjen."
+    },
+    "HZ_HIRES": { "message": "Nagyobb felbontású képek előnyben részesítése" },
+    "HZ_HIRES_TIP": {
+        "message": "A legtöbb képszolgáltató több méretben is tárolja a képeket. A szűrők képesek előállítani a különböző méretek címét, és azokat kategorizálni nagy (legtöbb esetben az eredeti kép) és kis (körülbelül 800-1024 pixelig) felbontású képekre.\nHa ez az opció nincs bejelölve, akkor mindig a kisebb felbontású képek fognak betöltődni, viszont bármikor át lehet váltani a nagyobb felbontású képre a Tab billentyű lenyomásával (vagy a fejlécben lévő képdimenziókra való kattintással, viszont ez csak teljes nézetben lehetséges).\nHa a kép méreteinek megjelenítése engedélyezve van a felugró fejlécében, akkor a méretek színe cián illetve piros lesz (fejléc stílusától függően), ezzel jelezve azt, hogy (valószínűleg) nagyobb méretben is elérhető a kép."
+    },
+    "HZ_HIRESONFZ": {
+        "message": "Nagyobb felbontású kép megnyitása teljes méret aktiválásakor"
+    },
+    "HZ_HIRESONFZ_TIP": {
+        "message": "Automatikusan megpróbálja betölteni a képet jobb felbontásban teljes méretben, ha a kép méreteinek aránya (mindig a hosszabb oldal osztva a rövidebbel) nagyobb vagy egyenlő a megadott értéknél."
+    },
+    "HZ_PLACEMENT": { "message": "Felugró elhelyezkedése" },
+    "HZ_FULLSPACE": { "message": "Rendelkezésre álló hely használata" },
+    "HZ_PLACEMENT_CURCOR": { "message": "kurzor a felugró sarkánál" },
+    "HZ_PLACEMENT_CURSIDE": { "message": "kurzor a felugró oldalánál" },
+    "HZ_PLACEMENT_CENTER": { "message": "felugró az ablak középére" },
+    "HZ_PRELOAD": { "message": "Képek előre betöltése" },
+    "HZ_PRELOAD_NO": { "message": "soha" },
+    "HZ_PRELOAD_MOUSEOVER": { "message": "kurzor hivatkozásra helyezésekor" },
+    "HZ_PRELOAD_PAGELOAD": { "message": "az oldal betöltésével" },
+    "HZ_FULLZOOM": { "message": "Teljes méret" },
+    "HZ_MARKONHOVER": { "message": "Nagyítható elemek megjelölése" },
+    "HZ_MARKONHOVER_O_SOLID": { "message": "folytonos körvonal" },
+    "HZ_MARKONHOVER_O_DASHED": { "message": "szaggatott körvonal" },
+    "HZ_MARKONHOVER_O_DOTTED": { "message": "pontozott körvonal" },
+    "HZ_THUMBASBG": { "message": "Indexkép alkalmazása háttérképként" },
+    "HZ_THUMBASBGMASK": { "message": "Maszk színe és átlátszatlansága" },
+    "HZ_CAPTION": { "message": "Fejléc" },
+    "HZ_CAP_POS": { "message": "Fejléc elhelyezkedése" },
+    "HZ_CAP_TOP": { "message": "felül" },
+    "HZ_CAP_BOTTOM": { "message": "alul" },
+    "HZ_CAP_NOSBAR": {
+        "message": "Eszköztippek tiltása (hasznos rejtett állapotsávnál)"
+    },
+    "HZ_CAP_WH": { "message": "Kép/videó méreteinek megjelenítése" },
+    "HZ_APPEARANCE": { "message": "Megjelenés" },
+    "HZ_FOLLOW": { "message": "Kurzor követése elrejtés közben" },
+    "HZ_MOVE": { "message": "Felugró mozgatása a kurzorral együtt" },
+    "HZ_WAITHIDE": { "message": "Várakozás új nagyítás előtt" },
+    "HZ_SC_TOGGLE": { "message": "ideiglenes kikapcsolás" },
+    "HZ_SC_PRELOAD": { "message": "képek előre betöltése" },
+    "HZ_SC_FULLZOOM": { "message": "teljes méret" },
+    "HZ_SC_FULLSPACE": {
+        "message": "rendelkezésre álló hely és automatikus méretezés közti váltás"
+    },
+    "HZ_SC_CAPTION": {
+        "message": "Fejléc törése (<b>Shift</b> tartásával együtt elrejtése)"
+    },
+    "HZ_SC_OPEN": {
+        "message": "Kép megnyitása új ablakban (<b>Shift</b> háttérfülben)"
+    },
+    "HZ_SC_RESET": {
+        "message": "felugró elrejtése és tartalma töltésének leállítása"
+    },
+    "SC_ZOOMINOUT": { "message": "Nagyítás / kicsinyítés" },
+    "SC_PREFS": { "message": "Beállítások" },
+    "SC_MENU": { "message": "Menü megjelenítése" },
+    "SC_FLIPH": { "message": "Vízszintes tükrözés" },
+    "SC_FLIPV": { "message": "Függőleges tükrözés" },
+    "SC_ROTL": { "message": "Jobbra forgatás" },
+    "SC_ROTR": { "message": "Balra forgatás" },
+    "SC_MORIG": { "message": "Eredeti méret" },
+    "SC_MFIT": { "message": "Ablakhoz méretez" },
+    "SC_MFITW": { "message": "Szélességhez méretez" },
+    "SC_MFITH": { "message": "Magassághoz méretez" },
+    "SC_SENDTO": { "message": "Kép küldése..." },
+    "OP_ZOOM": {
+        "message": "Ctrl + jobb klikk egy képre a oldalon a felugróba helyezi azt"
+    },
+    "TLS_SENDIMGTO": { "message": "Kép címének küldése..." },
+    "TLS_SENDTOMSC": {
+        "message": "Ctrl + Alt [+ Shift] + jobb kattintás normál képre"
+    },
+    "SIV_BUTT_NEW": { "message": "Új szabály hozzáadása" },
+    "SIV_BUTT_DEL": { "message": "Összes vagy kijelöltek eltávolítása" },
+    "SIV_BUTT_TOGGLE": {
+        "message": "Mindet vagy a kiválasztottakat letiltani/engedélyezni és hozzáadni a megőrzendő listához."
+    },
+    "SIV_BUTT_IMP": { "message": "Importálás" },
+    "SIV_BUTT_EXP": { "message": "Összes vagy kijelöltek exportálása" },
+    "SIV_BUTT_UPD": { "message": "Szűrők frissítése" },
+    "SIV_CI": { "message": "ne legyen érzékeny a kis- és nagybetűkre" },
+    "SIV_DC": { "message": "URL dekódolása" },
+    "SIV_LOOP": { "message": "Kapott cím újratesztelés" },
+    "SIV_USEIMG": {
+        "message": "\"img\" paraméter használata \"link\" helyett"
+    },
+    "SIV_UPDALERT": {
+        "message": "Összehasonlítás és frissítés a kiválasztott Szűrő-en. Ellenőrizze a változtatásokat, végezze el a módosításokat az egyikben, majd törölje a másikat, ha elkészült."
+    },
+    "SIV_ERR_EMPTYNAME": { "message": "Szűrő neve nem lehet üres!" },
+    "SIV_ERR_DUPENAME": {
+        "message": "Minden szűrőnek egyedi neve kell, hogy legyen!"
+    },
+    "SIV_DETAILS": {
+        "message": "Ctrl + jobb klikk törli a szabályt<br>Lehetőség van a szabályok áthelyezésére vonszolással<br>jobb klikk átnevez (Esc/Enter befejez)<br>Ctrl + bal klikk kijelölés (egyszerre több a Shift lenyomásával)"
+    },
+    "GRNT_RULEPERLINE": {
+        "message": "Feltétel soronként. További információkért kattints a fenti Részletek gombra."
+    },
+    "PREF_IMPORT": { "message": "Beállítások importálása" },
+    "PREF_EXPORT": { "message": "Beállítások exportálása" },
+    "HZ_PRELOAD_MINIMAL": { "message": "minimális" },
+    "HZ_PRELOAD_TIP": {
+        "message": "<b>soha</b> - csak a jelenlegi kép töltése engedélyezett, ha az nem töltődött be, új kép megnyitásánál az előző töltése megszakad\n<b>minimális</b> - több kép töltése engedélyezett, új megnyitásánál nem szakad meg az előző\n<b>kurzor</b> - ahogy az egérkurzor egy hivatkozásra/indexképre kerül, a kép töltése elindul\n<b>oldalbetöltéssel</b> - az összes oldalon található kép töltése elindul a lap megnyitása után"
+    },
+    "HZ_CAP_TEXT": { "message": "Fejlécszöveg megjelenítése" },
+    "HZ_FZMODE": { "message": "Alapértelmezett mód" },
+    "HZ_FZMODE_FOLLOW": { "message": "mozgatás az egér mozgatásával" },
+    "HZ_FZMODE_DRAG": { "message": "mozgatás vonszolással" },
+    "HZ_FZMODE_TIP": {
+        "message": "Az első módban, ha a kép kisebb, mint az ablak, akkor mindig középre kerül, különben a helyzete arányosan változik az egérkurzor helyzetével az dokumentumon.\nA második módban a kép pozíciója statikus, de vonszolással változtatható."
+    },
+    "HZ_CAP_STYLE": { "message": "Fejléc stílusa" },
+    "HZ_CAP_STYLE_DARK": { "message": "sötét" },
+    "HZ_CAP_STYLE_LIGHT": { "message": "világos" },
+    "HZ_MARKONHOVER_TIP": {
+        "message": "Amikor az egérkurzor egy link vagy indexkép fölé kerül, megváltozik a <b class=\"cur_zmin\">kurzor</b> vagy az elem köré <span style=\"border: 1px dashed red\">vonal</span> rajzolódik, jelezve a nagyíthatóságot."
+    },
+    "HZ_FULLSPACE_TIP": {
+        "message": "Engedélyezi, hogy a felugró az egérkurzor alá méreteződjön, ha annak mérete nagyobb, mint a kurzor és az oldal közötti terület.\nHa az elhelyezkedés középre van állítva (előző opció), akkor ennek a beállításnak nincs értelme, mivel abban az esetben a felugró mindig felhasználja az összes rendelkezésre álló helyet."
+    },
+    "HZ_PILEWHEEL": { "message": "Album lapozása görgővel" },
+    "HZ_PILEWHEEL_TIP": {
+        "message": "Gyorsbillentyűk mellett az egérgörgő is használható lapozásra egy albumon.\nEz a beállítás megakadályozza az oldal görgetését, amíg a felugró látható.\nTeljes méretben a görgő alapértelmezett funkciója a nagyítás. Váltáshoz a bal felső sarokban (50x50px), illetve a fejlécen elhelyezkedő számlálón kell görgetni."
+    },
+    "HZ_FZONPRESS": { "message": "Aktiválás jobb egérgombbal" },
+    "HZ_HISTORY": {
+        "message": "Link hozzáadása az előzményekhez a felugró megjelenése után"
+    },
+    "HZ_HISTORY_TIP": {
+        "message": "A felugró megjelenése után a kurzor alatti linket látogatottnak jelöli.\nAlbum esetén, legalább az első két elem megtekintése szükséges.\nGyorsbillentyű segítségével (l. lent) manuálisan is megjelölhető a link, ha ez a beállítás éppen nem aktív. Ha a cím már az előzmények között van, akkor eltávolításra kerül.\n<b>Shift + a megadott gyorsbillentyű</b> lenyomásával ez a beállítás szükség esetén ideiglenesen bekapcsolható."
+    },
+    "HZ_SC_HISTORY": {
+        "message": "hozzáadás, illetve eltávolítás az előzményekből"
+    },
+    "IMPR_CLEAR_DATA": { "message": "Adatok törlése importálás előtt" },
+    "IMPR_FROM_FILE": { "message": "Fájlból" },
+    "IMPR_FROM_TEXT": { "message": "Szövegből" },
+    "IMPR_IMPORT": { "message": "Importálás" },
+    "IMPR_OVERWRITE": { "message": "A meglévő adatok felülírása" },
+    "LANGUAGE": { "message": "Nyelv" },
+    "TRANSLATIONS": { "message": "Fordítások" },
+    "TRANSLATIONS_TIP": {
+        "message": "Ha szeretnél fordító lenni, <a data-mail>ezen</a> az e-mail címen lehet jelentkezni, az általad beszélt nyelvek megemlítésével."
+    },
+    "TRANSLATORS": { "message": "Fordítók" },
+    "HZ_ENDIS_RIGHT_BUTTON": { "message": "jobb egérgomb" },
+    "SIV_AUTOUPDATE": { "message": "Szűrők automatikus frissítése" },
+    "ADVANCED": { "message": "Haladó" },
+    "HZ_SCOFFININPUT": {
+        "message": "Billentyűparancsok tiltása szövegszerkesztéskor"
+    },
+    "HZ_CSS": { "message": "Egyedi stílus (CSS)" },
+    "HZ_MARKONHOVER_CR": { "message": "kurzor megváltoztatása" },
+    "HZ_HIDEIDLECURSOR": {
+        "message": "Mozdulatlan kurzor elrejtése a felugró felett"
+    },
+    "HZ_PLACEMENT_NOCOVER": { "message": "ne fedje a célelemet" },
+    "HZ_MINPOPUPDISTANCE": {
+        "message": "Minimális távolság a felugró és a kurzor között"
+    },
+    "HZ_HIDEIDLECURSOR_TIP": {
+        "message": "<b>-1</b> - mindig látható\n<b>0-49</b> - mindig elrejtve\n<b>&gt;=50</b> - elrejtés a megadott idő (ms) elteltével"
+    },
+    "HZ_FZONPRESS_CLICK": { "message": "kattintással" },
+    "HZ_FZONPRESS_LONG": { "message": "hosszan-tartással" },
+    "HZ_SC_SAVE": { "message": "Felugró tartalmának mentése" },
+    "HZ_SC_COPY": {
+        "message": "URL másolása vágólapra, vagy dupla leütéssel a fejlécszöveg másolása"
+    },
+    "SIV_CACHERES": { "message": "Feldolgozott tartalom gyorsítótározása" },
+    "HZ_PLACEMENT_CURCENTER": { "message": "kurzor a felugró közepénél" },
+    "HZ_PILECYCLE": { "message": "Ciklikus görgetés albumban" },
+    "APP_INSTALLED": { "message": "A kiegészítő sikeresen települt!" },
+    "APP_UPDATED": { "message": "A kiegészítő új verziója épp most települt!" },
+    "GRNT_HELP": {
+        "message": "Alapvető szintaxis: <b>operátor:cím</b>↵\nOperátorok: <b>!</b> (tiltás), <b>~</b> (engedélyezés).\n<b>;</b> (pontosvessző) a sor elején inaktívvá teszi a szabályt.\nOperátor kettőzésével az cím helyén reguláris kifejezés használható\n* (csillag) - bármilyen cím.\n\nCsak az imgur engedélyezése\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nNéhány cím tiltása\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nCsak az /r/pics és /r/funny engedélyezése reddit-en\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"
+    },
+    "APP_VERSIONINFO": {
+        "message": "Lásd e verzió <a data-hl>főbb jellemzőit</a> (angol), illetve nézd át a változások teljes <a data-cl>listáját</a>!"
+    },
+    "HZ_DELAYONIDLE": {
+        "message": "Késleltetés újraindítása a kurzor mozgatásával"
+    },
+    "HZ_PILEWHEEL_ON": { "message": "engedélyez" },
+    "HZ_PILEWHEEL_HORIZ_ONLY": { "message": "csak horizontális görgetéssel" },
+    "HZ_CAP_LINKTEXT": { "message": "Használja a link szövegét is" },
+    "HZ_MEDIAVOLUME": { "message": "Alapértelmezett média hangerő (%)" },
+    "HZ_SCROLLDELAY": { "message": "Görgetés érzékenysége (ms)" },
+    "MUST_READ": { "message": "Kötelező olvasmány" },
+    "HZ_SAVE": { "message": "Kattintson a mentés engedélyezésének kéréséhez." },
+    "ASK_SAVE": {
+        "message": "Adjon meg egy almappát a Letöltések/ mappában, vagy hagyja üresen"
+    },
+    "HZ_CAPWRAPBYDEF": { "message": "Alapértelmezett sortörés" },
+    "SETTINGS_CSS": { "message": "Színváltoztatás a beállítások oldalán" },
+    "HZ_CSSDIM": { "message": "elsötétít oldalt" },
+    "HZ_MAXW": { "message": "maximális szélesség(-1=letiltás)" },
+    "HZ_MAXH": { "message": "maximális magasság(-1=letiltás)" },
+    "settings": { "message": "lehetőségek" },
+    "HZ_NUMPAD": { "message": "Numerikus billentyűzet navigációs gombokként" },
+    "HZ_NUMPAD_TIP": {
+        "message": "Engedélyezze ezt az opciót a numerikus billentyűk használatához navigációs billentyűként a számok helyett."
+    },
+    "SIV_BUTT_KEEP": {
+        "message": "Tekintse meg a tartálylistát, ha nincs kiválasztva semmi, vagy adja hozzá/távolítsa el a kiválasztott elemeket."
+    },
+    "SIEVEKEEPADV": { "message": "Haladó megtartás " },
+    "SIEVEKEEPADV_TIP": {
+        "message": "BE: Új és régi Sieve összehasonlítása a megtartandók eldöntéséhez, lehetőség a testreszabott Sieve vagy más változtatások megtartására. KI: Csak a be/ki állapotot tartja meg, minden más módosítás törlésre kerül. A zöld azt jelenti, hogy a Sieve szerepel a megtartandó listában. Ha változtatásokat hajtott végre és nincs zöld, manuálisan hozzá kell adnia."
+    },
+    "SAVEAS": { "message": "Fájl kiterjesztések módosítása" },
+    "HZ_EXT": { "message": "Keresse ezeket a kiterjesztéseket az URL-ben" },
+    "HZ_EXT2": {
+        "message": "Ha nem található, konvertálja a következő táblázat szerint"
+    },
+    "HZ_EXT3": {
+        "message": "Alapértelmezett fájlkiterjesztés, ha minden más hiba esetén"
+    },
+    "HZ_SC_SWITCHRES": {
+        "message": "Felbontás váltása (nem használható minden Szűrő-nél, váltásra <b>Shift</b> billentyűvel ezen az oldalon az újratöltésig)"
+    },
+    "HZ_SC_DEL": { "message": "Gyorsbillentyű törlése" },
+    "SIV_KEEP": { "message": "Hozzáadás a megtartandó listához" }
+}

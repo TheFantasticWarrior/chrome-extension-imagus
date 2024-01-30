@@ -587,6 +587,9 @@ input.normal:invalid {
     background-image: -webkit-linear-gradient(top, #bffffd, #7cf2ee);
     background-image: linear-gradient(to bottom, #bffffd, #7cf2ee);
 }
+#sieve_container > .keeping > span {
+    box-shadow: inset 0 0 0 20px green;
+}
 #sieve_container > .move {
     background: white;
     width: auto;

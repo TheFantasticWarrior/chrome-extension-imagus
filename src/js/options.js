@@ -980,20 +980,16 @@ window.addEventListener(
             false
         );
 
-        $("save_button").addEventListener(
-            "click",
-            function (e) {
-                e.preventDefault();
-                if (
-                    !document.querySelector(".normal") ||
-                    document.querySelector(".normal").reportValidity()
-                ) {
-                    save();
-                    color_trans(this, "green");
-                }
-            },
-            false
-        );
+        $("save_button").onclick = function (e) {
+            e.preventDefault();
+            if (
+                !document.querySelector(".normal") ||
+                document.querySelector(".normal").reportValidity()
+            ) {
+                save();
+                color_trans(this, "green");
+            }
+        };
 
         $("import").onclick = function () {
             ImprtHandler(_("SC_PREFS"), prefs, {
