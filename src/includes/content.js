@@ -4090,9 +4090,9 @@
             PVI.reset();
         },
         resize: function (x, xy_img) {
-            if (PVI.state !== 4 || !PVI.fullZm) {
+            /*if (PVI.state !== 4 || !PVI.fullZm) {
                 return;
-            }
+            }*/
 
             var s = PVI.TRG.IMGS_SVG
                 ? PVI.stack[PVI.IMG.src].slice()
@@ -4613,7 +4613,8 @@
                     PVI.timers.preview = setTimeout(PVI.load, cfg.hz.delay);
                 }
             } else if (
-                (e.target.IMGS_ &&
+                (e.target &&
+                    e.target.IMGS_ &&
                     PVI.TBOX &&
                     (PVI.TBOX.Left > e.pageX ||
                         PVI.TBOX.Right < e.pageX ||
@@ -5315,6 +5316,8 @@
                 } else {
                     PVI.initOnMouseMoveEnd();
                     cfg = e.prefs;
+                    var date;
+                    ({ date, ...cfg.sieve } = cfg.sieve);
                     win.addEventListener("keydown", PVI.enable);
 
                     Port.listen(PVI.onMessage);
