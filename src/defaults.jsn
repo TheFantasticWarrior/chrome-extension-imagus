@@ -74,7 +74,9 @@
             "img": "jpg",
             "video": "mp4",
             "audio": "mp3"
-        }
+        },
+        "zoomin": 1.35,
+        "zoomout": 0.75
     },
     "tls": {
         "advanced": false,

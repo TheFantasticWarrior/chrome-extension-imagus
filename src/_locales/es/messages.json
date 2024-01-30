@@ -1,1 +1,269 @@
-{"APP_DESCRIPTION": {"message": "Amplia imágenes en miniatura, y muestra imágenes y videos al pasar el puntero sobre enlaces."}, "NAV_SIEVE": {"message": "Filtros"}, "NAV_GRANTS": {"message": "Permisos"}, "NAV_INFO": {"message": "Información"}, "SHORTCUTS": {"message": "Atajos"}, "PH_CLICKFORSAMPLE": {"message": "haz clic para mostrar ejemplos..."}, "DISABLED": {"message": "deshabilitado"}, "LOADING": {"message": "Cargando..."}, "DETAILS": {"message": "Detalles"}, "AREYOUSURE": {"message": "¿Estás seguro?"}, "DELITEMS": {"message": "Eliminar todos los elementos o solo los seleccionados?"}, "EMPTY": {"message": "No hay nada por aquí..."}, "NOMATCH": {"message": "No hay resultados..."}, "SEARCH": {"message": "buscar..."}, "INVALIDFORMAT": {"message": "¡Formato no válido!"}, "BUTTON_RESET": {"message": "Predeterminado"}, "BUTTON_SAVE": {"message": "Guardar"}, "HZ_ENABLED": {"message": "Habilitado"}, "HZ_DISABLED": {"message": "Deshabilitado"}, "HZ_ENDIS_WHEN": {"message": "al mantener pulsado"}, "HZ_ENDIS_NONE": {"message": "nada"}, "HZ_ENDIS_TIP": {"message": "<b>Deshabilitado</b> al mantener pulsado <b>nada</b> - siempre habilitado.\n<b>Deshabilitado</b> al mantener pulsado (<b>tecla/botón</b>) - deshabilitar solo cuando la tecla o botón seleccionado este presionado, de lo contrario estará siempre habilitado.\n<b>Habilitado</b> al mantener pulsado <b>nada</b> - siempre deshabilitado.\n<b>Habilitado</b> al mantener pulsado (<b>tecla/botón</b>) - habilitado solo cuando la tecla o botón seleccionado este presionado, de lo contrario estará siempre deshabilitado."}, "HZ_DELAY": {"message": "Retraso para mostrar (ms)"}, "HZ_ZOOMRESIZED": {"message": "Diferencia mínima de tamaño para ampliar"}, "HZ_ZOOMRESIZED_TIP": {"message": "Esta opción indica por que porcentaje debe ser la imagen original mayor que su miniatura para mostrar el visor."}, "HZ_HIRES": {"message": "Preferir imágenes de mayor resolución"}, "HZ_HIRES_TIP": {"message": "Muchos servicios de alojamiento de imágenes ofrecen versiones en diferentes tamaños de la misma imagen. Los filtros pueden crear direcciones URL para esas imágenes y marcar la imagen de mayor tamaño como \"de alta resolución\" (probablemente la imagen original), y las de tamaño mediano como \"de baja resolución\".\nSi esta opción esta desactivada, entonces el visor cargará la imagen de baja resolución, aunque se puede cambiar entre las diferentes resoluciones con la tecla <b>Tab</b> (tabulador), o cuando el visor este fijo al hacer clic en las dimensiones de la imagen (arriba a la izquierda).\nSi la opción <b>Mostrar dimensiones de la imagen</b> esta activada, su color (depende de la opción <b>Estilo para el texto de la imagen</b>) será de color azul o rojo si la imagen cargada es de baja resolución, indicando que (quizás) este disponible una imagen de mayor resolución."}, "HZ_HIRESONFZ": {"message": "Cargar imágenes de mayor resolución al entrar al modo de visor fijo"}, "HZ_HIRESONFZ_TIP": {"message": "Intentar cargar la versión de mayor resolución de la imagen al entrar al modo de visor fijo, si el ratio de aspecto de las dimensiones de la imagen (el lado más largo entre el más corto) es mayor o igual al valor especificado (solo tiene efecto si se usa el modo cargar imágenes de baja resolución)."}, "HZ_PLACEMENT": {"message": "Ubicación del visor"}, "HZ_FULLSPACE": {"message": "Usar todo el espacio disponible"}, "HZ_PLACEMENT_CURCOR": {"message": "cursor en la esquina del visor"}, "HZ_PLACEMENT_CURSIDE": {"message": "cursor al lado del visor"}, "HZ_PLACEMENT_CENTER": {"message": "en el centro de la ventana"}, "HZ_PRELOAD": {"message": "Pre-cargar imágenes"}, "HZ_PRELOAD_NO": {"message": "no pre-cargar"}, "HZ_PRELOAD_MOUSEOVER": {"message": "al pasar el cursor por encima"}, "HZ_PRELOAD_PAGELOAD": {"message": "al cargar la página"}, "HZ_FULLZOOM": {"message": "Modo de visor fijo"}, "HZ_MARKONHOVER": {"message": "Resaltar elementos ampliables"}, "HZ_MARKONHOVER_O_SOLID": {"message": "línea continua"}, "HZ_MARKONHOVER_O_DASHED": {"message": "línea discontinua"}, "HZ_MARKONHOVER_O_DOTTED": {"message": "línea punteada"}, "HZ_THUMBASBG": {"message": "Usar la miniatura como fondo para el visor"}, "HZ_THUMBASBGMASK": {"message": "Máscara de opacidad y color"}, "HZ_CAPTION": {"message": "Texto de la imagen (leyenda)"}, "HZ_CAP_POS": {"message": "Ubicación del texto de la imagen"}, "HZ_CAP_TOP": {"message": "arriba"}, "HZ_CAP_BOTTOM": {"message": "debajo"}, "HZ_CAP_NOSBAR": {"message": "No mostrar ayudas emergentes (útil al ocultar la barra de estado)"}, "HZ_CAP_WH": {"message": "Mostrar dimensiones de la imagen/vídeo"}, "HZ_APPEARANCE": {"message": "Apariencia"}, "HZ_FOLLOW": {"message": "Seguir al puntero mientras se oculta"}, "HZ_MOVE": {"message": "Seguir al puntero del ratón"}, "HZ_WAITHIDE": {"message": "Esperar antes de abrir otro visor"}, "HZ_SC_TOGGLE": {"message": "suspender para el dominio actual por el resto de la sesión"}, "HZ_SC_PRELOAD": {"message": "pre-cargar imágenes manualmente"}, "HZ_SC_FULLZOOM": {"message": "entrar al modo de visor fijo"}, "HZ_SC_FULLSPACE": {"message": "activar/desactivar el uso de todo el espacio disponible"}, "HZ_SC_CAPTION": {"message": "ajustar el texto a la anchura del visor (u ocultarlo usando <b>Shift +</b> atajo)"}, "HZ_SC_OPEN": {"message": "abrir la imagen en una nueva pestaña (<b>Shift</b> para abrir en segundo plano)"}, "HZ_SC_RESET": {"message": "ocultar el visor y detener la descarga de su contenido"}, "SC_ZOOMINOUT": {"message": "Acercar/alejar la imagen"}, "SC_PREFS": {"message": "Preferencias"}, "SC_MENU": {"message": "Mostrar menú"}, "SC_FLIPH": {"message": "Voltear horizontalmente"}, "SC_FLIPV": {"message": "Voltear verticalmente"}, "SC_ROTL": {"message": "Girar a la izquierda"}, "SC_ROTR": {"message": "Girar a la derecha"}, "SC_MORIG": {"message": "Tamaño original"}, "SC_MFIT": {"message": "Ajuste automático"}, "SC_MFITW": {"message": "Ajustar a lo ancho"}, "SC_MFITH": {"message": "Ajustar a lo alto"}, "SC_SENDTO": {"message": "Enviar imagen a..."}, "OP_ZOOM": {"message": "<b>Ctrl + clic</b> con el botón derecho del ratón sobre una imagen para abrirla en el visor flotante"}, "TLS_SENDIMGTO": {"message": "Enviar imagen a..."}, "TLS_SENDTOMSC": {"message": "<b>Ctrl + Alt</b> [<b>+ Shift</b>] <b>+ clic derecho</b> sobre una imagen (normal)"}, "SIV_BUTT_NEW": {"message": "Nuevo filtro"}, "SIV_BUTT_DEL": {"message": "Remover todo o sólo lo seleccionado"}, "SIV_BUTT_TOGGLE": {"message": "Desactivar/activar todos o seleccionados y agregar a la lista de conservación."}, "SIV_BUTT_IMP": {"message": "Importar"}, "SIV_BUTT_EXP": {"message": "Exportar todo o sólo lo seleccionado"}, "SIV_BUTT_UPD": {"message": "Actualizar filtros"}, "SIV_CI": {"message": "No distinguir mayúsculas de minúsculas"}, "SIV_DC": {"message": "Descifrar la dirección URL devuelta por este parámetro"}, "SIV_LOOP": {"message": "Usar de nuevo el Filtro con la URL resultante"}, "SIV_USEIMG": {"message": "Dar prioridad a \"img\" sobre \"link\""}, "SIV_ERR_EMPTYNAME": {"message": "¡El nombre de la regla no puede estar vacío!"}, "SIV_ERR_DUPENAME": {"message": "¡Cada regla debe tener un nombre único!"}, "SIV_DETAILS": {"message": "<b>Ctrl + clic derecho</b> para borrar<br><b>Arrastrar</b> con el <b>botón izquierdo</b> para mover<br><b>clic derecho</b> para renombrar (<b>Esc/Enter</b> para salir)<br><b>Ctrl + clic izquierdo</b> para seleccionar (<b>Shift</b> para activar selección múltiple)"}, "GRNT_RULEPERLINE": {"message": "Una regla por línea: Para más información, pulsa el botón \"Detalles\" a la derecha."}, "PREF_IMPORT": {"message": "Importar configuración"}, "PREF_EXPORT": {"message": "Exportar configuración"}, "HZ_PRELOAD_MINIMAL": {"message": "mínimo"}, "HZ_PRELOAD_TIP": {"message": "<b>no pre-cargar</b> - sólo se puede cargar una imagen a la vez\n<b>mínimo</b> - varias imágenes se pueden cargar a la vez, si una imagen ya ha comenzado a cargar, terminará incluso si se mueve el cursor a otro elemento\n<b>al pasar el cursor por encima</b> - la imagen comenzará a cargar inmediatamente al pasar el cursor por encima\n<b>al cargar la página</b> - todas las imágenes comenzarán a cargar al abrir la página"}, "HZ_CAP_TEXT": {"message": "Mostrar texto de la imagen"}, "HZ_FZMODE": {"message": "Modo de desplazamiento predeterminado"}, "HZ_FZMODE_FOLLOW": {"message": "mover con el cursor del ratón"}, "HZ_FZMODE_DRAG": {"message": "mover arrastrando"}, "HZ_FZMODE_TIP": {"message": "<b>mover con el cursor del ratón</b> - siempre se centrará la imagen si es más pequeña que la pantalla, de lo contrario se ampliará a su tamaño original y se mostrará la parte de la imagen de acuerdo a la posición del puntero en la pantalla, y su posición cambiará a medida que el puntero del ratón se mueva.\n<b>mover arrastrando</b> - la posición de la imagen será fija, pero se podrá desplazar arrastrándola con el cursor."}, "HZ_CAP_STYLE": {"message": "Estilo para el texto de la imagen"}, "HZ_CAP_STYLE_DARK": {"message": "oscuro"}, "HZ_CAP_STYLE_LIGHT": {"message": "claro"}, "HZ_MARKONHOVER_TIP": {"message": "Al pasar el puntero del ratón sobre un enlace o miniatura, <b class=\"cur_zmin\">el cursor</b> o el <span style=\"border: 1px dashed red\">contorno del elemento</span>\ncambiará, indicando que el elemento se puede ampliar con el visor."}, "HZ_FULLSPACE_TIP": {"message": "Al activar esta opción, el visor se expandirá debajo del puntero del ratón si no hay espacio suficiente entre el puntero y el resto de la página.\nSi la ubicación del visor (ver la opción anterior) esta seleccionada en \"al centro\", entonces el visor siempre usará todo el espacio disponible, por lo que no tiene caso activar esta opción."}, "HZ_PILEWHEEL": {"message": "Desplazarse a través de un álbum con la rueda del ratón"}, "HZ_PILEWHEEL_TIP": {"message": "Se puede usar la rueda del ratón para desplazarse entre los elementos de un álbum, además de poder usar los atajos de teclado.\nSi la opción está habilitada, impedirá el desplazamiento por la página mientras el visor este visible.\nSi el visor esta fijo, la rueda del ratón acercará o alejará la imagen (opción predeterminada). Para cambiar entre imágenes, el desplazamiento debe hacerse sobre la esquina superior izquierda de la imagen (una zona de 50x50px) o sobre el contador."}, "HZ_FZONPRESS": {"message": "Activación con el botón derecho del ratón"}, "HZ_HISTORY": {"message": "Añadir al historial los enlaces abiertos con el visor"}, "HZ_HISTORY_TIP": {"message": "Marca automáticamente como visitados los enlaces en cuanto se muestren en el visor.\nEn caso de que el enlace contenga múltiples elementos, por lo menos los dos primeros deberán ser vistos.\nEs posible marcar enlaces manualmente usando la tecla de acceso (ver debajo en <i>Atajos</i>). Si el enlace ya se encuentra en el historial, será removido.\n<b>Shift + tecla de acceso</b> habilitará/deshabilitará esta opción."}, "HZ_SC_HISTORY": {"message": "añadir/remover del historial del navegador"}, "IMPR_CLEAR_DATA": {"message": "Borrar datos antes de importar"}, "IMPR_FROM_FILE": {"message": "Desde archivo"}, "IMPR_FROM_TEXT": {"message": "Desde texto"}, "IMPR_IMPORT": {"message": "Importar"}, "IMPR_OVERWRITE": {"message": "Reemplazar datos existentes"}, "LANGUAGE": {"message": "Idioma"}, "TRANSLATIONS": {"message": "Traducciones"}, "TRANSLATIONS_TIP": {"message": "Si quieres ayudar en la traducción de la extensión, envía un e-mail a <a data-mail>esta dirección</a> mencionando los idiomas que dominas."}, "TRANSLATORS": {"message": "Traductores"}, "HZ_ENDIS_RIGHT_BUTTON": {"message": "botón derecho"}, "SIV_AUTOUPDATE": {"message": "Actualizar filtros automáticamente"}, "ADVANCED": {"message": "Avanzado"}, "HZ_SCOFFININPUT": {"message": "Deshabilitar los atajos al editar texto"}, "HZ_CSS": {"message": "Estilo personalizado (CSS)"}, "HZ_MARKONHOVER_CR": {"message": "cambiar el cursor"}, "HZ_HIDEIDLECURSOR": {"message": "Ocultar el cursor inactivo sobre el visor"}, "HZ_PLACEMENT_NOCOVER": {"message": "no cubrir el elemento ampliable"}, "HZ_MINPOPUPDISTANCE": {"message": "Distancia mínima entre el visor y el puntero"}, "HZ_HIDEIDLECURSOR_TIP": {"message": "<b>-1</b> - siempre visible\n<b>0-49</b> - siempre oculto\n<b>&gt;=50</b> - ocultar luego del tiempo especificado (ms)"}, "HZ_FZONPRESS_CLICK": {"message": "una pulsación"}, "HZ_FZONPRESS_LONG": {"message": "una pulsación larga"}, "HZ_SC_SAVE": {"message": "Guardar el contenido del visor"}, "HZ_SC_COPY": {"message": "Copiar la URL, o presionar dos veces para copiar el texto de la leyenda"}, "SIV_CACHERES": {"message": "Almacenar en caché las direcciones resueltas (res)"}, "HZ_PLACEMENT_CURCENTER": {"message": "cursor en el centro del visor"}, "HZ_PILECYCLE": {"message": "Desplazamiento cíclico en álbumes"}, "APP_INSTALLED": {"message": "¡La extensión se ha instalado!"}, "APP_UPDATED": {"message": "¡La extensión se ha actualizado a una nueva versión!"}, "GRNT_HELP": {"message": "Sintaxis básica: <b>operador:URL</b>\nOperadores: <b>!</b> (bloquear), <b>~</b> (permitir).\nColoca un <b>;</b> (semicolon) al inicio de la linea para comentarla (esto desactivará la regla).\nDuplica el operador para usar expresiones regulares.\n* (asterisco) cualquier dirección URL.\n\nPermitir solo en imgur\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nBloquear algunos sitios\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nEn reddit, permitir solo los subreddits /r/pics & /r/funny\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"}, "APP_VERSIONINFO": {"message": "¡Echa un vistazo a los <a data-hl>aspectos destacados</a> de esta versión, o revisa todo el <a data-cl>listado de cambios</a>!"}, "HZ_DELAYONIDLE": {"message": "Esperar a que el puntero este inactivo sobre el elemento."}, "HZ_PILEWHEEL_ON": {"message": "habilitado"}, "HZ_PILEWHEEL_HORIZ_ONLY": {"message": "solo en desplazamiento horizontal"}, "HZ_CAP_LINKTEXT": {"message": "Usar texto del enlace como título"}, "MUST_READ": {"message": "Lectura imprescindible"}, "HZ_SAVE": {"message": "Haga clic para solicitar permiso para guardar."}, "ASK_SAVE": {"message": "Especifique una subcarpeta en Descargas/ o déjelo en blanco"}, "HZ_CAPWRAPBYDEF": {"message": "Ajuste de línea por defecto"}, "SETTINGS_CSS": {"message": "Cambiar el color para la página de configuración"}, "HZ_CSSDIM": {"message": "oscurecer página"}, "HZ_MAXW": {"message": "ancho máximo(-1=deshabilitar)"}, "HZ_MAXH": {"message": "altura máxima(-1=deshabilitar)"}, "settings": {"message": "opciones"}, "HZ_NUMPAD": {"message": "Numpad como teclas de navegación"}, "HZ_NUMPAD_TIP": {"message": "Habilita esta opción para usar las teclas del teclado numérico como teclas de navegación en lugar de números."}, "SIV_UPDALERT": {"message": "Compara y actualiza tus Filtros seleccionados. Revisa los cambios, realiza modificaciones en uno y elimina el otro cuando hayas terminado."}, "SIV_BUTT_KEEP": {"message": "Ver la lista de elementos a conservar o agregar/eliminar elementos seleccionados."}, "SIEVEKEEPADV": {"message": "Conservación avanzada "}, "SIEVEKEEPADV_TIP": {"message": "ACT: comparar Filtros nuevos y antiguos para decidir qué conservar, capacidad de conservar Filtros personalizados u otros cambios\nDES: conservar solo el estado de encendido/apagado, todas las demás modificaciones se eliminarán"}, "SAVEAS": {"message": "Cambiar extensiones de archivos (¿solo Firefox?)"}, "HZ_EXT": {"message": "Buscar estas extensiones en la URL"}, "HZ_EXT2": {"message": "Si no se encuentra, convertir utilizando esta tabla"}, "HZ_EXT3": {"message": "Extensión de archivo predeterminada si todo falla"}, "HZ_SC_SWITCHRES": {"message": "Alternar resolución (no se usa con todos los Filtros, <b>Shift</b> para alternar esta página hasta que se recargue)"}, "HZ_SC_DEL": {"message": "Borrar tecla de acceso directo"}}
+{
+    "APP_DESCRIPTION": {
+        "message": "Amplia imágenes en miniatura, y muestra imágenes y videos al pasar el puntero sobre enlaces."
+    },
+    "NAV_SIEVE": { "message": "Filtros" },
+    "NAV_GRANTS": { "message": "Permisos" },
+    "NAV_INFO": { "message": "Información" },
+    "SHORTCUTS": { "message": "Atajos" },
+    "PH_CLICKFORSAMPLE": { "message": "haz clic para mostrar ejemplos..." },
+    "DISABLED": { "message": "deshabilitado" },
+    "LOADING": { "message": "Cargando..." },
+    "DETAILS": { "message": "Detalles" },
+    "AREYOUSURE": { "message": "¿Estás seguro?" },
+    "DELITEMS": {
+        "message": "Eliminar todos los elementos o solo los seleccionados?"
+    },
+    "EMPTY": { "message": "No hay nada por aquí..." },
+    "NOMATCH": { "message": "No hay resultados..." },
+    "SEARCH": { "message": "buscar..." },
+    "INVALIDFORMAT": { "message": "¡Formato no válido!" },
+    "BUTTON_RESET": { "message": "Predeterminado" },
+    "BUTTON_SAVE": { "message": "Guardar" },
+    "HZ_ENABLED": { "message": "Habilitado" },
+    "HZ_DISABLED": { "message": "Deshabilitado" },
+    "HZ_ENDIS_WHEN": { "message": "al mantener pulsado" },
+    "HZ_ENDIS_NONE": { "message": "nada" },
+    "HZ_ENDIS_TIP": {
+        "message": "<b>Deshabilitado</b> al mantener pulsado <b>nada</b> - siempre habilitado.\n<b>Deshabilitado</b> al mantener pulsado (<b>tecla/botón</b>) - deshabilitar solo cuando la tecla o botón seleccionado este presionado, de lo contrario estará siempre habilitado.\n<b>Habilitado</b> al mantener pulsado <b>nada</b> - siempre deshabilitado.\n<b>Habilitado</b> al mantener pulsado (<b>tecla/botón</b>) - habilitado solo cuando la tecla o botón seleccionado este presionado, de lo contrario estará siempre deshabilitado."
+    },
+    "HZ_DELAY": { "message": "Retraso para mostrar (ms)" },
+    "HZ_ZOOMRESIZED": { "message": "Diferencia mínima de tamaño para ampliar" },
+    "HZ_ZOOMRESIZED_TIP": {
+        "message": "Esta opción indica por que porcentaje debe ser la imagen original mayor que su miniatura para mostrar el visor."
+    },
+    "HZ_HIRES": { "message": "Preferir imágenes de mayor resolución" },
+    "HZ_HIRES_TIP": {
+        "message": "Muchos servicios de alojamiento de imágenes ofrecen versiones en diferentes tamaños de la misma imagen. Los filtros pueden crear direcciones URL para esas imágenes y marcar la imagen de mayor tamaño como \"de alta resolución\" (probablemente la imagen original), y las de tamaño mediano como \"de baja resolución\".\nSi esta opción esta desactivada, entonces el visor cargará la imagen de baja resolución, aunque se puede cambiar entre las diferentes resoluciones con la tecla <b>Tab</b> (tabulador), o cuando el visor este fijo al hacer clic en las dimensiones de la imagen (arriba a la izquierda).\nSi la opción <b>Mostrar dimensiones de la imagen</b> esta activada, su color (depende de la opción <b>Estilo para el texto de la imagen</b>) será de color azul o rojo si la imagen cargada es de baja resolución, indicando que (quizás) este disponible una imagen de mayor resolución."
+    },
+    "HZ_HIRESONFZ": {
+        "message": "Cargar imágenes de mayor resolución al entrar al modo de visor fijo"
+    },
+    "HZ_HIRESONFZ_TIP": {
+        "message": "Intentar cargar la versión de mayor resolución de la imagen al entrar al modo de visor fijo, si el ratio de aspecto de las dimensiones de la imagen (el lado más largo entre el más corto) es mayor o igual al valor especificado (solo tiene efecto si se usa el modo cargar imágenes de baja resolución)."
+    },
+    "HZ_PLACEMENT": { "message": "Ubicación del visor" },
+    "HZ_FULLSPACE": { "message": "Usar todo el espacio disponible" },
+    "HZ_PLACEMENT_CURCOR": { "message": "cursor en la esquina del visor" },
+    "HZ_PLACEMENT_CURSIDE": { "message": "cursor al lado del visor" },
+    "HZ_PLACEMENT_CENTER": { "message": "en el centro de la ventana" },
+    "HZ_PRELOAD": { "message": "Pre-cargar imágenes" },
+    "HZ_PRELOAD_NO": { "message": "no pre-cargar" },
+    "HZ_PRELOAD_MOUSEOVER": { "message": "al pasar el cursor por encima" },
+    "HZ_PRELOAD_PAGELOAD": { "message": "al cargar la página" },
+    "HZ_FULLZOOM": { "message": "Modo de visor fijo" },
+    "HZ_MARKONHOVER": { "message": "Resaltar elementos ampliables" },
+    "HZ_MARKONHOVER_O_SOLID": { "message": "línea continua" },
+    "HZ_MARKONHOVER_O_DASHED": { "message": "línea discontinua" },
+    "HZ_MARKONHOVER_O_DOTTED": { "message": "línea punteada" },
+    "HZ_THUMBASBG": { "message": "Usar la miniatura como fondo para el visor" },
+    "HZ_THUMBASBGMASK": { "message": "Máscara de opacidad y color" },
+    "HZ_CAPTION": { "message": "Texto de la imagen (leyenda)" },
+    "HZ_CAP_POS": { "message": "Ubicación del texto de la imagen" },
+    "HZ_CAP_TOP": { "message": "arriba" },
+    "HZ_CAP_BOTTOM": { "message": "debajo" },
+    "HZ_CAP_NOSBAR": {
+        "message": "No mostrar ayudas emergentes (útil al ocultar la barra de estado)"
+    },
+    "HZ_CAP_WH": { "message": "Mostrar dimensiones de la imagen/vídeo" },
+    "HZ_APPEARANCE": { "message": "Apariencia" },
+    "HZ_FOLLOW": { "message": "Seguir al puntero mientras se oculta" },
+    "HZ_MOVE": { "message": "Seguir al puntero del ratón" },
+    "HZ_WAITHIDE": { "message": "Esperar antes de abrir otro visor" },
+    "HZ_SC_TOGGLE": {
+        "message": "suspender para el dominio actual por el resto de la sesión"
+    },
+    "HZ_SC_PRELOAD": { "message": "pre-cargar imágenes manualmente" },
+    "HZ_SC_FULLZOOM": { "message": "entrar al modo de visor fijo" },
+    "HZ_SC_FULLSPACE": {
+        "message": "activar/desactivar el uso de todo el espacio disponible"
+    },
+    "HZ_SC_CAPTION": {
+        "message": "ajustar el texto a la anchura del visor (u ocultarlo usando <b>Shift +</b> atajo)"
+    },
+    "HZ_SC_OPEN": {
+        "message": "abrir la imagen en una nueva pestaña (<b>Shift</b> para abrir en segundo plano)"
+    },
+    "HZ_SC_RESET": {
+        "message": "ocultar el visor y detener la descarga de su contenido"
+    },
+    "SC_ZOOMINOUT": { "message": "Acercar/alejar la imagen" },
+    "SC_PREFS": { "message": "Preferencias" },
+    "SC_MENU": { "message": "Mostrar menú" },
+    "SC_FLIPH": { "message": "Voltear horizontalmente" },
+    "SC_FLIPV": { "message": "Voltear verticalmente" },
+    "SC_ROTL": { "message": "Girar a la izquierda" },
+    "SC_ROTR": { "message": "Girar a la derecha" },
+    "SC_MORIG": { "message": "Tamaño original" },
+    "SC_MFIT": { "message": "Ajuste automático" },
+    "SC_MFITW": { "message": "Ajustar a lo ancho" },
+    "SC_MFITH": { "message": "Ajustar a lo alto" },
+    "SC_SENDTO": { "message": "Enviar imagen a..." },
+    "OP_ZOOM": {
+        "message": "<b>Ctrl + clic</b> con el botón derecho del ratón sobre una imagen para abrirla en el visor flotante"
+    },
+    "TLS_SENDIMGTO": { "message": "Enviar imagen a..." },
+    "TLS_SENDTOMSC": {
+        "message": "<b>Ctrl + Alt</b> [<b>+ Shift</b>] <b>+ clic derecho</b> sobre una imagen (normal)"
+    },
+    "SIV_BUTT_NEW": { "message": "Nuevo filtro" },
+    "SIV_BUTT_DEL": { "message": "Remover todo o sólo lo seleccionado" },
+    "SIV_BUTT_TOGGLE": {
+        "message": "Desactivar/activar todos o seleccionados y agregar a la lista de conservación."
+    },
+    "SIV_BUTT_IMP": { "message": "Importar" },
+    "SIV_BUTT_EXP": { "message": "Exportar todo o sólo lo seleccionado" },
+    "SIV_BUTT_UPD": { "message": "Actualizar filtros" },
+    "SIV_CI": { "message": "No distinguir mayúsculas de minúsculas" },
+    "SIV_DC": {
+        "message": "Descifrar la dirección URL devuelta por este parámetro"
+    },
+    "SIV_LOOP": { "message": "Usar de nuevo el Filtro con la URL resultante" },
+    "SIV_USEIMG": { "message": "Dar prioridad a \"img\" sobre \"link\"" },
+    "SIV_ERR_EMPTYNAME": {
+        "message": "¡El nombre de la regla no puede estar vacío!"
+    },
+    "SIV_ERR_DUPENAME": {
+        "message": "¡Cada regla debe tener un nombre único!"
+    },
+    "SIV_DETAILS": {
+        "message": "<b>Ctrl + clic derecho</b> para borrar<br><b>Arrastrar</b> con el <b>botón izquierdo</b> para mover<br><b>clic derecho</b> para renombrar (<b>Esc/Enter</b> para salir)<br><b>Ctrl + clic izquierdo</b> para seleccionar (<b>Shift</b> para activar selección múltiple)"
+    },
+    "GRNT_RULEPERLINE": {
+        "message": "Una regla por línea: Para más información, pulsa el botón \"Detalles\" a la derecha."
+    },
+    "PREF_IMPORT": { "message": "Importar configuración" },
+    "PREF_EXPORT": { "message": "Exportar configuración" },
+    "HZ_PRELOAD_MINIMAL": { "message": "mínimo" },
+    "HZ_PRELOAD_TIP": {
+        "message": "<b>no pre-cargar</b> - sólo se puede cargar una imagen a la vez\n<b>mínimo</b> - varias imágenes se pueden cargar a la vez, si una imagen ya ha comenzado a cargar, terminará incluso si se mueve el cursor a otro elemento\n<b>al pasar el cursor por encima</b> - la imagen comenzará a cargar inmediatamente al pasar el cursor por encima\n<b>al cargar la página</b> - todas las imágenes comenzarán a cargar al abrir la página"
+    },
+    "HZ_CAP_TEXT": { "message": "Mostrar texto de la imagen" },
+    "HZ_FZMODE": { "message": "Modo de desplazamiento predeterminado" },
+    "HZ_FZMODE_FOLLOW": { "message": "mover con el cursor del ratón" },
+    "HZ_FZMODE_DRAG": { "message": "mover arrastrando" },
+    "HZ_FZMODE_TIP": {
+        "message": "<b>mover con el cursor del ratón</b> - siempre se centrará la imagen si es más pequeña que la pantalla, de lo contrario se ampliará a su tamaño original y se mostrará la parte de la imagen de acuerdo a la posición del puntero en la pantalla, y su posición cambiará a medida que el puntero del ratón se mueva.\n<b>mover arrastrando</b> - la posición de la imagen será fija, pero se podrá desplazar arrastrándola con el cursor."
+    },
+    "HZ_CAP_STYLE": { "message": "Estilo para el texto de la imagen" },
+    "HZ_CAP_STYLE_DARK": { "message": "oscuro" },
+    "HZ_CAP_STYLE_LIGHT": { "message": "claro" },
+    "HZ_MARKONHOVER_TIP": {
+        "message": "Al pasar el puntero del ratón sobre un enlace o miniatura, <b class=\"cur_zmin\">el cursor</b> o el <span style=\"border: 1px dashed red\">contorno del elemento</span>\ncambiará, indicando que el elemento se puede ampliar con el visor."
+    },
+    "HZ_FULLSPACE_TIP": {
+        "message": "Al activar esta opción, el visor se expandirá debajo del puntero del ratón si no hay espacio suficiente entre el puntero y el resto de la página.\nSi la ubicación del visor (ver la opción anterior) esta seleccionada en \"al centro\", entonces el visor siempre usará todo el espacio disponible, por lo que no tiene caso activar esta opción."
+    },
+    "HZ_PILEWHEEL": {
+        "message": "Desplazarse a través de un álbum con la rueda del ratón"
+    },
+    "HZ_PILEWHEEL_TIP": {
+        "message": "Se puede usar la rueda del ratón para desplazarse entre los elementos de un álbum, además de poder usar los atajos de teclado.\nSi la opción está habilitada, impedirá el desplazamiento por la página mientras el visor este visible.\nSi el visor esta fijo, la rueda del ratón acercará o alejará la imagen (opción predeterminada). Para cambiar entre imágenes, el desplazamiento debe hacerse sobre la esquina superior izquierda de la imagen (una zona de 50x50px) o sobre el contador."
+    },
+    "HZ_FZONPRESS": { "message": "Activación con el botón derecho del ratón" },
+    "HZ_HISTORY": {
+        "message": "Añadir al historial los enlaces abiertos con el visor"
+    },
+    "HZ_HISTORY_TIP": {
+        "message": "Marca automáticamente como visitados los enlaces en cuanto se muestren en el visor.\nEn caso de que el enlace contenga múltiples elementos, por lo menos los dos primeros deberán ser vistos.\nEs posible marcar enlaces manualmente usando la tecla de acceso (ver debajo en <i>Atajos</i>). Si el enlace ya se encuentra en el historial, será removido.\n<b>Shift + tecla de acceso</b> habilitará/deshabilitará esta opción."
+    },
+    "HZ_SC_HISTORY": {
+        "message": "añadir/remover del historial del navegador"
+    },
+    "IMPR_CLEAR_DATA": { "message": "Borrar datos antes de importar" },
+    "IMPR_FROM_FILE": { "message": "Desde archivo" },
+    "IMPR_FROM_TEXT": { "message": "Desde texto" },
+    "IMPR_IMPORT": { "message": "Importar" },
+    "IMPR_OVERWRITE": { "message": "Reemplazar datos existentes" },
+    "LANGUAGE": { "message": "Idioma" },
+    "TRANSLATIONS": { "message": "Traducciones" },
+    "TRANSLATIONS_TIP": {
+        "message": "Si quieres ayudar en la traducción de la extensión, envía un e-mail a <a data-mail>esta dirección</a> mencionando los idiomas que dominas."
+    },
+    "TRANSLATORS": { "message": "Traductores" },
+    "HZ_ENDIS_RIGHT_BUTTON": { "message": "botón derecho" },
+    "SIV_AUTOUPDATE": { "message": "Actualizar filtros automáticamente" },
+    "ADVANCED": { "message": "Avanzado" },
+    "HZ_SCOFFININPUT": { "message": "Deshabilitar los atajos al editar texto" },
+    "HZ_CSS": { "message": "Estilo personalizado (CSS)" },
+    "HZ_MARKONHOVER_CR": { "message": "cambiar el cursor" },
+    "HZ_HIDEIDLECURSOR": {
+        "message": "Ocultar el cursor inactivo sobre el visor"
+    },
+    "HZ_PLACEMENT_NOCOVER": { "message": "no cubrir el elemento ampliable" },
+    "HZ_MINPOPUPDISTANCE": {
+        "message": "Distancia mínima entre el visor y el puntero"
+    },
+    "HZ_HIDEIDLECURSOR_TIP": {
+        "message": "<b>-1</b> - siempre visible\n<b>0-49</b> - siempre oculto\n<b>&gt;=50</b> - ocultar luego del tiempo especificado (ms)"
+    },
+    "HZ_FZONPRESS_CLICK": { "message": "una pulsación" },
+    "HZ_FZONPRESS_LONG": { "message": "una pulsación larga" },
+    "HZ_SC_SAVE": { "message": "Guardar el contenido del visor" },
+    "HZ_SC_COPY": {
+        "message": "Copiar la URL, o presionar dos veces para copiar el texto de la leyenda"
+    },
+    "SIV_CACHERES": {
+        "message": "Almacenar en caché las direcciones resueltas (res)"
+    },
+    "HZ_PLACEMENT_CURCENTER": { "message": "cursor en el centro del visor" },
+    "HZ_PILECYCLE": { "message": "Desplazamiento cíclico en álbumes" },
+    "APP_INSTALLED": { "message": "¡La extensión se ha instalado!" },
+    "APP_UPDATED": {
+        "message": "¡La extensión se ha actualizado a una nueva versión!"
+    },
+    "GRNT_HELP": {
+        "message": "Sintaxis básica: <b>operador:URL</b>\nOperadores: <b>!</b> (bloquear), <b>~</b> (permitir).\nColoca un <b>;</b> (semicolon) al inicio de la linea para comentarla (esto desactivará la regla).\nDuplica el operador para usar expresiones regulares.\n* (asterisco) cualquier dirección URL.\n\nPermitir solo en imgur\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nBloquear algunos sitios\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nEn reddit, permitir solo los subreddits /r/pics & /r/funny\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"
+    },
+    "APP_VERSIONINFO": {
+        "message": "¡Echa un vistazo a los <a data-hl>aspectos destacados</a> de esta versión, o revisa todo el <a data-cl>listado de cambios</a>!"
+    },
+    "HZ_DELAYONIDLE": {
+        "message": "Esperar a que el puntero este inactivo sobre el elemento."
+    },
+    "HZ_PILEWHEEL_ON": { "message": "habilitado" },
+    "HZ_PILEWHEEL_HORIZ_ONLY": {
+        "message": "solo en desplazamiento horizontal"
+    },
+    "HZ_CAP_LINKTEXT": { "message": "Usar texto del enlace como título" },
+    "MUST_READ": { "message": "Lectura imprescindible" },
+    "HZ_SAVE": { "message": "Haga clic para solicitar permiso para guardar." },
+    "ASK_SAVE": {
+        "message": "Especifique una subcarpeta en Descargas/ o déjelo en blanco"
+    },
+    "HZ_CAPWRAPBYDEF": { "message": "Ajuste de línea por defecto" },
+    "SETTINGS_CSS": {
+        "message": "Cambiar el color para la página de configuración"
+    },
+    "HZ_CSSDIM": { "message": "oscurecer página" },
+    "HZ_MAXW": { "message": "ancho máximo(-1=deshabilitar)" },
+    "HZ_MAXH": { "message": "altura máxima(-1=deshabilitar)" },
+    "settings": { "message": "opciones" },
+    "HZ_NUMPAD": { "message": "Numpad como teclas de navegación" },
+    "HZ_NUMPAD_TIP": {
+        "message": "Habilita esta opción para usar las teclas del teclado numérico como teclas de navegación en lugar de números."
+    },
+    "SIV_UPDALERT": {
+        "message": "Compara y actualiza tus Filtros seleccionados. Revisa los cambios, realiza modificaciones en uno y elimina el otro cuando hayas terminado."
+    },
+    "SIV_BUTT_KEEP": {
+        "message": "Ver la lista de retención cuando no hay nada seleccionado, o añadir/eliminar elementos seleccionados."
+    },
+    "SIEVEKEEPADV": { "message": "Conservación avanzada " },
+    "SIEVEKEEPADV_TIP": {
+        "message": "ENCENDIDO: Comparar el nuevo y antiguo Sieve para decidir qué conservar, posibilidad de conservar Sieve personalizado u otros cambios. APAGADO: Conservar solo el estado de encendido/apagado; todas las demás modificaciones serán eliminadas. El verde significa que el Sieve está en la lista para conservar. Si realizaste cambios y no está en verde, debes agregarlo manualmente."
+    },
+    "SAVEAS": { "message": "Cambiar extensiones de archivos" },
+    "HZ_EXT": { "message": "Buscar estas extensiones en la URL" },
+    "HZ_EXT2": {
+        "message": "Si no se encuentra, convertir utilizando esta tabla"
+    },
+    "HZ_EXT3": {
+        "message": "Extensión de archivo predeterminada si todo falla"
+    },
+    "HZ_SC_SWITCHRES": {
+        "message": "Alternar resolución (no se usa con todos los Filtros, <b>Shift</b> para alternar esta página hasta que se recargue)"
+    },
+    "HZ_SC_DEL": { "message": "Borrar tecla de acceso directo" },
+    "SIV_KEEP": { "message": "Agregar a la lista de conservación" }
+}

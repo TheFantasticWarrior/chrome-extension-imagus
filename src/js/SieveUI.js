@@ -173,9 +173,8 @@ var sieve_sec,
                 } else {
                     local_sieve = cfg.sieve || {};
                 }
-                if (local_sieve["date"]) {
+                if (typeof local_sieve["date"] === "string") {
                     SieveUI.date = local_sieve["date"];
-                    delete local_sieve["date"];
                     $("sieve_date").textContent = SieveUI.date;
                 }
                 if (options && options.clear) {
@@ -196,6 +195,7 @@ var sieve_sec,
                     }
 
                     for (name in local_sieve) {
+                        if (name === "date") continue;
                         if (
                             visible_rules[name] &&
                             options &&
@@ -263,10 +263,15 @@ var sieve_sec,
                 r.classList.add("opened");
                 sieve_container.appendChild(r);
             }
+            $("save_button").onclick_old = $("save_button").onclick;
             $("save_button").onclick = function (e) {
-                $("save_button").removeAttribute("onclick");
                 e.preventDefault();
                 var newSieve = SieveUI.prepareRules();
+                if (newSieve === null) {
+                    color_trans(this, "red");
+                    return null;
+                }
+                $("save_button").onclick = $("save_button").onclick_old;
                 for (rule in newSieve) {
                     full[rule] = newSieve[rule];
                 }
@@ -331,7 +336,7 @@ var sieve_sec,
                 return null;
             }
 
-            output = {};
+            output = { date: SieveUI.date };
 
             for (i = 0; i < rules.length; ++i) {
                 opt_name = rules[i].firstElementChild.textContent;
@@ -381,7 +386,11 @@ var sieve_sec,
                                 rule[param] = 1;
                             }
                             break;
-
+                        case "keep":
+                            if (cfg.modlist.indexOf(rules[i].rule) !== -1) {
+                                rule[param] = 1;
+                            }
+                            break;
                         case "note":
                             params[j].value = params[j].value.trim();
                         /* falls through */
@@ -456,8 +465,22 @@ var sieve_sec,
                             tag: "input",
                             attrs: { type: "checkbox", name: "useimg" },
                         },
-                        { tag: "label", attrs: { class: "checkbox" } },
+                        { tag: "div", attrs: { class: "checkbox" } },
                         " " + _("SIV_USEIMG"),
+                    ],
+                },
+                {
+                    tag: "label",
+                    nodes: [
+                        {
+                            tag: "input",
+                            attrs: {
+                                type: "checkbox",
+                                name: "keep",
+                            },
+                        },
+                        { tag: "div", attrs: { class: "checkbox" } },
+                        " " + _("SIV_KEEP"),
                     ],
                 },
                 " ",
@@ -554,6 +577,17 @@ var sieve_sec,
                             vals[i].defaultValue = vals[i].value =
                                 sd[vals[i].name] || "";
                         }
+                    } else if (vals[i].name === "keep") {
+                        vals[i].onclick = () => {
+                            var index = cfg.modlist.indexOf(container.rule);
+                            container.classList.toggle("keeping");
+
+                            if (index !== -1) {
+                                cfg.modlist.splice(index, 1);
+                            } else {
+                                cfg.modlist.push(container.rule);
+                            }
+                        };
                     }
 
                     vals[i].name += c;
@@ -575,6 +609,8 @@ var sieve_sec,
 
             if (name) {
                 container.firstChild.textContent = name;
+                if (cfg.modlist.indexOf(name) !== -1)
+                    container.classList.add("keeping");
             }
 
             if (this.loaded) {
@@ -601,6 +637,7 @@ var sieve_sec,
                     } else {
                         cfg.modlist.push(list[i].firstElementChild.textContent);
                     }
+                    list[i].classList.toggle("keeping");
                 }
                 $("save_button").style.color = "#e03c00";
             } else {
@@ -654,7 +691,10 @@ var sieve_sec,
         click: function (e) {
             e.stopPropagation();
 
-            if (e.target.nodeName !== "SPAN") {
+            if (
+                e.target.nodeName !== "SPAN" ||
+                e.target.classList.contains("checkbox")
+            ) {
                 return;
             }
 
@@ -791,19 +831,20 @@ var sieve_sec,
 
             var i,
                 list = sieve_container.querySelectorAll("div.selected"),
-                sieve = SieveUI.prepareRules(true),
-                exp = { date: SieveUI.date };
+                sieve = SieveUI.prepareRules(true);
 
             if (!sieve) {
                 return;
             }
 
             if (list.length) {
+                var exp = {};
+
                 for (i = 0; i < list.length; ++i) {
                     exp[list[i].rule] = sieve[list[i].rule];
                 }
             } else {
-                exp = { ...exp, ...sieve };
+                ({ date: i, ...exp } = sieve);
             }
             if (
                 (exp = JSON.stringify(exp, null, e.shiftKey ? 2 : 0)) !== "{}"
@@ -824,6 +865,7 @@ var sieve_sec,
             while (i--) {
                 if (!list || cn[i].classList.contains("selected")) {
                     cn[i].classList.toggle("disabled");
+                    cn[i].classList.toggle("keeping");
                     var index = cfg.modlist.indexOf(cn[i].innerText);
                     if (index !== -1) {
                         cfg.modlist.splice(index, 1);

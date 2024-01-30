@@ -223,13 +223,14 @@
         "message": "Enable this option to use the numpad keys for navigation keys instead of numbers."
     },
     "SIV_BUTT_KEEP": {
-        "message": "View the keep list or add/remove selected items."
+        "message": "View the keep list when nothing is selected, or add/remove selected items."
     },
-    "SIEVEKEEPADV": { "message": "Advanced keeping " },
+    "SIEVEKEEPADV": { "message": "Advanced keeping" },
     "SIEVEKEEPADV_TIP": {
-        "message": "ON: compare new and old Sieve to decide what to keep, able to keep custom Sieve or other changes\nOFF: keep only on/off state, all other modifications will be deleted"
+        "message": "ON: Compare new and old Sieve to decide what to keep, able to keep custom Sieve or other changes. OFF: Keep only on/off state, all other modifications will be deleted. Green means the sieve is in the list to keep. If you made changes and it's not green, you need to manually add it."
     },
-    "SAVEAS": { "message": "Change file extensions (Firefox only?)" },
+    "SIV_KEEP": { "message": "Add to Keep list" },
+    "SAVEAS": { "message": "Change file extensions" },
     "HZ_EXT": { "message": "Look for these extensions in the URL" },
     "HZ_EXT2": { "message": "If not found, convert using this table" },
     "HZ_EXT3": { "message": "Default file extension if everything fails" },

@@ -5,17 +5,21 @@ forked(copied and modified) from community edition(their explanation down below,
 ## Install Instructions
 
 ### **_chrome_**
+
 Simple method(may have issues that the extension gets removed randomly):  
-Enable developer mode in chrome://extensions and drag the [release](https://github.com/TheFantasticWarrior/chrome-extension-imagus/releases) zip in. 
+Enable developer mode in chrome://extensions and drag the [release](https://github.com/TheFantasticWarrior/chrome-extension-imagus/releases) zip in.
 
 Other method:  
 Unzip to a place you won't delete, click "load unpacked", then select the folder.
 
 ### **_firefox_**
+
 use the [official add-ons page](https://addons.mozilla.org/en-US/firefox/addon/imagus-mod/) for download and more info about this mod.  
 If you want to test versions on github go to about:debugging#/runtime/this-firefox and install temporary add-on.
 
 For site support checkout [r/imagus](https://www.reddit.com/r/imagus/), for bug report you can visit the subreddit [FAQ](http://forum.ru-board.com/topic.cgi?forum=5&topic=50874&start=0&limit=1&m=7#1) to confirm the bug is on my end before submitting issues
+
+To test unreleased changes, compress src contents into a zip and import with methods above.
 
 # Imagus (Community Edition)
 

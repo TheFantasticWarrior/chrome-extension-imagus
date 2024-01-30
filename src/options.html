@@ -492,8 +492,12 @@
 						data-lng="HZ_SC_COPY"></label></li>
 				<li><input id="keys_hz-reset" name="keys_hz-reset" value="Escape"> <label
 						data-lng="HZ_SC_RESET"></label></li>
-				<li><input id="keys_hz-zoomin" name="keys_hz-zoomin" value="Equal(Add)"> / <input id="keys_hz-zoomout"
-						name="keys_hz-zoomout" value="Minus"> <span data-lng="SC_ZOOMINOUT"></span></li>
+				<li><input id="keys_hz-zoomin" name="keys_hz-zoomin" value="Equal(Add)"><span>
+						<input id="hz_zoomin" name="hz_zoomin" type="number" step="0.05" min="1" max="5000"
+							value="1.35">
+					</span> / <input id="keys_hz-zoomout" name="keys_hz-zoomout" value="Minus"> <span>
+						<input id="hz_zoomout" name="hz_zoomout" type="number" step="0.05" min="0" max="1" value="0.75">
+					</span><span data-lng="SC_ZOOMINOUT"></span></li>
 				<li><input id="keys_hz-grants" name="keys_hz-grants" value="G"> <label data-lng="HZ_SC_GRANTS"></label>
 				</li>
 				<li><input id="keys_hz-switchres" name="keys_hz-switchres" value="Tab"> <label
@@ -611,13 +615,14 @@
 			<h3></h3>
 			<pre id="app_installed" data-lng="APP_INSTALLED"></pre>
 			<pre id="app_updated" data-lng="APP_UPDATED"></pre>
-			<pre data-lng="APP_VERSIONINFO" data-lngargs="hl:href,style cl:href,target" data-hl-href="#info"
-				data-hl-style="text-decoration: line-through; color: silver"
+			<pre data-lng="APP_VERSIONINFO" data-lngargs="hl:href,style cl:href,target"
+				data-hl-href="https://github.com/TheFantasticWarrior/chrome-extension-imagus/releases/latest"
+				DISABLED-data-hl-style="text-decoration: line-through; color: silver"
 				data-cl-href="https://addons.mozilla.org/en-US/firefox/addon/imagus-mod/versions/"
 				data-cl-target="_blank"></pre>
 
 			<div class="tiptop tipvis">
-				<h3 data-lng="TRANSLATIONS"></h3>
+				<h3 data-lng="TRANSLATIONS(Options not in original imagus are machine translated)"></h3>
 			</div>
 
 			<table id="locales_table">

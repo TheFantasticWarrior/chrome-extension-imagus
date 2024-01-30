@@ -1,1 +1,258 @@
-{"NAV_SIEVE": {"message": "Zeef"}, "NAV_GRANTS": {"message": "Permissies"}, "NAV_INFO": {"message": "Info"}, "SHORTCUTS": {"message": "Snelkoppelingen"}, "PH_CLICKFORSAMPLE": {"message": "klikken voor voorbeelden..."}, "DISABLED": {"message": "uit"}, "LOADING": {"message": "Laden..."}, "DETAILS": {"message": "Details"}, "AREYOUSURE": {"message": "Zeker weten?"}, "DELITEMS": {"message": "Alle of geselecteerde objecten verwijderen?"}, "EMPTY": {"message": "Leeg..."}, "NOMATCH": {"message": "Geen overeenkomst..."}, "SEARCH": {"message": "zoeken..."}, "INVALIDFORMAT": {"message": "Incorrect formaat!"}, "BUTTON_RESET": {"message": "Reset"}, "BUTTON_SAVE": {"message": "Opslaan"}, "HZ_ENABLED": {"message": "Aan"}, "HZ_DISABLED": {"message": "Uit"}, "HZ_ENDIS_WHEN": {"message": "vasthoudende"}, "HZ_ENDIS_NONE": {"message": "niets"}, "HZ_ENDIS_TIP": {"message": "<b>Uit</b> vasthoudende <b>niets</b> - altijd aan.\n<b>Uit</b> vasthoudende (<b>toets/knop</b>) - alleen aan wanneer geselecteerde knop/toets wordt vastgehouden, anders uit.\n<b>Aan</b> vasthoudende <b>niets</b> - altijd uit.\n<b>Aan</b> vasthoudende (<b>toets/knop</b>) - alleen aan wanneer de wijzigings-knop/-toets wordt vastgehouden, anders uit."}, "HZ_DELAY": {"message": "Weergave vertraging (ms)"}, "HZ_ZOOMRESIZED": {"message": "Minimale verschil in grootte om te zoomen"}, "HZ_ZOOMRESIZED_TIP": {"message": "Deze optie vertelt dat met hoeveel procent de originele afbeelding groter moet zijn dan de thumbnail versie om de pop-up te laten zien."}, "HZ_HIRES": {"message": "Voorkeur gaat uit naar afbeeldingen met een grotere resolutie."}, "HZ_HIRES_TIP": {"message": "Meeste hosts leveren meerdere groottes voor dezelfde afbeelding. De filters zijn in staat om URLs te creëren voor deze afbeeldingen, en deze als hoge (vaak de originele afbeelding) en lage (mid-size afbeelding, rond de 800-1024px) resolutie aan te geven.\nAls deze optie uit staat, dan zal standaard de lage resolutie worden laten zien, maar wisselen tussen resoluties is altijd mogelijk met de Tab-toets (of alleen in full-zoom door de dimensies aan de klikken in het onderschrift).\nAls afbeeldings dimensies in het onderschrift is aangezet zal de kleur van de dimensies (afhankelijk van de stijl van het onderschrift) cyaan of rood voor lage resolutie zijn, dit geeft aan dat er (mogelijk) een versie met hogere resolutie is."}, "HZ_HIRESONFZ": {"message": "Afbeelding in hogere resolutie laden bij het betreden van full-zoom"}, "HZ_HIRESONFZ_TIP": {"message": "Probeert de hogere resolutie van de afbeelding te laden bij het betreden van full-zoom, als de ratio van de afbeeldings dimensies (altijd de langere kant gedeeld door de kortere) groter is dan of gelijk is aan de aangegeven waarde."}, "HZ_PLACEMENT": {"message": "Pop-up plaatsing"}, "HZ_FULLSPACE": {"message": "Gebruik al de aanwezige ruimte"}, "HZ_PLACEMENT_CURCOR": {"message": "cursor in pop-up hoek"}, "HZ_PLACEMENT_CURSIDE": {"message": "cursor bij pop-up zijkant"}, "HZ_PLACEMENT_CENTER": {"message": "centrum"}, "HZ_PRELOAD": {"message": "Laad afbeeldingen van tevoren"}, "HZ_PRELOAD_NO": {"message": "afbeelding niet van tevoren laden"}, "HZ_PRELOAD_MOUSEOVER": {"message": "bij het zweven van de cursor"}, "HZ_PRELOAD_PAGELOAD": {"message": "bij het laden van de pagina"}, "HZ_FULLZOOM": {"message": "Full-zoom"}, "HZ_MARKONHOVER": {"message": "Zoom-bare objecten markeren"}, "HZ_MARKONHOVER_O_SOLID": {"message": "vaste omlijning"}, "HZ_MARKONHOVER_O_DASHED": {"message": "gestreepte omlijning"}, "HZ_MARKONHOVER_O_DOTTED": {"message": "gestippelde omlijning"}, "HZ_THUMBASBG": {"message": "Thumbnail als achtergrond van de pop-up gebruiken"}, "HZ_THUMBASBGMASK": {"message": "Kleur en doorzichtigheid van het masker"}, "HZ_CAPTION": {"message": "Onderschrift"}, "HZ_CAP_POS": {"message": "Plaatsing van het onderschrift"}, "HZ_CAP_TOP": {"message": "boven"}, "HZ_CAP_BOTTOM": {"message": "onder"}, "HZ_CAP_NOSBAR": {"message": "Tooltips voorkomen (handig met verborgen status balken)"}, "HZ_CAP_WH": {"message": "Afbeeldings/video dimensies weergeven"}, "HZ_APPEARANCE": {"message": "Uiterlijk"}, "HZ_FOLLOW": {"message": "Cursor volgen tijdens het verbergen"}, "HZ_MOVE": {"message": "Pop-up met cursor verplaatsen"}, "HZ_WAITHIDE": {"message": "Wachten voor het starten met een andere zoom"}, "HZ_SC_TOGGLE": {"message": "opschorten voor de huidige sessie en domein"}, "HZ_SC_PRELOAD": {"message": "handmatig afbeeldingen van tevoren laden"}, "HZ_SC_FULLZOOM": {"message": "full-zoom modus"}, "HZ_SC_FULLSPACE": {"message": "schakelen tussen het gebruik van alle beschikbare ruimte"}, "HZ_SC_CAPTION": {"message": "onderschrift wrappen (of verbergen wanneer <b>Shift</b> wordt ingedrukt)"}, "HZ_SC_OPEN": {"message": "afbeelding in nieuwe tab openen (<b>Shift</> voor achtergrond tab)"}, "HZ_SC_RESET": {"message": "pop-up verbergen en het laden van de huidige media stoppen"}, "SC_ZOOMINOUT": {"message": "In-/uitzoomen"}, "SC_PREFS": {"message": "Voorkeuren"}, "SC_MENU": {"message": "Menu weergeven"}, "SC_FLIPH": {"message": "Horizontaal omdraaien"}, "SC_FLIPV": {"message": "Verticaal omdraaien"}, "SC_ROTL": {"message": "Links roteren"}, "SC_ROTR": {"message": "Rechts roteren"}, "SC_MORIG": {"message": "Normale grootte"}, "SC_MFIT": {"message": "Automatisch passen"}, "SC_MFITW": {"message": "Breedte passend maken"}, "SC_MFITH": {"message": "Hoogte passend maken"}, "SC_SENDTO": {"message": "Afbeelding sturen naar..."}, "OP_ZOOM": {"message": "Ctrl + Rechts klik op een afbeelding opent hem in een pop-up"}, "TLS_SENDIMGTO": {"message": "Afbeelding sturen naar..."}, "TLS_SENDTOMSC": {"message": "Ctrl + Alt [+ Shift] + Rechts klik op (normale) afbeelding."}, "SIV_BUTT_NEW": {"message": "Nieuwe regel"}, "SIV_BUTT_DEL": {"message": "Alles of geselecteerde verwijderen"}, "SIV_BUTT_TOGGLE": {"message": "Schakel alle of geselecteerde items uit/aan en voeg toe aan de bewaarlijst."}, "SIV_BUTT_IMP": {"message": "Importeren"}, "SIV_BUTT_EXP": {"message": "Alles of selecteerde exporteren"}, "SIV_BUTT_UPD": {"message": "Zeef bijwerken"}, "SIV_CI": {"message": "Niet hoofdletter-gevoelig"}, "SIV_DC": {"message": "Resultaat decoderen die geëvenaard wordt door deze parameter"}, "SIV_LOOP": {"message": "Zeef opnieuw loopen met de resulterende URL"}, "SIV_USEIMG": {"message": "Prioriteit geven aan \"img\" over \"link\""}, "SIV_ERR_EMPTYNAME": {"message": "Regel naam kan niet leeg zijn!"}, "SIV_ERR_DUPENAME": {"message": "Iedere regel moet een unieke naam hebben!"}, "SIV_DETAILS": {"message": "Ctrl + Rechts klik om te verwijderen<br>Slepen met linker muisknop om te verplaatsen<br>Rechter muisknop om te hernoemen (Esc/Enter stopt)<br>Ctrl + Linker muisknop om te selecteren (meerdere selecteren met Shift)"}, "GRNT_RULEPERLINE": {"message": "Regels per regel. Voor meer informatie klik op de Details knop hierboven."}, "PREF_IMPORT": {"message": "Instellingen importeren"}, "PREF_EXPORT": {"message": "Instellingen exporteren"}, "HZ_PRELOAD_MINIMAL": {"message": "minimaal"}, "HZ_PRELOAD_TIP": {"message": "<b>no preload</b> - maar één afbeelding kan tegelijkertijd worden geladen\n<b>minimal</b> - meerdere afbeeldingen kunnen tegelijkertijd worden geladen, als een afbeelding is begonnen met laden, zal het dat afmaken, ook als de cursor het doel verlaat\n<b>on mouse over</b> - de afbeelding begint ontmiddelijk met laden zodra de muis boven het doel komt\n<b>on page-load</b> - alle afbeeldingen worden geladen nadat de pagina wordt geopent"}, "HZ_CAP_TEXT": {"message": "Onderschrift weergeven"}, "HZ_FZMODE": {"message": "Oorspronkelijke modus"}, "HZ_FZMODE_FOLLOW": {"message": "met de cursor mee bewegen"}, "HZ_FZMODE_DRAG": {"message": "verplaatsen door te slepen"}, "HZ_FZMODE_TIP": {"message": "De eerste modus zal de afbeelding altijd in het midden plaatsen als de afbeelding kleiner is dan de pagina, anders zal het in proportie zoomen naar het deel waar de cursor zich bevind op het scherm. De positie veranderd met de cursor mee.\nIn de tweede modus is de positie van de afbeelding statisch, maar kan worden veranderd door te slepen."}, "HZ_CAP_STYLE": {"message": "Stijl van het onderschrift"}, "HZ_CAP_STYLE_DARK": {"message": "donker"}, "HZ_CAP_STYLE_LIGHT": {"message": "licht"}, "HZ_MARKONHOVER_TIP": {"message": "Als de muis zich boven een link of thumbnail bevindt zal <b class=\"cur_zmin\">de cursor</b> of de omlijning van het <span style=\"border: 1px dashed red\">doel</span> veranderen, dit geeft weer dat er iets te zoomen valt."}, "HZ_FULLSPACE_TIP": {"message": "Deze optie maakt het mogelijk om de pop-up te vergroten onder de cursor, als het niet genoeg ruimte heeft tussen de cursor en de zijkant van de pagina.\nAls de plaatsing is ingestelt naar het midden (vorige optie), zal deze optie geen effect hebben, omdat in dat geval de pop-up altijd de beschikbare ruimte zal gebruiken."}, "HZ_PILEWHEEL": {"message": "Door een album heen gaan door te scrollen het met muis wiel."}, "HZ_PILEWHEEL_TIP": {"message": "Het muis wiel kan gebruikt worden om tussen elementen van een album te wisselen, in toevoeging tot snelkoppelingen.\nMocht het aanstaan, zal het de pagina tegenhouden te scrollen zolang de pop-up zichtbaar is.\nIn full-screen modus is de standaard functie voor het muis wiel zoomen. Om beeldwisseling te gebruiken, moet scrollen in de linker-boven hoek (50x50px) van het scherm gedaan worden, of over de teller in het onderschrift."}, "HZ_FZONPRESS": {"message": "Activeren met de rechtermuisknop."}, "HZ_HISTORY": {"message": "Gehoverde links toevoegen aan browser geschiedenis"}, "HZ_SC_HISTORY": {"message": "aan geschiedenis toevoegen / verwijderen van geschiedenis"}, "IMPR_CLEAR_DATA": {"message": "Gegevens verwijderen voor het importeren"}, "IMPR_FROM_FILE": {"message": "Vanuit bestand"}, "IMPR_FROM_TEXT": {"message": "Vanuit tekst"}, "IMPR_IMPORT": {"message": "Importeren"}, "IMPR_OVERWRITE": {"message": "Bestaande gegevens vervangen"}, "LANGUAGE": {"message": "Taal"}, "TRANSLATIONS": {"message": "Vertalingen"}, "TRANSLATIONS_TIP": {"message": "Wil je een vertaler worden, stuur dan een e-mail naar <a data-mail>dit adres</a>, vermeld je gesproken talen"}, "TRANSLATORS": {"message": "Vertalers"}, "HZ_ENDIS_RIGHT_BUTTON": {"message": "rechter knop"}, "SIV_AUTOUPDATE": {"message": "Vernieuw de zeef automatisch"}, "ADVANCED": {"message": "Geavanceerd"}, "HZ_CSS": {"message": "Aangepaste stijl (CSS)"}, "HZ_MARKONHOVER_CR": {"message": "verander cursor"}, "HZ_HIDEIDLECURSOR": {"message": "Verberg inactieve cursor over de pop-up"}, "HZ_PLACEMENT_NOCOVER": {"message": "geen dekking"}, "HZ_MINPOPUPDISTANCE": {"message": "Minimale afstand tussen de pop-up en cursor"}, "HZ_HIDEIDLECURSOR_TIP": {"message": "<b>-1</b> - altijd zichtbaar\n<b>0-49</b> - altijd verborgen\n<b>&gt;=50</b> - verberg na de aangegeven tijd (ms)"}, "HZ_FZONPRESS_CLICK": {"message": "klik"}, "HZ_FZONPRESS_LONG": {"message": "ingedrukt houden"}, "HZ_SC_SAVE": {"message": "Sla pop-up content op"}, "HZ_SC_COPY": {"message": "Kopieër URL, of dubbel-klik om onderschrift te kopieëren."}, "SIV_CACHERES": {"message": "Cache opgeloste content"}, "HZ_PLACEMENT_CURCENTER": {"message": "cursor over pop-up midden"}, "HZ_PILECYCLE": {"message": "Cyclische scroll in albums"}, "APP_INSTALLED": {"message": "De extensie is geïnstalleerd!"}, "APP_UPDATED": {"message": "De extensie is vernieuwd naar een nieuwe versie!"}, "GRNT_HELP": {"message": "Standaard syntax: <b>operator:URL</b>\nOperatoren: <b>!</b> (block), <b>~</b> (allow).\nStart een regel met een <b>;</b> (puntkomma) om deze inactief te maken.\nGebruik een regular expression in URL door de operator te dupliceren.\n* (asterisk) elke URL.\n\nSta alleen toe op imgur\n<code>!:*\n~:http://imgur.com/ </code>\n<br>\nBlokkeer een aantal sites\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nOp reddit, sta alleen /r/pics en /r/funny toe\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/ </code>"}, "APP_VERSIONINFO": {"message": "Controleer de <a data-hl>highlights</a> van deze versie, en/of zie alle <a data-cl>veranderingen</a>!"}, "MUST_READ": {"message": "Moet gelezen worden"}, "HZ_SAVE": {"message": "Klik om toestemming te vragen voor opslaan."}, "ASK_SAVE": {"message": "Specificeer een submap in Downloads/ of laat leeg"}, "HZ_CAPWRAPBYDEF": {"message": "Standaard omwikkelen"}, "SETTINGS_CSS": {"message": "Verander de kleur voor de instellingenpagina"}, "HZ_CSSDIM": {"message": "pagina dimmen"}, "HZ_MAXW": {"message": "maximale breedte(-1=uitschakelen)"}, "HZ_MAXH": {"message": "maximale hoogte(-1=uitschakelen)"}, "settings": {"message": "opties"}, "HZ_NUMPAD": {"message": "Numpad als navigatietoetsen"}, "HZ_NUMPAD_TIP": {"message": "Schakel deze optie in om de numerieke toetsen te gebruiken als navigatietoetsen in plaats van cijfers."}, "SIV_UPDALERT": {"message": "Vergelijk en werk uw geselecteerde Zeef bij. Bekijk de wijzigingen, breng wijzigingen aan in de ene en verwijder de andere wanneer u klaar bent."}, "SIV_BUTT_KEEP": {"message": "Bekijk de bewaarlijst of voeg geselecteerde items toe/verwijder ze."}, "SIEVEKEEPADV": {"message": "Geavanceerd behouden "}, "SIEVEKEEPADV_TIP": {"message": "AAN: vergelijk nieuwe en oude Zeef om te beslissen wat behouden moet worden, mogelijkheid om aangepaste Zeef of andere wijzigingen te behouden\nUIT: behoud alleen de aan/uit-status, alle andere wijzigingen worden verwijderd"}, "SAVEAS": {"message": "Wijzig bestandsextensies (alleen Firefox?)"}, "HZ_EXT": {"message": "Zoek naar deze extensies in de URL"}, "HZ_EXT2": {"message": "Indien niet gevonden, converteren met behulp van deze tabel"}, "HZ_EXT3": {"message": "Standaard bestandsextensie als alles faalt"}, "HZ_SC_SWITCHRES": {"message": "Wissel resolutie (niet gebruikt bij alle Zeef, schakel met <b>Shift</b> deze pagina in- en uitschakelen tot herladen)"}, "HZ_SC_DEL": {"message": "Sneltoets verwijderen"}}
+{
+    "NAV_SIEVE": { "message": "Zeef" },
+    "NAV_GRANTS": { "message": "Permissies" },
+    "NAV_INFO": { "message": "Info" },
+    "SHORTCUTS": { "message": "Snelkoppelingen" },
+    "PH_CLICKFORSAMPLE": { "message": "klikken voor voorbeelden..." },
+    "DISABLED": { "message": "uit" },
+    "LOADING": { "message": "Laden..." },
+    "DETAILS": { "message": "Details" },
+    "AREYOUSURE": { "message": "Zeker weten?" },
+    "DELITEMS": { "message": "Alle of geselecteerde objecten verwijderen?" },
+    "EMPTY": { "message": "Leeg..." },
+    "NOMATCH": { "message": "Geen overeenkomst..." },
+    "SEARCH": { "message": "zoeken..." },
+    "INVALIDFORMAT": { "message": "Incorrect formaat!" },
+    "BUTTON_RESET": { "message": "Reset" },
+    "BUTTON_SAVE": { "message": "Opslaan" },
+    "HZ_ENABLED": { "message": "Aan" },
+    "HZ_DISABLED": { "message": "Uit" },
+    "HZ_ENDIS_WHEN": { "message": "vasthoudende" },
+    "HZ_ENDIS_NONE": { "message": "niets" },
+    "HZ_ENDIS_TIP": {
+        "message": "<b>Uit</b> vasthoudende <b>niets</b> - altijd aan.\n<b>Uit</b> vasthoudende (<b>toets/knop</b>) - alleen aan wanneer geselecteerde knop/toets wordt vastgehouden, anders uit.\n<b>Aan</b> vasthoudende <b>niets</b> - altijd uit.\n<b>Aan</b> vasthoudende (<b>toets/knop</b>) - alleen aan wanneer de wijzigings-knop/-toets wordt vastgehouden, anders uit."
+    },
+    "HZ_DELAY": { "message": "Weergave vertraging (ms)" },
+    "HZ_ZOOMRESIZED": {
+        "message": "Minimale verschil in grootte om te zoomen"
+    },
+    "HZ_ZOOMRESIZED_TIP": {
+        "message": "Deze optie vertelt dat met hoeveel procent de originele afbeelding groter moet zijn dan de thumbnail versie om de pop-up te laten zien."
+    },
+    "HZ_HIRES": {
+        "message": "Voorkeur gaat uit naar afbeeldingen met een grotere resolutie."
+    },
+    "HZ_HIRES_TIP": {
+        "message": "Meeste hosts leveren meerdere groottes voor dezelfde afbeelding. De filters zijn in staat om URLs te creëren voor deze afbeeldingen, en deze als hoge (vaak de originele afbeelding) en lage (mid-size afbeelding, rond de 800-1024px) resolutie aan te geven.\nAls deze optie uit staat, dan zal standaard de lage resolutie worden laten zien, maar wisselen tussen resoluties is altijd mogelijk met de Tab-toets (of alleen in full-zoom door de dimensies aan de klikken in het onderschrift).\nAls afbeeldings dimensies in het onderschrift is aangezet zal de kleur van de dimensies (afhankelijk van de stijl van het onderschrift) cyaan of rood voor lage resolutie zijn, dit geeft aan dat er (mogelijk) een versie met hogere resolutie is."
+    },
+    "HZ_HIRESONFZ": {
+        "message": "Afbeelding in hogere resolutie laden bij het betreden van full-zoom"
+    },
+    "HZ_HIRESONFZ_TIP": {
+        "message": "Probeert de hogere resolutie van de afbeelding te laden bij het betreden van full-zoom, als de ratio van de afbeeldings dimensies (altijd de langere kant gedeeld door de kortere) groter is dan of gelijk is aan de aangegeven waarde."
+    },
+    "HZ_PLACEMENT": { "message": "Pop-up plaatsing" },
+    "HZ_FULLSPACE": { "message": "Gebruik al de aanwezige ruimte" },
+    "HZ_PLACEMENT_CURCOR": { "message": "cursor in pop-up hoek" },
+    "HZ_PLACEMENT_CURSIDE": { "message": "cursor bij pop-up zijkant" },
+    "HZ_PLACEMENT_CENTER": { "message": "centrum" },
+    "HZ_PRELOAD": { "message": "Laad afbeeldingen van tevoren" },
+    "HZ_PRELOAD_NO": { "message": "afbeelding niet van tevoren laden" },
+    "HZ_PRELOAD_MOUSEOVER": { "message": "bij het zweven van de cursor" },
+    "HZ_PRELOAD_PAGELOAD": { "message": "bij het laden van de pagina" },
+    "HZ_FULLZOOM": { "message": "Full-zoom" },
+    "HZ_MARKONHOVER": { "message": "Zoom-bare objecten markeren" },
+    "HZ_MARKONHOVER_O_SOLID": { "message": "vaste omlijning" },
+    "HZ_MARKONHOVER_O_DASHED": { "message": "gestreepte omlijning" },
+    "HZ_MARKONHOVER_O_DOTTED": { "message": "gestippelde omlijning" },
+    "HZ_THUMBASBG": {
+        "message": "Thumbnail als achtergrond van de pop-up gebruiken"
+    },
+    "HZ_THUMBASBGMASK": {
+        "message": "Kleur en doorzichtigheid van het masker"
+    },
+    "HZ_CAPTION": { "message": "Onderschrift" },
+    "HZ_CAP_POS": { "message": "Plaatsing van het onderschrift" },
+    "HZ_CAP_TOP": { "message": "boven" },
+    "HZ_CAP_BOTTOM": { "message": "onder" },
+    "HZ_CAP_NOSBAR": {
+        "message": "Tooltips voorkomen (handig met verborgen status balken)"
+    },
+    "HZ_CAP_WH": { "message": "Afbeeldings/video dimensies weergeven" },
+    "HZ_APPEARANCE": { "message": "Uiterlijk" },
+    "HZ_FOLLOW": { "message": "Cursor volgen tijdens het verbergen" },
+    "HZ_MOVE": { "message": "Pop-up met cursor verplaatsen" },
+    "HZ_WAITHIDE": {
+        "message": "Wachten voor het starten met een andere zoom"
+    },
+    "HZ_SC_TOGGLE": {
+        "message": "opschorten voor de huidige sessie en domein"
+    },
+    "HZ_SC_PRELOAD": { "message": "handmatig afbeeldingen van tevoren laden" },
+    "HZ_SC_FULLZOOM": { "message": "full-zoom modus" },
+    "HZ_SC_FULLSPACE": {
+        "message": "schakelen tussen het gebruik van alle beschikbare ruimte"
+    },
+    "HZ_SC_CAPTION": {
+        "message": "onderschrift wrappen (of verbergen wanneer <b>Shift</b> wordt ingedrukt)"
+    },
+    "HZ_SC_OPEN": {
+        "message": "afbeelding in nieuwe tab openen (<b>Shift</> voor achtergrond tab)"
+    },
+    "HZ_SC_RESET": {
+        "message": "pop-up verbergen en het laden van de huidige media stoppen"
+    },
+    "SC_ZOOMINOUT": { "message": "In-/uitzoomen" },
+    "SC_PREFS": { "message": "Voorkeuren" },
+    "SC_MENU": { "message": "Menu weergeven" },
+    "SC_FLIPH": { "message": "Horizontaal omdraaien" },
+    "SC_FLIPV": { "message": "Verticaal omdraaien" },
+    "SC_ROTL": { "message": "Links roteren" },
+    "SC_ROTR": { "message": "Rechts roteren" },
+    "SC_MORIG": { "message": "Normale grootte" },
+    "SC_MFIT": { "message": "Automatisch passen" },
+    "SC_MFITW": { "message": "Breedte passend maken" },
+    "SC_MFITH": { "message": "Hoogte passend maken" },
+    "SC_SENDTO": { "message": "Afbeelding sturen naar..." },
+    "OP_ZOOM": {
+        "message": "Ctrl + Rechts klik op een afbeelding opent hem in een pop-up"
+    },
+    "TLS_SENDIMGTO": { "message": "Afbeelding sturen naar..." },
+    "TLS_SENDTOMSC": {
+        "message": "Ctrl + Alt [+ Shift] + Rechts klik op (normale) afbeelding."
+    },
+    "SIV_BUTT_NEW": { "message": "Nieuwe regel" },
+    "SIV_BUTT_DEL": { "message": "Alles of geselecteerde verwijderen" },
+    "SIV_BUTT_TOGGLE": {
+        "message": "Schakel alle of geselecteerde items uit/aan en voeg toe aan de bewaarlijst."
+    },
+    "SIV_BUTT_IMP": { "message": "Importeren" },
+    "SIV_BUTT_EXP": { "message": "Alles of selecteerde exporteren" },
+    "SIV_BUTT_UPD": { "message": "Zeef bijwerken" },
+    "SIV_CI": { "message": "Niet hoofdletter-gevoelig" },
+    "SIV_DC": {
+        "message": "Resultaat decoderen die geëvenaard wordt door deze parameter"
+    },
+    "SIV_LOOP": { "message": "Zeef opnieuw loopen met de resulterende URL" },
+    "SIV_USEIMG": { "message": "Prioriteit geven aan \"img\" over \"link\"" },
+    "SIV_ERR_EMPTYNAME": { "message": "Regel naam kan niet leeg zijn!" },
+    "SIV_ERR_DUPENAME": {
+        "message": "Iedere regel moet een unieke naam hebben!"
+    },
+    "SIV_DETAILS": {
+        "message": "Ctrl + Rechts klik om te verwijderen<br>Slepen met linker muisknop om te verplaatsen<br>Rechter muisknop om te hernoemen (Esc/Enter stopt)<br>Ctrl + Linker muisknop om te selecteren (meerdere selecteren met Shift)"
+    },
+    "GRNT_RULEPERLINE": {
+        "message": "Regels per regel. Voor meer informatie klik op de Details knop hierboven."
+    },
+    "PREF_IMPORT": { "message": "Instellingen importeren" },
+    "PREF_EXPORT": { "message": "Instellingen exporteren" },
+    "HZ_PRELOAD_MINIMAL": { "message": "minimaal" },
+    "HZ_PRELOAD_TIP": {
+        "message": "<b>no preload</b> - maar één afbeelding kan tegelijkertijd worden geladen\n<b>minimal</b> - meerdere afbeeldingen kunnen tegelijkertijd worden geladen, als een afbeelding is begonnen met laden, zal het dat afmaken, ook als de cursor het doel verlaat\n<b>on mouse over</b> - de afbeelding begint ontmiddelijk met laden zodra de muis boven het doel komt\n<b>on page-load</b> - alle afbeeldingen worden geladen nadat de pagina wordt geopent"
+    },
+    "HZ_CAP_TEXT": { "message": "Onderschrift weergeven" },
+    "HZ_FZMODE": { "message": "Oorspronkelijke modus" },
+    "HZ_FZMODE_FOLLOW": { "message": "met de cursor mee bewegen" },
+    "HZ_FZMODE_DRAG": { "message": "verplaatsen door te slepen" },
+    "HZ_FZMODE_TIP": {
+        "message": "De eerste modus zal de afbeelding altijd in het midden plaatsen als de afbeelding kleiner is dan de pagina, anders zal het in proportie zoomen naar het deel waar de cursor zich bevind op het scherm. De positie veranderd met de cursor mee.\nIn de tweede modus is de positie van de afbeelding statisch, maar kan worden veranderd door te slepen."
+    },
+    "HZ_CAP_STYLE": { "message": "Stijl van het onderschrift" },
+    "HZ_CAP_STYLE_DARK": { "message": "donker" },
+    "HZ_CAP_STYLE_LIGHT": { "message": "licht" },
+    "HZ_MARKONHOVER_TIP": {
+        "message": "Als de muis zich boven een link of thumbnail bevindt zal <b class=\"cur_zmin\">de cursor</b> of de omlijning van het <span style=\"border: 1px dashed red\">doel</span> veranderen, dit geeft weer dat er iets te zoomen valt."
+    },
+    "HZ_FULLSPACE_TIP": {
+        "message": "Deze optie maakt het mogelijk om de pop-up te vergroten onder de cursor, als het niet genoeg ruimte heeft tussen de cursor en de zijkant van de pagina.\nAls de plaatsing is ingestelt naar het midden (vorige optie), zal deze optie geen effect hebben, omdat in dat geval de pop-up altijd de beschikbare ruimte zal gebruiken."
+    },
+    "HZ_PILEWHEEL": {
+        "message": "Door een album heen gaan door te scrollen het met muis wiel."
+    },
+    "HZ_PILEWHEEL_TIP": {
+        "message": "Het muis wiel kan gebruikt worden om tussen elementen van een album te wisselen, in toevoeging tot snelkoppelingen.\nMocht het aanstaan, zal het de pagina tegenhouden te scrollen zolang de pop-up zichtbaar is.\nIn full-screen modus is de standaard functie voor het muis wiel zoomen. Om beeldwisseling te gebruiken, moet scrollen in de linker-boven hoek (50x50px) van het scherm gedaan worden, of over de teller in het onderschrift."
+    },
+    "HZ_FZONPRESS": { "message": "Activeren met de rechtermuisknop." },
+    "HZ_HISTORY": {
+        "message": "Gehoverde links toevoegen aan browser geschiedenis"
+    },
+    "HZ_SC_HISTORY": {
+        "message": "aan geschiedenis toevoegen / verwijderen van geschiedenis"
+    },
+    "IMPR_CLEAR_DATA": {
+        "message": "Gegevens verwijderen voor het importeren"
+    },
+    "IMPR_FROM_FILE": { "message": "Vanuit bestand" },
+    "IMPR_FROM_TEXT": { "message": "Vanuit tekst" },
+    "IMPR_IMPORT": { "message": "Importeren" },
+    "IMPR_OVERWRITE": { "message": "Bestaande gegevens vervangen" },
+    "LANGUAGE": { "message": "Taal" },
+    "TRANSLATIONS": { "message": "Vertalingen" },
+    "TRANSLATIONS_TIP": {
+        "message": "Wil je een vertaler worden, stuur dan een e-mail naar <a data-mail>dit adres</a>, vermeld je gesproken talen"
+    },
+    "TRANSLATORS": { "message": "Vertalers" },
+    "HZ_ENDIS_RIGHT_BUTTON": { "message": "rechter knop" },
+    "SIV_AUTOUPDATE": { "message": "Vernieuw de zeef automatisch" },
+    "ADVANCED": { "message": "Geavanceerd" },
+    "HZ_CSS": { "message": "Aangepaste stijl (CSS)" },
+    "HZ_MARKONHOVER_CR": { "message": "verander cursor" },
+    "HZ_HIDEIDLECURSOR": {
+        "message": "Verberg inactieve cursor over de pop-up"
+    },
+    "HZ_PLACEMENT_NOCOVER": { "message": "geen dekking" },
+    "HZ_MINPOPUPDISTANCE": {
+        "message": "Minimale afstand tussen de pop-up en cursor"
+    },
+    "HZ_HIDEIDLECURSOR_TIP": {
+        "message": "<b>-1</b> - altijd zichtbaar\n<b>0-49</b> - altijd verborgen\n<b>&gt;=50</b> - verberg na de aangegeven tijd (ms)"
+    },
+    "HZ_FZONPRESS_CLICK": { "message": "klik" },
+    "HZ_FZONPRESS_LONG": { "message": "ingedrukt houden" },
+    "HZ_SC_SAVE": { "message": "Sla pop-up content op" },
+    "HZ_SC_COPY": {
+        "message": "Kopieër URL, of dubbel-klik om onderschrift te kopieëren."
+    },
+    "SIV_CACHERES": { "message": "Cache opgeloste content" },
+    "HZ_PLACEMENT_CURCENTER": { "message": "cursor over pop-up midden" },
+    "HZ_PILECYCLE": { "message": "Cyclische scroll in albums" },
+    "APP_INSTALLED": { "message": "De extensie is geïnstalleerd!" },
+    "APP_UPDATED": {
+        "message": "De extensie is vernieuwd naar een nieuwe versie!"
+    },
+    "GRNT_HELP": {
+        "message": "Standaard syntax: <b>operator:URL</b>\nOperatoren: <b>!</b> (block), <b>~</b> (allow).\nStart een regel met een <b>;</b> (puntkomma) om deze inactief te maken.\nGebruik een regular expression in URL door de operator te dupliceren.\n* (asterisk) elke URL.\n\nSta alleen toe op imgur\n<code>!:*\n~:http://imgur.com/ </code>\n<br>\nBlokkeer een aantal sites\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nOp reddit, sta alleen /r/pics en /r/funny toe\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/ </code>"
+    },
+    "APP_VERSIONINFO": {
+        "message": "Controleer de <a data-hl>highlights</a> van deze versie, en/of zie alle <a data-cl>veranderingen</a>!"
+    },
+    "MUST_READ": { "message": "Moet gelezen worden" },
+    "HZ_SAVE": { "message": "Klik om toestemming te vragen voor opslaan." },
+    "ASK_SAVE": {
+        "message": "Specificeer een submap in Downloads/ of laat leeg"
+    },
+    "HZ_CAPWRAPBYDEF": { "message": "Standaard omwikkelen" },
+    "SETTINGS_CSS": {
+        "message": "Verander de kleur voor de instellingenpagina"
+    },
+    "HZ_CSSDIM": { "message": "pagina dimmen" },
+    "HZ_MAXW": { "message": "maximale breedte(-1=uitschakelen)" },
+    "HZ_MAXH": { "message": "maximale hoogte(-1=uitschakelen)" },
+    "settings": { "message": "opties" },
+    "HZ_NUMPAD": { "message": "Numpad als navigatietoetsen" },
+    "HZ_NUMPAD_TIP": {
+        "message": "Schakel deze optie in om de numerieke toetsen te gebruiken als navigatietoetsen in plaats van cijfers."
+    },
+    "SIV_UPDALERT": {
+        "message": "Vergelijk en werk uw geselecteerde Zeef bij. Bekijk de wijzigingen, breng wijzigingen aan in de ene en verwijder de andere wanneer u klaar bent."
+    },
+    "SIV_BUTT_KEEP": {
+        "message": "Bekijk de lijst met behouden items wanneer er niets is geselecteerd, of voeg/verwijder geselecteerde items toe."
+    },
+    "SIEVEKEEPADV": { "message": "Geavanceerd behouden " },
+    "SIEVEKEEPADV_TIP": {
+        "message": "AAN: Vergelijk nieuw en oud Sieve om te beslissen wat te behouden, mogelijkheid om aangepast Sieve of andere wijzigingen te behouden. UIT: Behoud alleen de aan/uit-status, alle andere wijzigingen worden verwijderd. Groen betekent dat het sieve in de lijst staat om te behouden. Als u wijzigingen heeft aangebracht en het is niet groen, moet u het handmatig toevoegen."
+    },
+    "SAVEAS": { "message": "Wijzig bestandsextensies" },
+    "HZ_EXT": { "message": "Zoek naar deze extensies in de URL" },
+    "HZ_EXT2": {
+        "message": "Indien niet gevonden, converteren met behulp van deze tabel"
+    },
+    "HZ_EXT3": { "message": "Standaard bestandsextensie als alles faalt" },
+    "HZ_SC_SWITCHRES": {
+        "message": "Wissel resolutie (niet gebruikt bij alle Zeef, schakel met <b>Shift</b> deze pagina in- en uitschakelen tot herladen)"
+    },
+    "HZ_SC_DEL": { "message": "Sneltoets verwijderen" },
+    "SIV_KEEP": { "message": "Toevoegen aan de bewaarlijst" }
+}
