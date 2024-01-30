@@ -4588,6 +4588,42 @@
                     PVI.BOX.style.left = x + "px";
                     PVI.BOX.style.top = y + "px";
                 }
+                return;
+            } else if (!e.target) {
+                var rot = PVI.state === 4 && PVI.DIV.curdeg % 180;
+                if (PVI.BOX === PVI.DIV) {
+                    if (PVI.TRG.IMGS_SVG) {
+                        h = PVI.stack[PVI.IMG.src];
+                        h = h[1] / h[0];
+                    }
+
+                    w = e[2] || parseInt(PVI.DIV.style.width, 10);
+                    h = parseInt(
+                        w *
+                            (h ||
+                                PVI.CNT.naturalHeight / PVI.CNT.naturalWidth) +
+                            PVI.DBOX["hpb"],
+                        10
+                    );
+                    w += PVI.DBOX["wpb"];
+                } else {
+                    w = PVI.LDR.wh[0];
+                    h = PVI.LDR.wh[1];
+                }
+
+                if (rot) {
+                    rot = w;
+                    w = h;
+                    h = rot;
+                    rot = (w - h) / 2;
+                } else {
+                    rot = 0;
+                }
+
+                if (e[2] !== void 0) {
+                    PVI.BOX.style.width = e[2] + "px";
+                    PVI.BOX.style.height = e[3] + "px";
+                }
 
                 return;
             }
@@ -4613,8 +4649,7 @@
                     PVI.timers.preview = setTimeout(PVI.load, cfg.hz.delay);
                 }
             } else if (
-                (e.target &&
-                    e.target.IMGS_ &&
+                (e.target.IMGS_ &&
                     PVI.TBOX &&
                     (PVI.TBOX.Left > e.pageX ||
                         PVI.TBOX.Right < e.pageX ||
