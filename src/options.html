@@ -492,8 +492,12 @@
 						data-lng="HZ_SC_COPY"></label></li>
 				<li><input id="keys_hz-reset" name="keys_hz-reset" value="Escape"> <label
 						data-lng="HZ_SC_RESET"></label></li>
-				<li><input id="keys_hz-zoomin" name="keys_hz-zoomin" value="Equal(Add)"> / <input id="keys_hz-zoomout"
-						name="keys_hz-zoomout" value="Minus"> <span data-lng="SC_ZOOMINOUT"></span></li>
+				<li><input id="keys_hz-zoomin" name="keys_hz-zoomin" value="Equal(Add)"><span>
+						<input id="hz_zoomin" name="hz_zoomin" type="number" step="0.05" min="1" max="5000"
+							value="1.35">
+					</span> / <input id="keys_hz-zoomout" name="keys_hz-zoomout" value="Minus"> <span>
+						<input id="hz_zoomout" name="hz_zoomout" type="number" step="0.05" min="0" max="1" value="0.75">
+					</span><span data-lng="SC_ZOOMINOUT"></span></li>
 				<li><input id="keys_hz-grants" name="keys_hz-grants" value="G"> <label data-lng="HZ_SC_GRANTS"></label>
 				</li>
 				<li><input id="keys_hz-switchres" name="keys_hz-switchres" value="Tab"> <label

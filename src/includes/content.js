@@ -4158,7 +4158,7 @@
                         xy_img[1] /= k[rot ? 0 : 1];
                     }
 
-                    x = x === "+" ? 4 / 3 : 0.75;
+                    x = x === "+" ? cfg.hz.zoomin : cfg.hz.zoomout;
                     s[0] = x * Math.max(16, k[rot ? 1 : 0]);
                     s[1] = x * Math.max(16, k[rot ? 0 : 1]);
 
