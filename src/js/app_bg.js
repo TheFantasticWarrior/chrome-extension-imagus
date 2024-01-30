@@ -119,8 +119,7 @@ window.saveURI = function (details) {
     }
     var url = details.url;
     var path = details.path;
-    var mimetoext = JSON.parse(details.mimetoext);
-    var ext = new RegExp(details.priorityExt, "i");
+    var ext = RegExp(details.priorityExt, "i");
     if (path) {
         if (path.slice[-1] != "/") path += "/";
     } else {
@@ -172,36 +171,35 @@ window.saveURI = function (details) {
         var listener = function (dl) {
             chrome.downloads.onCreated.removeListener(listener);
             if (!dl.filename.includes(".") || !dl.filename.match(ext)) {
+                var e, msg;
                 ext = url.match(ext);
-                (async function () {
-                    if (!ext) {
-                        await fetch(url, {
-                            method: "HEAD",
-                        })
-                            .then((response) =>
-                                response.headers.get("Content-Type")
-                            )
-                            .then((x) => {
-                                ext = mimetoext[x];
-                            })
-                            .catch((ext = details.ext));
-                    }
-                    if (!ext) ext = details.ext;
-                    options.filename =
-                        path +
-                        dl.filename.match(/([^\/\\\.]+)(?:\..*)?$/)[1] +
-                        "." +
-                        ext;
+                if (!ext) {
+                    Port.listen(function (ev, origin, postMessage) {
+                        if (ev.cmd !== "extDone") {
+                            return;
+                        }
+                        Port.listen(onMessage);
+                        e = Port.parse_msg(ev, origin, postMessage);
+                        msg = e.msg;
+                        ext = msg.ext;
+                        if (!ext) ext = details.ext;
+                        options.filename =
+                            path +
+                            dl.filename.match(/([^\/\\\.]+)(?:\..*)?$/)[1] +
+                            "." +
+                            ext;
 
-                    await chrome.downloads.cancel(dl.id);
-                    try {
-                        chrome.downloads.removeFile(dl.id);
-                    } catch (e) {}
-                    await chrome.downloads.erase({ id: dl.id });
-                    setTimeout(function () {
-                        chrome.downloads.download(options);
-                    }, 500);
-                })();
+                        chrome.downloads.cancel(dl.id);
+                        try {
+                            chrome.downloads.removeFile(dl.id);
+                        } catch (ex) {}
+                        chrome.downloads.erase({ id: dl.id });
+                        setTimeout(function () {
+                            chrome.downloads.download(options);
+                        }, 500);
+                    });
+                    details.postMessage({ cmd: "ext", msg: details });
+                }
             } else if (path) {
                 chrome.downloads.cancel(dl.id);
                 chrome.downloads.erase({ id: dl.id });
@@ -214,29 +212,8 @@ window.saveURI = function (details) {
             }
         };
         if (details.filename) {
-            if (
-                !details.filename.includes(".") ||
-                !details.filename.match(ext)
-            ) {
-                ext = url.match(ext);
-                (async function () {
-                    if (!ext) {
-                        await fetch(url, {
-                            method: "HEAD",
-                        })
-                            .then((response) =>
-                                response.headers.get("Content-Type")
-                            )
-                            .then((x) => {
-                                ext = mimetoext[x];
-                            })
-                            .catch((ext = details.ext));
-                    }
-                    if (!ext) ext = details.ext;
-                    options.filename = path + details.filename + "." + ext;
-                    browser.downloads.download(options);
-                })();
-            }
+            options.filename = path + details.filename;
+            browser.downloads.download(options);
         } else {
             chrome.downloads.onCreated.addListener(listener);
             browser.downloads.download(options);

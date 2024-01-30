@@ -464,18 +464,21 @@ var onMessage = function (ev, origin, postMessage) {
             });
             break;
 
-        case "download":
+        case "dl_perm":
             if (typeof chrome.downloads === "undefined") {
                 e.postMessage(false);
                 break;
             }
+            e.postMessage(true);
+            break;
+        case "download":
             if (typeof window.saveURI === "function") {
                 window.saveURI({
                     ...msg,
+                    postMessage: e.postMessage,
                     isPrivate: e.isPrivate,
                 });
             }
-            e.postMessage(true);
             break;
 
         case "history":

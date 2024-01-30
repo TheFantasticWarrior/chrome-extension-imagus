@@ -3575,34 +3575,75 @@
                                 (platform.crx && !platform.edge)
                             ) {
                                 var msg = {
-                                    cmd: "download",
-                                    url: PVI.CNT.src,
-                                    priorityExt: cfg.hz.ext,
-                                    mimetoext: JSON.stringify(
-                                        JSON.parse(
+                                        cmd: "download",
+                                        url: PVI.CNT.src,
+                                        priorityExt: cfg.hz.ext,
+                                        mimetoext: JSON.parse(
                                             cfg.hz.ext2.replaceAll(
                                                 /\w*\/\/.*/g,
                                                 ""
                                             )
-                                        )
-                                    ),
-                                    ext: JSON.parse(cfg.hz.ext3)[
-                                        PVI.CNT.audio
-                                            ? "audio"
-                                            : PVI.CNT.localName
-                                    ],
-                                };
+                                        ),
+                                        ext: JSON.parse(cfg.hz.ext3)[
+                                            PVI.CNT.audio
+                                                ? "audio"
+                                                : PVI.CNT.localName
+                                        ],
+                                    },
+                                    fn;
                                 if (PVI.CNT.filename)
-                                    msg.filename = PVI.CNT.filename;
+                                    if (
+                                        !PVI.CNT.filename.includes(".") ||
+                                        !PVI.CNT.filename.match(
+                                            RegExp(msg.priorityExt, "i")
+                                        )
+                                    ) {
+                                        fn = (async function (msg) {
+                                            return fetch(msg.url, {
+                                                method: "HEAD",
+                                            })
+                                                .then((response) =>
+                                                    response.headers.get(
+                                                        "Content-Type"
+                                                    )
+                                                )
+                                                .then((x) => {
+                                                    return (
+                                                        PVI.CNT.filename +
+                                                        "." +
+                                                        msg.mimetoext[x]
+                                                    );
+                                                })
+                                                .catch(() => {
+                                                    return (
+                                                        PVI.CNT.filename +
+                                                        "." +
+                                                        msg.ext
+                                                    );
+                                                });
+                                        })(msg);
+                                    } else
+                                        fn = Promise.resolve(PVI.CNT.filename);
+                                else fn = Promise.resolve(false);
+
                                 if (cfg.hz.save) msg.path = cfg.hz.save;
                                 Port.listen(function (x) {
                                     Port.listen(PVI.onMessage);
+                                    fn.then((filename) =>
+                                        Port.send({
+                                            mimetoext: JSON.stringify(
+                                                msg.mimetoext
+                                            ),
+                                            filename: filename,
+                                            ...msg,
+                                        })
+                                    );
                                     if (!x)
                                         console.warn(
                                             "Imagus Mod doesn't have the permission to download, please turn it on. Ignore this message if you're doing something else with this hotkey."
                                         );
                                 });
-                                Port.send(msg);
+                                Port.send({ cmd: "dl_perm" });
                             } else if (PVI.HLP.download !== void 0) {
                                 PVI.HLP.href = PVI.CNT.src;
                                 PVI.HLP.download = "";
@@ -5248,6 +5289,28 @@
                         PVI.show("R_res");
                     }
                 }
+            } else if (d.cmd === "ext") {
+                var msg = {
+                    ext: new RegExp(d.msg.priorityExt, "i"),
+                    ...d.msg,
+                };
+                (async function (msg) {
+                    try {
+                        const response = await fetch(msg.url, {
+                            method: "HEAD",
+                        });
+
+                        const contentType =
+                            response.headers.get("Content-Type");
+                        const ext = msg.mimetoext[contentType] || msg.ext;
+
+                        return ext;
+                    } catch (error) {
+                        return msg.ext;
+                    }
+                })(msg).then((ext) => {
+                    Port.send({ cmd: "extDone", ext: ext });
+                });
             } else if (d.cmd === "toggle" || d.cmd === "preload") {
                 win.top.postMessage({ vdfDpshPtdhhd: d.cmd }, "*");
             } else if (d.cmd === "hello") {
