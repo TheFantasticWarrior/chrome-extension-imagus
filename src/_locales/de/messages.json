@@ -1,0 +1,244 @@
+{
+    "APP_DESCRIPTION": {
+        "message": "Miniaturansichten vergrößern und Bilder/Videos von Links anzeigen bei Maus-Hover."
+    },
+    "NAV_SIEVE": { "message": "Sieve" },
+    "NAV_GRANTS": { "message": "Freigaben" },
+    "NAV_INFO": { "message": "Info" },
+    "SHORTCUTS": { "message": "Verknüpfungen" },
+    "PH_CLICKFORSAMPLE": { "message": "Klicken für Beispiele..." },
+    "DISABLED": { "message": "deaktiviert" },
+    "LOADING": { "message": "Laden..." },
+    "DETAILS": { "message": "Details" },
+    "AREYOUSURE": { "message": "Bist du sicher?" },
+    "DELITEMS": { "message": "Alle oder ausgewählte Elemente entfernen?" },
+    "EMPTY": { "message": "Leer..." },
+    "NOMATCH": { "message": "Keine Übereinstimmung..." },
+    "SEARCH": { "message": "Suchen..." },
+    "INVALIDFORMAT": { "message": "Ungültiges Format!" },
+    "BUTTON_RESET": { "message": "Standard" },
+    "BUTTON_SAVE": { "message": "Speichern" },
+    "HZ_ENABLED": { "message": "aktiviert" },
+    "HZ_DISABLED": { "message": "deaktiviert" },
+    "HZ_ENDIS_WHEN": { "message": "beim Halten von" },
+    "HZ_ENDIS_NONE": { "message": "nichts" },
+        "HZ_ENDIS_TIP": {
+                "message": "<b>Deaktiviert</b> beim Halten von <b>nichts</b> - immer aktiviert.\n<b>Deaktiviert</b> beim Halten von (<b>Taste/Schalter</b>) - nur deaktiviert beim Halten von ausgewählter Taste/Schalter, sonst aktiviert.\n<b>Aktiviert</b> beim Halten von <b>nichts</b> - immer deaktiviert.\n<b>Aktiviert</b> beim Halten von (<b>Taste/Schalter</b>) - nur aktiviert beim Halten der Zusatztaste/-schalter, sonst deaktiviert."
+    },
+    "HZ_DELAY": { "message": "Anzeigeverzögerung (ms)" },
+    "HZ_ZOOMRESIZED": { "message": "Minimaler Größenunterschied zum Zoomen" },
+    "HZ_ZOOMRESIZED_TIP": {
+        "message": "Diese Option gibt an, um wie viel Prozent das Originalbild größer als seine Miniaturansicht sein muss, damit das Pop-up angezeigt wird."
+    },
+    "HZ_HIRES": { "message": "Bilder mit höherer Auflösung bevorzugen" },
+    "HZ_HIRES_TIP": {
+        "message": "Viele Hoster bieten verschiedene Größen für das selbe Bild an. Die Filter können URLs für diese Bilder erstellen und sie als hohe (normalerweise das Originalbild) und niedrige (mittelgroße Bilder, etwa 800-1024px) Auflösung markieren.\nWenn diese Option deaktiviert ist, wird standardmäßig die niedrige Auflösung angezeigt, der Wechsel zwischen den Auflösungen ist jederzeit mit der Tab-Taste möglich (oder im Vollzoom durch Klicken auf die Abmessungen in der Bildbeschriftung).\nWenn die Anzeige der Bildabmessungen in der Bildbeschriftung aktiviert ist, wird die Farbe der Abmessungen (abhängig vom Stil der Bildbeschriftung) bei niedriger Auflösung in Cyan oder Rot angezeigt, was darauf hinweist, dass es (ggf.) ein größeres Bild gibt."
+    },
+    "HZ_HIRESONFZ": {
+        "message": "Lade höhere Auflösung beim Aufruf von Vollzoom"
+    },
+    "HZ_HIRESONFZ_TIP": {
+        "message": "Versucht beim Aufruf von Vollzoom, die höhere Auflösung des Bildes zu laden, wenn das Verhältnis der Bildabmessungen (immer die längere Seite geteilt durch die kürzere) größer oder gleich dem angegebenen Wert ist."
+    },
+    "HZ_PLACEMENT": { "message": "Pop-up-Platzierung" },
+    "HZ_FULLSPACE": { "message": "Gesamten verfügbaren Platz verwenden" },
+    "HZ_PLACEMENT_CURCOR": { "message": "Mauszeiger in Pop-up-Ecke" },
+    "HZ_PLACEMENT_CURSIDE": { "message": "Mauszeiger auf Pop-up-Seite" },
+    "HZ_PLACEMENT_CENTER": { "message": "Mitte" },
+    "HZ_PRELOAD": { "message": "Bilder vorladen" },
+    "HZ_PRELOAD_NO": { "message": "kein Vorladen" },
+    "HZ_PRELOAD_MOUSEOVER": { "message": "bei Maus-Hover" },
+    "HZ_PRELOAD_PAGELOAD": { "message": "beim Laden der Webseite" },
+    "HZ_FULLZOOM": { "message": "Vollzoom" },
+    "HZ_MARKONHOVER": { "message": "Zoombare Elemente markieren" },
+    "HZ_MARKONHOVER_O_SOLID": { "message": "Solide Umrisslinie" },
+    "HZ_MARKONHOVER_O_DASHED": { "message": "Gestrichelte Umrisslinie" },
+    "HZ_MARKONHOVER_O_DOTTED": { "message": "Gepunktete Umrisslinie" },
+    "HZ_THUMBASBG": {
+        "message": "Miniaturansicht als Hintergrund des Pop-ups verwenden"
+    },
+    "HZ_THUMBASBGMASK": { "message": "Maskenfarbe und Opazität" },
+    "HZ_CAPTION": { "message": "Bildbeschriftung" },
+    "HZ_CAP_POS": { "message": "Platzierung der Bildbeschriftung" },
+    "HZ_CAP_TOP": { "message": "oben" },
+    "HZ_CAP_BOTTOM": { "message": "unten" },
+    "HZ_CAP_NOSBAR": {
+        "message": "Tooltips verbergen (nützlich bei ausgeblendeter Statusleiste)"
+    },
+    "HZ_CAP_WH": { "message": "Bild-/Videoabmessungen anzeigen" },
+    "HZ_APPEARANCE": { "message": "Darstellung" },
+    "HZ_FOLLOW": { "message": "Ausblenden und dem Mauszeiger folgen" },
+    "HZ_MOVE": { "message": "Pop-up mit dem Mauszeiger verschieben" },
+    "HZ_WAITHIDE": { "message": "Warten vor Start von weiterem Zoom" },
+    "HZ_SC_TOGGLE": { "message": "Für die aktuelle Sitzung und Domäne aussetzen" },
+    "HZ_SC_PRELOAD": { "message": "Bilder manuell vorladen" },
+    "HZ_SC_FULLZOOM": { "message": "Vollzoommodus" },
+    "HZ_SC_FULLSPACE": { "message": "Umschalten unter Verwendung des gesamten Platzes" },
+    "HZ_SC_CAPTION": {
+        "message": "Beschriftung umbrechen (oder ausblenden, wenn <b>Umschalttaste</b> gehalten wird)"
+    },
+    "HZ_SC_OPEN": {
+        "message": "Bild in neuem Tab öffnen (<b>Umschalttaste</b> für Hintergrund-Tab)"
+    },
+    "HZ_SC_RESET": {
+        "message": "Pop-up ausblenden und laden des Inhalts beenden"
+    },
+    "SC_ZOOMINOUT": { "message": "Rein-/Rauszoomen" },
+    "SC_PREFS": { "message": "Einstellungen" },
+    "SC_MENU": { "message": "Menü anzeigen" },
+    "SC_FLIPH": { "message": "Horizontal spiegeln" },
+    "SC_FLIPV": { "message": "Vertikal spiegeln" },
+    "SC_ROTL": { "message": "Nach links drehen" },
+    "SC_ROTR": { "message": "Nach rechts drehen" },
+    "SC_MORIG": { "message": "Natürliche Größe" },
+    "SC_MFIT": { "message": "Automatische Anpassung" },
+    "SC_MFITW": { "message": "An Breite anpassen" },
+    "SC_MFITH": { "message": "An Höhe anpassen" },
+    "SC_SENDTO": { "message": "Bild senden an..." },
+    "OP_ZOOM": {
+        "message": "Strg + Rechtsklick auf ein Bild öffnet es als Pop-up"
+    },
+    "TLS_SENDIMGTO": { "message": "Bild senden an..." },
+    "TLS_SENDTOMSC": {
+        "message": "Strg + Alt [+ Umschalttaste] + Rechtsklick auf (normales) Bild"
+    },
+    "SIV_BUTT_NEW": { "message": "Neue Regel" },
+    "SIV_BUTT_DEL": { "message": "Entferne alle oder ausgewahlte" },
+    "SIV_BUTT_TOGGLE": {
+        "message": "Deaktiviere/Aktiviere alle oder ausgewählte und füge zur Beibehaltungsliste hinzu."
+    },
+    "SIV_BUTT_IMP": { "message": "Importieren" },
+    "SIV_BUTT_EXP": { "message": "Exportiere alle oder ausgewählte" },
+    "SIV_BUTT_UPD": { "message": "Sieve aktualisieren" },
+    "SIV_CI": { "message": "Groß-/Kleinschreibung ignorieren" },
+    "SIV_DC": { "message": "Ergebnis-URL mit diesem übereinstimmenden Parameter dekodieren" },
+    "SIV_LOOP": { "message": "Sieve erneut mit Ergebnis-URL durchlaufen" },
+    "SIV_USEIMG": { "message": "Priorisiere \"img\" vor \"link\"" },
+    "SIV_UPDALERT": {
+        "message": "Vergleiche und aktualisiere dein ausgewähltes Sieve. Überprüfe die Änderungen, nimm Änderungen an einem vor und lösche die anderen, wenn du fertig bist."
+    },
+    "SIV_ERR_EMPTYNAME": { "message": "Regelname darf nicht leer sein!" },
+    "SIV_ERR_DUPENAME": { "message": "Jede Regel muss einen eindeutigen Namen haben!" },
+    "SIV_DETAILS": {
+        "message": "Strg + Rechtsklick zum löschen<br>Zum Verschieben mit linker Maustaste ziehen<br>Rechtsklick zum umbennen (Esc/Enter beendet)<br>Strg + Linksklick zum auswählen (Mehrfachauswahl mit Umschalttaste)"
+    },
+    "GRNT_RULEPERLINE": {
+        "message": "Regel pro Zeile. Für weitere Informationen auf Details-Schaltfläche oben klicken."
+    },
+    "PREF_IMPORT": { "message": "Einstellungen importieren" },
+    "PREF_EXPORT": { "message": "Einstellungen exportieren" },
+    "HZ_PRELOAD_MINIMAL": { "message": "minimal" },
+    "HZ_PRELOAD_TIP": {
+        "message": "<b>kein vorladen</b> - nur ein Bild zur Zeit kann geladen werden\n<b>minimal</b> - mehrere Bilder können sofort geladen werden, wenn ein Bild mit dem Laden begonnen hat, dies wird auch dann abgeschlossen, wenn der Mauszeiger das Ziel verlässt\n<b>bei Maus-Hover</b> - das Laden des Bildes startet sofort bei Maus-Hover\n<b>beim Laden der Webseite</b> - das Laden aller Bilder startet nach dem Öffnen der Webseite"
+    },
+    "HZ_CAP_TEXT": { "message": "Beschreibungstext anzeigen" },
+    "HZ_FZMODE": { "message": "Standardmodus" },
+    "HZ_FZMODE_FOLLOW": { "message": "mit dem Mauszeiger bewegen" },
+    "HZ_FZMODE_DRAG": { "message": "durch Ziehen mit der Maus verschieben" },
+    "HZ_FZMODE_TIP": {
+        "message": "Der erste Modus zentriert das Bild immer, wenn es kleiner als der Bildschirm ist, andernfalls wird proportional auf den Teil des Bildes gezoomt, in dem sich der Mauszeiger auf dem Bildschirm befindet. Außerdem ändert sich seine Position, wenn sich der Mauszeiger bewegt.\nIm zweiten Modus ist die Position des Bildes statisch, kann aber durch Ziehen geändert werden."
+    },
+    "HZ_CAP_STYLE": { "message": "Beschriftungsstil" },
+    "HZ_CAP_STYLE_DARK": { "message": "dunkel" },
+    "HZ_CAP_STYLE_LIGHT": { "message": "hell" },
+    "HZ_MARKONHOVER_TIP": {
+        "message": "Wenn der Mauszeiger über einen Link oder ein Miniaturbild bewegt wird, wird <b class=\"cur_zmin\">der Mauszeiger</b> oder der Umriss des <span style=\"border: 1px dashed red\">Ziels< angezeigt /span> wird geändert, was darauf hinweist, dass es etwas zum Zoomen gibt."
+    },
+    "HZ_FULLSPACE_TIP": {
+        "message": "Mit dieser Option kann das Pop-up unter dem Mauszeiger erweitert werden, wenn zwischen dem Mauszeiger und dem Seitenrand nicht genügend Platz vorhanden ist.\nWenn die Platzierung auf Mitte eingestellt ist (vorherige Option), dann hat die Aktivierung dieser Funktion keine Auswirkung, da das Pop-up in diesem Fall immer den gesamten verfügbaren Platz belegt."
+    },
+    "HZ_PILEWHEEL": { "message": "Mit dem Mausrad durch ein Album scrollen" },
+    "HZ_PILEWHEEL_TIP": {
+        "message": "Das Mausrad kann verwendet werden, um zwischen den Einträgen eines Albums zu wechseln, zusätzlich zu den Verknüpfungen .\nWenn aktiviert, verhindert es, dass die Webseite gescrollt wird, während das Pop-up sichtbar ist.\nIm Vollzoom ist Zoomen die Standardfunktion für das Mausrad. Um die Bildumschaltung zu nutzen, muss das Scrollen in der oberen linken Ecke (50x50px) des Bildschirms erfolgen, oder auf dem Zähler in der Bildbeschriftung."
+    },
+    "HZ_FZONPRESS": { "message": "Aktivierung mit rechter Maustaste" },
+    "HZ_HISTORY": { "message": "Hover-Links zum Browserverlauf hinzufügen" },
+    "HZ_HISTORY_TIP": {
+        "message": "Markiert den Hover-Link automatisch als besucht, wenn das Pop-up sichtbar wird.\nBei Alben müssen mindestens die ersten beiden Elemente angezeigt werden.\nEs ist möglich, Links manuell zu markieren, indem man die Verknüpfung verwendet (siehe unten). Wenn der Link bereits im Verlauf vorhanden ist, wird er entfernt.\n<b>Umschalt + Tastenkombination</b> aktiviert/deaktiviert diese Option bei Bedarf."
+    },
+    "HZ_SC_HISTORY": { "message": "zum Verlauf hinzufügen oder daraus entfernen" },
+    "IMPR_CLEAR_DATA": { "message": "Daten vor dem Import löschen" },
+    "IMPR_FROM_FILE": { "message": "Aus Datei" },
+    "IMPR_FROM_TEXT": { "message": "Aus Text" },
+    "IMPR_IMPORT": { "message": "Importieren" },
+    "IMPR_OVERWRITE": { "message": "Vorhandene Daten ersetzen" },
+    "LANGUAGE": { "message": "Sprache" },
+    "TRANSLATIONS": { "message": "Übersetzungen" },
+    "TRANSLATIONS_TIP": {
+        "message": "Wenn Du ein Übersetzer werden möchtest, sende eine E-Mail an <a data-mail>diese Adresse</a> und gib dabei deine gesprochenen Sprachen an."
+    },
+    "TRANSLATORS": { "message": "Übersetzer" },
+    "HZ_ENDIS_RIGHT_BUTTON": { "message": "rechte Taste" },
+    "SIV_AUTOUPDATE": { "message": "Sieve automatisch aktualisieren" },
+    "ADVANCED": { "message": "Fortgeschritten" },
+    "HZ_SCOFFININPUT": { "message": "Verknüpfungen deaktivieren beim Bearbeiten von Text" },
+    "HZ_CSS": { "message": "Benutzerdefinierter Stil (CSS)" },
+    "HZ_MARKONHOVER_CR": { "message": "Mauszeiger ändern" },
+    "HZ_HIDEIDLECURSOR": { "message": "Ruhenden Mauszeiger über Pop-up ausblenden" },
+    "HZ_PLACEMENT_NOCOVER": { "message": "kein Platzhalter" },
+    "HZ_MINPOPUPDISTANCE": {
+        "message": "Mindestabstand zwischen Pop-up und Mauszeiger"
+    },
+    "HZ_HIDEIDLECURSOR_TIP": {
+        "message": "<b>-1</b> - immer sichtbar\n<b>0-49</b> - immer ausgeblendet\n<b>>=50</b> - nach angegebener Zeit (ms) ausblenden"
+    },
+    "HZ_FZONPRESS_CLICK": { "message": "klicken" },
+    "HZ_FZONPRESS_LONG": { "message": "lange drücken" },
+    "HZ_SC_SAVE": { "message": "Pop-up-Inhalte speichern" },
+    "HZ_SC_COPY": {
+        "message": "URL kopieren oder zweimal drücken, um Untertiteltext zu kopieren"
+    },
+    "SIV_CACHERES": { "message": "Aufgelöste Inhalte im Cache speichern" },
+    "HZ_PLACEMENT_CURCENTER": { "message": "Mauszeiger in Pop-up-Mitte" },
+    "HZ_PILECYCLE": { "message": "Zyklisches Scrollen in Alben" },
+    "APP_INSTALLED": { "message": "Die Erweiterung wurde installiert!" },
+    "APP_UPDATED": {
+        "message": "Die Erweiterung wurde gerade auf eine neue Version aktualisiert!"
+    },
+    "GRNT_HELP": {
+        "message": "Grundlegende Syntax: <b>Operator:URL</b>\nOperatoren: <b>!</b> (Blocken), <b>~</b> (Zulassen).\nBeginne eine Zeile mit <b>;</b> (Semicolon) um sie inaktiv zu machen.\nVerwende reguläre Ausdrücke in URL durch Duplizieren des Operators.\n* (Sternchen) beliebige URL.\n\nNur auf Imgur zulassen\n<code>!:*\n~:http://imgur.com/</code>\n<br>\nEinige Webseiten blocken\n<code>!:flickr.com/\n!:youtube.com/\n!!:^https?://www\\.ebay\\.\n!!:^ftp://</code>\n\nErlaube auf reddit nur /r/Bilder und /r/witzig\n<code>!:http://www.reddit.com/\n~~:^http://www\\.reddit\\.com/r/(?:pics|funny)/</code>"
+    },
+    "APP_VERSIONINFO": {
+        "message": "Schau dir die <a data-hl>Highlights</a> dieser Version an und/oder sieh dir das vollständige <a data-cl>Änderungsprotokoll</a> an!"
+    },
+    "HZ_DELAYONIDLE": { "message": "Verzögerung bei Mausbewegung zurücksetzen" },
+    "HZ_PILEWHEEL_ON": { "message": "aktiviert" },
+    "HZ_PILEWHEEL_HORIZ_ONLY": { "message": "nur beim horizontalen Scrollen" },
+    "HZ_CAP_LINKTEXT": { "message": "Linktext als Bildunterschrift in Betracht ziehen" },
+    "HZ_MEDIAVOLUME": { "message": "Standard-Medienlautstärke(%)" },
+    "HZ_SCROLLDELAY": { "message": "Scroll-Verzögerung (ms)" },
+    "MUST_READ": { "message": "Unbedingt lesen" },
+    "HZ_SAVE": { "message": "Klicken, um Erlaubnis zum Speichern anzufordern." },
+    "ASK_SAVE": {
+        "message": "Gib einen Unterordner in Downloads an/, bzw. frei lassen für Browser-Standardeinstellung"
+    },
+    "HZ_CAPWRAPBYDEF": { "message": "Standardmäßig umbrechen" },
+    "SETTINGS_CSS": { "message": "Farbe für Einstellungsseite ändern" },
+    "HZ_CSSDIM": { "message": "Webseite verdunkeln" },
+    "HZ_MAXW": { "message": "maximale Breite (-1=deaktiviert)" },
+    "HZ_MAXH": { "message": "maximale Höhe (-1=deaktiviert)" },
+    "settings": { "message": "Optionen" },
+    "HZ_NUMPAD": { "message": "Ziffernblock als Navigationstasten verwenden" },
+    "HZ_NUMPAD_TIP": {
+        "message": "Aktiviere diese Option, um die Ziffernblocktasten anstatt zur Eingabe von Zahlen als Navigationstasten zu verwenden."
+    },
+    "SIV_BUTT_KEEP": {
+        "message": "Beibehaltungsliste ansehen wenn nichts ausgewählt ist, oder ausgewählte Elemente hinzufügen/entfernen."
+    },
+    "SIEVEKEEPADV": { "message": "Fortgeschrittene Beibehaltung" },
+    "SIEVEKEEPADV_TIP": {
+        "message": "EIN: Neues und altes Sieve vergleichen, um zu entscheiden, was beibehalten werden soll. Benutzerdefinierte Sieves oder andere Änderungen können beibehalten werden.\nAUS: Nur den Ein-/Aus-Status beibehalten, alle anderen Änderungen werden gelöscht. Grün bedeutet, das Sieve wird beibehalten. Wenn Du Änderungen vorgenommen hast und es nicht grün ist, musst Du es manuell hinzufügen."
+    },
+    "SIV_KEEP": { "message": "Zu Beibehaltungsliste hinzufügen" },
+    "SAVEAS": { "message": "Dateierweiterungen ändern" },
+    "HZ_EXT": { "message": "Nach diesen Erweiterungen in der URL suchen" },
+    "HZ_EXT2": { "message": "Wenn nicht gefunden, anhand dieser Tabelle konvertieren" },
+    "HZ_EXT3": { "message": "Standarddateierweiterung, wenn alles fehlschlägt" },
+    "HZ_SC_SWITCHRES": {
+        "message": "Auflösung umschalten (wird nicht bei allen Sieves verwendet, <b>Umschalttaste</b>, um diese Webseite umzuschalten, bis sie neu geladen wird)"
+    },
+    "HZ_SC_DEL": { "message": "Tastenkombination löschen" },
+    "HZ_SC_GRANTS": {
+        "message": "Drücken, um Seite zu blockieren (wird zu Freigaben hinzugefügt), <b>Umschalttaste</b>, um Seite zuzulassen"
+    }
+}
