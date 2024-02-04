@@ -11,6 +11,14 @@
             }
         ]
     },
+    "de": {
+        "name": "German(Deutsch)",
+        "translators": [
+            {
+                "name": "deus-e-x"
+            }
+        ]
+    },
     "el": {
         "%": 83.22,
         "name": "Greek (Ελληνικά)",
