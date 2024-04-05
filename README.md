@@ -1,6 +1,10 @@
-# Imagus mod(my edition)
+# Imagus mod(hkpd's edition)
 
-forked(copied and modified) from community edition(their explanation down below, things are outdated though idk how much is still true)
+Forked from [TheFantasticWarrior](https://github.com/TheFantasticWarrior/chrome-extension-imagus/)
+
+The only thing I have changed is the cursor when you hover over an image because the default one was ugly.
+
+The rest of this text comes from TheFantasticWarrior's readme
 
 ## Install Instructions
 
