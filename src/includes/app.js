@@ -43,8 +43,8 @@ if (document instanceof window.HTMLDocument) {
                 ("webkitTransform" in _ ? "-webkit-" : "") + "transform",
             "zoom-in":
                 (this.chrome && !this.browser) || this.mx || this.safari
-                    ? "-webkit-zoom-in"
-                    : "zoom-in",
+                    ? "-webkit-help"
+                    : "help",
         };
         _ = null;
     }
